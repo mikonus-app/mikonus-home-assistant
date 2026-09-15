@@ -1,6 +1,6 @@
 # Mikonus Dashboard for Home Assistant
 
-**Beta — version 0.10.0.**
+**Beta — version 0.10.3.**
 
 Mikonus publishes an interactive multi-floor 3D dashboard to Home Assistant.
 This integration stores published scenes and connects the Mikonus dashboard
@@ -48,7 +48,7 @@ entities without a Home Assistant device association remain individually visible
    **Integration** as the type. Add the repository.
 4. Find **Mikonus Dashboard** and download it. For the beta release, enable
    **Show beta versions** in its download/redownload dialog if necessary and
-   select **v0.10.0**.
+   select **v0.10.3**.
 5. Restart Home Assistant.
 6. Open **Settings → Devices & services → Add integration → Mikonus Dashboard**
    and submit the setup form. No additional account is required by the integration.
@@ -101,7 +101,7 @@ without a separate fade.
 
 ## Updating an existing installation
 
-Update to **v0.10.0** in HACS and restart Home Assistant. Existing Config Entries,
+Update to **v0.10.3** in HACS and restart Home Assistant. Existing Config Entries,
 published scenes, bindings and unrelated Lovelace card settings are retained.
 Hard-refresh the dashboard once so it loads the new frontend bundle. When an
 administrator deletes the Scene selected by the currently edited card, the

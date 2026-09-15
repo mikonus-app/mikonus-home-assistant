@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.10.3 Beta
+
+- Rebuild the Home Assistant card with `@mikonus/dashboard-renderer` 0.8.2.
+- Improve local table-lamp illumination so physical walls block its light while
+  the fixture and furniture do not cast unwanted hard shadows into the cone.
+- Preserve the shared renderer, provider-neutral scene contract, render-on-demand
+  lifecycle and all existing Home Assistant scenes and card settings.
+
+Update to **v0.10.3** in HACS, restart Home Assistant and hard-refresh the
+dashboard once. No Scene republish, Config Entry migration or card recreation is
+required.
+
 ## 0.10.0 Beta
 
 - Add a 2D/3D presentation toggle to every dashboard card through the public API
