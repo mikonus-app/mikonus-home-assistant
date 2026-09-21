@@ -2,7 +2,8 @@
 
 <img width="600" height="297" alt="mikonus" src="https://github.com/user-attachments/assets/5da0c2b7-047a-4b72-9aaf-94a04d430313" />
 
-How it works
+**How it works:**
+
 Build or import your home in Mikonus → connect Home Assistant → assign HA devices → publish → add the Mikonus 3D card.
 
 
