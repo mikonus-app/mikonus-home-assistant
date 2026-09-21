@@ -1,24 +1,78 @@
 # Mikonus Dashboard for Home Assistant
 
-<img width="600" height="297" alt="mikonus" src="https://github.com/user-attachments/assets/5da0c2b7-047a-4b72-9aaf-94a04d430313" />
-
-**How it works:**
-
-Build or import your home in Mikonus → connect Home Assistant → assign HA devices → publish → add the Mikonus 3D card.
-
-
 **Beta — version 0.10.3.**
 
-Mikonus publishes an interactive multi-floor 3D dashboard to Home Assistant.
-This integration stores published scenes and connects the Mikonus dashboard
-renderer to live Home Assistant entity states and controls.
+Mikonus publishes your home as an interactive multi-floor 3D dashboard in Home
+Assistant. The integration stores the published scenes and connects them to live
+Home Assistant entity states and controls.
 
-## Features
+## Demo
+
+<!-- Replace this image with the final demo GIF when it is ready. -->
+<img width="600" height="297" alt="Mikonus dashboard in Home Assistant" src="https://github.com/user-attachments/assets/5da0c2b7-047a-4b72-9aaf-94a04d430313" />
+
+<!-- Optional: add a YouTube link here, for example: [Watch the full demo](https://youtu.be/VIDEO_ID). -->
+
+## How it works
+
+Build or import your home in Mikonus → connect Home Assistant → assign HA devices
+→ publish → add the **Mikonus 3D** card.
+
+## Quick install
+
+1. In HACS, add `https://github.com/mikonus-app/mikonus-home-assistant` as a
+   custom **Integration** repository and download **Mikonus Dashboard**. Enable
+   beta versions and select **v0.10.3** if necessary.
+2. Restart Home Assistant, then add **Mikonus Dashboard** under
+   **Settings → Devices & services → Add integration**.
+3. In Mikonus, open **Settings → Import/Export → Dashboards → Home Assistant**
+   and publish your dashboard.
+4. Edit a Home Assistant dashboard, add the **Mikonus 3D** card and select the
+   complete scene, a floor or a room.
+
+No manual `/config/www` copy, Lovelace resource or dashboard YAML is required.
+See [Detailed installation](#detailed-installation) if this is your first HACS
+custom repository.
+
+## What you get
+
+- Interactive multi-floor scenes with 2D/3D views, floor switching, pan, zoom
+  and camera controls.
+- Live controls for supported lights, switches, covers, climate devices, fans,
+  humidifiers, locks and vacuums.
+- Device grouping and live sensor information, including temperature, humidity,
+  battery, environment, energy and binary-sensor states.
+- A graphical card editor with scene, floor and room selection—no dashboard YAML
+  required.
+- Independent views and appearance settings for several cards using the same
+  published scene.
+- Persistent scenes, live updates, reconnect recovery and revision conflict
+  handling.
+
+## Requirements and the Mikonus app
+
+- Home Assistant Core **2026.1.0** or newer. The integration is tested with
+  Home Assistant Core **2026.9.0**.
+- A WebGL-capable Chromium or WebKit browser.
+- [Mikonus for iPhone and iPad](https://mikonus.app/en/) with a version that
+  includes the Home Assistant publisher.
+  [Download it from the App Store](https://apps.apple.com/app/id6793871131).
+- Home Assistant administrator access is required when publishing a dashboard.
+  The Home Assistant integration itself requires no additional account.
+
+The Mikonus app is used to build or import the home, connect Home Assistant,
+assign devices and publish the result. This repository installs the Home
+Assistant integration and card; it does not install or update the Mikonus app.
+
+## Detailed documentation
+
+### Feature reference
 
 - Multi-floor scenes with an interactive 2D/3D toggle, floor switching, camera
   rotation, pan and zoom.
 - Lights and switches; supported light brightness, color and color temperature.
-- Covers, climate, fans, humidifiers, locks and vacuums through supported entity capabilities.
+- Covers, climate, fans, humidifiers, locks and vacuums through supported entity
+  capabilities.
 - Automatic physical-device grouping from one scene entity, including temperature,
   humidity, battery, environment, energy and binary-sensor states.
 - Every other HA entity remains visible as a read-only row with its current HA icon,
@@ -32,6 +86,8 @@ renderer to live Home Assistant entity states and controls.
 - Several cards can use the same scene with independent card-local views.
 - Per-card appearance, camera and dashboard-UI settings with live preview.
 - Responsive full-width defaults for Sections/Grid dashboards.
+
+### Compatibility and entity handling
 
 Available controls depend on each entity's capabilities and services. Unsupported
 capabilities are unavailable. This beta accepts Dashboard Scene schema 2 and
@@ -47,7 +103,7 @@ all sibling entities belonging to that device and routes supported controls to
 the capable entity. Existing scenes therefore need no republish. Standalone
 entities without a Home Assistant device association remain individually visible.
 
-## Install with HACS
+### Detailed installation
 
 1. Install and configure [HACS](https://hacs.xyz/docs/use/) if needed.
 2. Open HACS, then its menu → **Custom repositories**.
@@ -62,7 +118,7 @@ entities without a Home Assistant device association remain individually visible
 
 This is a HACS custom repository; it is not included in the default HACS list.
 
-## Automatic frontend
+### Automatic frontend
 
 The integration bundles, serves and loads the card automatically. Fresh installs
 need no `/config/www` copy and no manual Lovelace resource registration.
@@ -76,7 +132,7 @@ integration icon. Home Assistant currently provides no separate logo field for
 third-party cards in the card picker, so the card is identified there by its
 **Mikonus 3D** name and description.
 
-## Appearance and card editor
+### Appearance and card editor
 
 The card follows Home Assistant’s active light/dark mode, including changes while
 the dashboard is open. The floor-selection header is transparent over the scene;
@@ -106,7 +162,7 @@ Mikonus. Older scenes continue to use Home Assistant's sun position, with the
 renderer clock as the final fallback. Background changes apply immediately
 without a separate fade.
 
-## Updating an existing installation
+### Updating an existing installation
 
 Update to **v0.10.3** in HACS and restart Home Assistant. Existing Config Entries,
 published scenes, bindings and unrelated Lovelace card settings are retained.
@@ -129,7 +185,7 @@ The first loaded version remains active for that browser document, so removing
 the old resource and refreshing ensures the new recovery behavior is in use.
 The integration does not edit user-managed Lovelace resources.
 
-## Publish from Mikonus
+### Publish from Mikonus
 
 In a Mikonus app version that supports the Home Assistant publisher, open
 **Settings → Import/Export → Dashboards → Home Assistant**, select your Home
@@ -151,7 +207,7 @@ downgrade never removes existing scenes, and extra cards or floor/room views do
 not count as additional published scenes. Manually deleting the only scene
 clears its HA record so a later Free publish can start normally.
 
-## Add the Mikonus 3D card (recommended)
+### Add the Mikonus 3D card (recommended)
 
 After publishing a scene, edit the intended Home Assistant dashboard, choose
 **Add card**, search for **Mikonus 3D**, select it and use the graphical editor.
@@ -178,7 +234,7 @@ existing card, that card stays bound to its saved ID and reports that the scene
 is no longer available. The editor refreshes its scene list and offers the
 remaining scenes without silently switching the stale card.
 
-## Optional: add the card manually with YAML
+### Optional: add the card manually with YAML
 
 Manual YAML remains available for advanced setups and existing cards. In the
 dashboard editor choose **Add card → Manual**, then use:
@@ -219,7 +275,7 @@ room_id: room-living
 This manual-card option still uses the frontend module loaded by the integration.
 Do not add a separate `/local/mikonus-3d-card.js` Lovelace resource.
 
-## Known beta limitation — restart and wall displays
+### Known beta limitation — restart and wall displays
 
 In rare cases, when a dashboard reconnects extremely early during a Home
 Assistant restart, the Mikonus custom element may not be loaded by the current
@@ -234,7 +290,7 @@ after reconnect or on request and does not call a scene deleted until a successf
 listing confirms that it is absent. The last working scene stays visible during
 a temporary interruption; an authoritatively deleted scene is shown as unavailable.
 
-## Troubleshooting and feedback
+### Troubleshooting and feedback
 
 - **Custom element does not exist:** wait until Home Assistant has finished
   starting, then refresh the dashboard once.
