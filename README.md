@@ -243,3 +243,6 @@ a temporary interruption; an authoritatively deleted scene is shown as unavailab
 Report beta issues through [GitHub Issues](https://github.com/mikonus-app/mikonus-home-assistant/issues).
 Include the integration and Home Assistant versions and reproduction steps.
 Remove tokens, private scene data and identifying device details from reports.
+
+
+* English is not my first language. Parts of this documentation were translated or language-checked with AI assistance.
