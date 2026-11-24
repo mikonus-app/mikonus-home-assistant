@@ -1,6 +1,6 @@
 # Mikonus Dashboard for Home Assistant
 
-**Version 0.11.5**
+**Version 0.11.6**
 
 Mikonus publishes your home as an interactive multi-floor 3D dashboard in Home
 Assistant. The integration stores the published scenes and connects them to live

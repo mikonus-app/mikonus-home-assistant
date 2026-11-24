@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.11.6
+
+- The exterior uses the saved wall dimensions so furniture stays behind the façade.
+
 ## 0.11.5
 
 - Lit outdoor Christmas trees cast a soft, warm light around them.
