@@ -6,22 +6,25 @@
   "contractVersion": "1.0.0",
   "index": {
     "path": "asset-index.json",
-    "bytes": 234900,
-    "sha256": "49b3e523b08cd40b08cde3482aa94fe5a1ffe39a979bb515629ee7a9cc2cc2a3"
+    "bytes": 239488,
+    "sha256": "add193e5e284cf383ca3ad272cbfde9c8713331142ea4d0942d049fa69fa01c3"
   },
   "contents": {
     "path": "contents.json",
-    "bytes": 47882,
-    "sha256": "844a04c759f70d262b9b17016390e61774250735c64ed3dbc3401ec34895ecb5"
+    "bytes": 49676,
+    "sha256": "e959f6e9858197467102eadd76c6f8ce7ec90777fc6a5822843dddcaf652505f"
   },
   "counts": {
-    "resources": 262,
-    "masters": 102,
-    "lod1": 101,
-    "types": 61
+    "resources": 271,
+    "masters": 103,
+    "lod1": 102,
+    "types": 62
   },
   "approval": {
     "publicationAuthorized": true
+  },
+  "transport": {
+    "models": "gzip"
   },
   "sharedLivingResources": {
     "media/assets/living/christmas_tree.glb": {
