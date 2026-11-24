@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.11.5
+
+- Lit outdoor Christmas trees cast a soft, warm light around them.
+
 ## 0.11.4
 
 - Close gaps between scanned exterior walls and storeys.
