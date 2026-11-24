@@ -1,0 +1,6522 @@
+{
+  "schema": 1,
+  "collection": "living-interiors",
+  "assets": [
+    {
+      "id": "living.coffee_automatic",
+      "key": "coffee_automatic",
+      "category": "kitchen",
+      "names": {
+        "de": "Kaffeevollautomat",
+        "en": "Automatic coffee machine",
+        "es": "Cafetera automática",
+        "fr": "Machine à café automatique",
+        "nl": "Volautomatische koffiemachine"
+      },
+      "dimensions": [
+        0.295,
+        0.39,
+        0.346
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.16,
+            0.24,
+            0.23,
+            1
+          ],
+          "roughness": 0.32,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.53,
+            0.56,
+            0.57,
+            1
+          ],
+          "roughness": 0.23,
+          "metallic": 0.9,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.022,
+            0.027,
+            0.031,
+            1
+          ],
+          "roughness": 0.48,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "beans",
+          "color": [
+            0.12,
+            0.055,
+            0.025,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "ceramic",
+          "color": [
+            0.9,
+            0.85,
+            0.73,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 7780,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.toaster",
+      "key": "toaster",
+      "category": "kitchen",
+      "names": {
+        "de": "Zweischlitz-Toaster",
+        "en": "Two-slot toaster",
+        "es": "Tostadora de dos ranuras",
+        "fr": "Grille-pain à deux fentes",
+        "nl": "Broodrooster met twee sleuven"
+      },
+      "dimensions": [
+        0.309,
+        0.2065,
+        0.17
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.78,
+            0.63,
+            0.45,
+            1
+          ],
+          "roughness": 0.35,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.6,
+            0.63,
+            0.64,
+            1
+          ],
+          "roughness": 0.22,
+          "metallic": 0.9,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.025,
+            0.026,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 2428,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.kettle",
+      "key": "kettle",
+      "category": "kitchen",
+      "names": {
+        "de": "Wasserkocher mit Schwanenhals",
+        "en": "Gooseneck kettle",
+        "es": "Hervidor de cuello de cisne",
+        "fr": "Bouilloire à col de cygne",
+        "nl": "Waterkoker met zwanenhals"
+      },
+      "dimensions": [
+        0.2683,
+        0.255,
+        0.182
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.76,
+            0.79,
+            0.73,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.15,
+            0.18,
+            0.17,
+            1
+          ],
+          "roughness": 0.5,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "metal",
+          "color": [
+            0.57,
+            0.58,
+            0.55,
+            1
+          ],
+          "roughness": 0.23,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1764,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.tulip_vase",
+      "key": "tulip_vase",
+      "category": "plants",
+      "names": {
+        "de": "Tulpen in Keramikvase",
+        "en": "Tulips in ceramic vase",
+        "es": "Tulipanes en jarrón de cerámica",
+        "fr": "Tulipes dans un vase en céramique",
+        "nl": "Tulpen in keramische vaas"
+      },
+      "dimensions": [
+        0.23285,
+        0.46689,
+        0.23016
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.68,
+            0.35,
+            0.26,
+            1
+          ],
+          "roughness": 0.62,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.16,
+            0.27,
+            0.08,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.22,
+            0.36,
+            0.12,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "flowers",
+          "color": [
+            0.92,
+            0.66,
+            0.36,
+            1
+          ],
+          "roughness": 0.56,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 14138,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.candle_tray",
+      "key": "candle_tray",
+      "category": "decor",
+      "names": {
+        "de": "Kerzen auf Holztablett",
+        "en": "Candles on wooden tray",
+        "es": "Velas en bandeja de madera",
+        "fr": "Bougies sur un plateau en bois",
+        "nl": "Kaarsen op houten dienblad"
+      },
+      "dimensions": [
+        0.316,
+        0.19813,
+        0.316
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.49,
+            0.37,
+            0.24,
+            1
+          ],
+          "roughness": 0.7,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "wax",
+          "color": [
+            0.88,
+            0.8,
+            0.62,
+            1
+          ],
+          "roughness": 0.67,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "wick",
+          "color": [
+            0.05,
+            0.035,
+            0.025,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 2148,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.book_stack",
+      "key": "book_stack",
+      "category": "decor",
+      "names": {
+        "de": "Gestapelte Bildbände",
+        "en": "Stacked art books",
+        "es": "Libros de arte apilados",
+        "fr": "Livres d’art empilés",
+        "nl": "Gestapelde kunstboeken"
+      },
+      "dimensions": [
+        0.25177,
+        0.095,
+        0.19611
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.23,
+            0.35,
+            0.39,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.69,
+            0.39,
+            0.23,
+            1
+          ],
+          "roughness": 0.74,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "paper",
+          "color": [
+            0.79,
+            0.75,
+            0.65,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 3384,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.willow_basket",
+      "key": "willow_basket",
+      "category": "decor",
+      "names": {
+        "de": "Geflochtener Weidenkorb",
+        "en": "Woven willow basket",
+        "es": "Cesta de mimbre",
+        "fr": "Panier en osier tressé",
+        "nl": "Gevlochten wilgenmand"
+      },
+      "dimensions": [
+        0.31399,
+        0.284,
+        0.314
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.49,
+            0.32,
+            0.16,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.32,
+            0.21,
+            0.11,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        }
+      ],
+      "triangles": 20510,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.towel_stack",
+      "key": "towel_stack",
+      "category": "bathroom",
+      "names": {
+        "de": "Gefaltete Handtücher",
+        "en": "Folded towels",
+        "es": "Toallas dobladas",
+        "fr": "Serviettes pliées",
+        "nl": "Gevouwen handdoeken"
+      },
+      "dimensions": [
+        0.28,
+        0.14386,
+        0.21
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.62,
+            0.67,
+            0.58,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.8,
+            0.79,
+            0.69,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 4380,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.orchid",
+      "key": "orchid",
+      "category": "plants",
+      "names": {
+        "de": "Orchidee im Übertopf",
+        "en": "Potted orchid",
+        "es": "Orquídea en maceta",
+        "fr": "Orchidée en cache-pot",
+        "nl": "Orchidee in sierpot"
+      },
+      "dimensions": [
+        0.35157,
+        0.426,
+        0.24996
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.76,
+            0.73,
+            0.63,
+            1
+          ],
+          "roughness": 0.39,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.1,
+            0.24,
+            0.12,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.2,
+            0.25,
+            0.1,
+            1
+          ],
+          "roughness": 0.88,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "flowers",
+          "color": [
+            0.85,
+            0.66,
+            0.78,
+            1
+          ],
+          "roughness": 0.63,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "flower_center",
+          "color": [
+            0.79,
+            0.37,
+            0.19,
+            1
+          ],
+          "roughness": 0.64,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.1,
+            0.065,
+            0.032,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 16128,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.log_basket",
+      "key": "log_basket",
+      "category": "hearth",
+      "names": {
+        "de": "Kaminholz im Weidenkorb",
+        "en": "Firewood in willow basket",
+        "es": "Leña en cesta de mimbre",
+        "fr": "Bûches dans un panier en osier",
+        "nl": "Haardhout in wilgenmand"
+      },
+      "dimensions": [
+        0.31399,
+        0.284,
+        0.31656
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.49,
+            0.32,
+            0.16,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.32,
+            0.21,
+            0.11,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "logs",
+          "color": [
+            0.27,
+            0.14,
+            0.055,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        },
+        {
+          "id": "endgrain",
+          "color": [
+            0.62,
+            0.45,
+            0.26,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        }
+      ],
+      "triangles": 20798,
+      "batch": "reference",
+      "review": "pending"
+    },
+    {
+      "id": "living.coffee_filter",
+      "key": "coffee_filter",
+      "category": "kitchen",
+      "names": {
+        "de": "Filterkaffeemaschine",
+        "en": "Filter coffee maker",
+        "es": "Cafetera de filtro",
+        "fr": "Cafetière filtre",
+        "nl": "Filterkoffiezetapparaat"
+      },
+      "dimensions": [
+        0.251,
+        0.335,
+        0.25
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.22,
+            0.28,
+            0.27,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.6,
+            0.59,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.031,
+            0.033,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "glass",
+          "color": [
+            0.45,
+            0.52,
+            0.49,
+            0.38
+          ],
+          "roughness": 0.15,
+          "metallic": 0,
+          "finish": "glass",
+          "editable": false
+        }
+      ],
+      "triangles": 2092,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.espresso_machine",
+      "key": "espresso_machine",
+      "category": "kitchen",
+      "names": {
+        "de": "Espressomaschine",
+        "en": "Espresso machine",
+        "es": "Máquina de espresso",
+        "fr": "Machine à espresso",
+        "nl": "Espressomachine"
+      },
+      "dimensions": [
+        0.275,
+        0.2545,
+        0.30997
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.65,
+            0.22,
+            0.16,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.6,
+            0.59,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.031,
+            0.033,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "ceramic",
+          "color": [
+            0.86,
+            0.82,
+            0.72,
+            1
+          ],
+          "roughness": 0.28,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 5016,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.capsule_machine",
+      "key": "capsule_machine",
+      "category": "kitchen",
+      "names": {
+        "de": "Kapselmaschine",
+        "en": "Capsule coffee machine",
+        "es": "Cafetera de cápsulas",
+        "fr": "Machine à capsules",
+        "nl": "Capsulekoffiemachine"
+      },
+      "dimensions": [
+        0.12,
+        0.26919,
+        0.263
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.73,
+            0.69,
+            0.56,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.6,
+            0.59,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.031,
+            0.033,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "ceramic",
+          "color": [
+            0.91,
+            0.86,
+            0.75,
+            1
+          ],
+          "roughness": 0.31,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 2252,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.airfryer",
+      "key": "airfryer",
+      "category": "kitchen",
+      "names": {
+        "de": "Heißluftfritteuse",
+        "en": "Air fryer",
+        "es": "Freidora de aire",
+        "fr": "Friteuse à air chaud",
+        "nl": "Heteluchtfriteuse"
+      },
+      "dimensions": [
+        0.29,
+        0.31,
+        0.3416
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.18,
+            0.21,
+            0.22,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.6,
+            0.59,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.031,
+            0.033,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1784,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.stand_mixer",
+      "key": "stand_mixer",
+      "category": "kitchen",
+      "names": {
+        "de": "Küchenmaschine",
+        "en": "Stand mixer",
+        "es": "Robot de cocina amasador",
+        "fr": "Robot pâtissier",
+        "nl": "Keukenmixer"
+      },
+      "dimensions": [
+        0.206,
+        0.3415,
+        0.3055
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.53,
+            0.64,
+            0.58,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.6,
+            0.59,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.031,
+            0.033,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1864,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.blender",
+      "key": "blender",
+      "category": "kitchen",
+      "names": {
+        "de": "Standmixer",
+        "en": "Blender",
+        "es": "Batidora de vaso",
+        "fr": "Blender",
+        "nl": "Blender"
+      },
+      "dimensions": [
+        0.226,
+        0.391,
+        0.16
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.38,
+            0.46,
+            0.47,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.6,
+            0.59,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.031,
+            0.033,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "glass",
+          "color": [
+            0.65,
+            0.74,
+            0.71,
+            0.3
+          ],
+          "roughness": 0.17,
+          "metallic": 0,
+          "finish": "glass",
+          "editable": false
+        }
+      ],
+      "triangles": 1876,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.knife_block",
+      "key": "knife_block",
+      "category": "kitchen",
+      "names": {
+        "de": "Messerblock",
+        "en": "Knife block",
+        "es": "Taco de cuchillos",
+        "fr": "Bloc à couteaux",
+        "nl": "Messenblok"
+      },
+      "dimensions": [
+        0.15,
+        0.291,
+        0.115
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.53,
+            0.34,
+            0.18,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.13,
+            0.15,
+            0.15,
+            1
+          ],
+          "roughness": 0.55,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "metal",
+          "color": [
+            0.55,
+            0.56,
+            0.55,
+            1
+          ],
+          "roughness": 0.28,
+          "metallic": 0.9,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 4008,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.utensil_crock",
+      "key": "utensil_crock",
+      "category": "kitchen",
+      "names": {
+        "de": "Küchenutensilien im Keramikhalter",
+        "en": "Utensils in ceramic crock",
+        "es": "Utensilios en recipiente de cerámica",
+        "fr": "Ustensiles dans un pot en céramique",
+        "nl": "Keukengerei in keramische pot"
+      },
+      "dimensions": [
+        0.11,
+        0.341,
+        0.11
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.71,
+            0.63,
+            0.47,
+            1
+          ],
+          "roughness": 0.62,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.52,
+            0.33,
+            0.16,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "metal",
+          "color": [
+            0.49,
+            0.51,
+            0.5,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 2580,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.cutting_boards",
+      "key": "cutting_boards",
+      "category": "kitchen",
+      "names": {
+        "de": "Schneidebretter",
+        "en": "Cutting boards",
+        "es": "Tablas de cortar",
+        "fr": "Planches à découper",
+        "nl": "Snijplanken"
+      },
+      "dimensions": [
+        0.29404,
+        0.377,
+        0.06998
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.51,
+            0.31,
+            0.16,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.3,
+            0.2,
+            0.12,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        }
+      ],
+      "triangles": 1416,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.skillet",
+      "key": "skillet",
+      "category": "kitchen",
+      "names": {
+        "de": "Bratpfanne",
+        "en": "Skillet",
+        "es": "Sartén",
+        "fr": "Poêle",
+        "nl": "Koekenpan"
+      },
+      "dimensions": [
+        0.43132,
+        0.06825,
+        0.28
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.18,
+            0.2,
+            0.19,
+            1
+          ],
+          "roughness": 0.62,
+          "metallic": 0.3,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.42,
+            0.43,
+            0.41,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1024,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.stockpot",
+      "key": "stockpot",
+      "category": "kitchen",
+      "names": {
+        "de": "Kochtopf mit Deckel",
+        "en": "Cooking pot with lid",
+        "es": "Olla con tapa",
+        "fr": "Faitout avec couvercle",
+        "nl": "Kookpan met deksel"
+      },
+      "dimensions": [
+        0.314,
+        0.212,
+        0.212
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.71,
+            0.33,
+            0.22,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.6,
+            0.59,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "technical",
+          "color": [
+            0.025,
+            0.031,
+            0.033,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1584,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.storage_jars",
+      "key": "storage_jars",
+      "category": "kitchen",
+      "names": {
+        "de": "Vorratsgläser",
+        "en": "Storage jars",
+        "es": "Tarros de despensa",
+        "fr": "Bocaux de conservation",
+        "nl": "Voorraadpotten"
+      },
+      "dimensions": [
+        0.20768,
+        0.186,
+        0.17526
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.57,
+            0.38,
+            0.2,
+            1
+          ],
+          "roughness": 0.75,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "glass",
+          "color": [
+            0.67,
+            0.72,
+            0.63,
+            0.38
+          ],
+          "roughness": 0.22,
+          "metallic": 0,
+          "finish": "glass",
+          "editable": false
+        },
+        {
+          "id": "contents",
+          "color": [
+            0.68,
+            0.54,
+            0.31,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 2292,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.spice_rack",
+      "key": "spice_rack",
+      "category": "kitchen",
+      "names": {
+        "de": "Gewürzregal",
+        "en": "Spice rack",
+        "es": "Especiero",
+        "fr": "Étagère à épices",
+        "nl": "Kruidenrek"
+      },
+      "dimensions": [
+        0.292,
+        0.2245,
+        0.08
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.5,
+            0.32,
+            0.18,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.21,
+            0.23,
+            0.21,
+            1
+          ],
+          "roughness": 0.5,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "glass",
+          "color": [
+            0.5,
+            0.36,
+            0.19,
+            1
+          ],
+          "roughness": 0.57,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 5328,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.paper_towel",
+      "key": "paper_towel",
+      "category": "kitchen",
+      "names": {
+        "de": "Küchenrolle mit Holzhalter",
+        "en": "Kitchen roll with wooden holder",
+        "es": "Rollo de cocina con soporte de madera",
+        "fr": "Essuie-tout sur support en bois",
+        "nl": "Keukenrol met houten houder"
+      },
+      "dimensions": [
+        0.153,
+        0.265,
+        0.15
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.45,
+            0.29,
+            0.14,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "paper",
+          "color": [
+            0.87,
+            0.84,
+            0.75,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 688,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.bread_basket",
+      "key": "bread_basket",
+      "category": "kitchen",
+      "names": {
+        "de": "Brotkorb",
+        "en": "Bread basket",
+        "es": "Cesta de pan",
+        "fr": "Corbeille à pain",
+        "nl": "Broodmand"
+      },
+      "dimensions": [
+        0.29,
+        0.13571,
+        0.29
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.47,
+            0.3,
+            0.15,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.75,
+            0.69,
+            0.56,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "bread",
+          "color": [
+            0.6,
+            0.34,
+            0.12,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 4660,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.fruit_bowl",
+      "key": "fruit_bowl",
+      "category": "kitchen",
+      "names": {
+        "de": "Obstschale",
+        "en": "Fruit bowl",
+        "es": "Frutero",
+        "fr": "Corbeille à fruits",
+        "nl": "Fruitschaal"
+      },
+      "dimensions": [
+        0.3,
+        0.17198,
+        0.3
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.36,
+            0.47,
+            0.41,
+            1
+          ],
+          "roughness": 0.4,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "apples",
+          "color": [
+            0.52,
+            0.13,
+            0.07,
+            1
+          ],
+          "roughness": 0.45,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "oranges",
+          "color": [
+            0.9,
+            0.39,
+            0.045,
+            1
+          ],
+          "roughness": 0.74,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.25,
+            0.07,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 4616,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.coffee_tin",
+      "key": "coffee_tin",
+      "category": "kitchen",
+      "names": {
+        "de": "Kaffeedose",
+        "en": "Coffee tin",
+        "es": "Lata de café",
+        "fr": "Boîte à café",
+        "nl": "Koffieblik"
+      },
+      "dimensions": [
+        0.142,
+        0.191,
+        0.142
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.27,
+            0.36,
+            0.34,
+            1
+          ],
+          "roughness": 0.38,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.57,
+            0.52,
+            0.39,
+            1
+          ],
+          "roughness": 0.28,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 876,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.dinnerware",
+      "key": "dinnerware",
+      "category": "kitchen",
+      "names": {
+        "de": "Geschirrstapel",
+        "en": "Stacked dinnerware",
+        "es": "Vajilla apilada",
+        "fr": "Pile de vaisselle",
+        "nl": "Gestapeld servies"
+      },
+      "dimensions": [
+        0.25,
+        0.148,
+        0.25
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.78,
+            0.74,
+            0.64,
+            1
+          ],
+          "roughness": 0.38,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.32,
+            0.43,
+            0.4,
+            1
+          ],
+          "roughness": 0.42,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 2480,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.cutlery",
+      "key": "cutlery",
+      "category": "kitchen",
+      "names": {
+        "de": "Besteck mit Holzgriffen",
+        "en": "Wood-handled cutlery",
+        "es": "Cubiertos con mangos de madera",
+        "fr": "Couverts à manches en bois",
+        "nl": "Bestek met houten handgrepen"
+      },
+      "dimensions": [
+        0.093,
+        0.011,
+        0.16705
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.57,
+            0.38,
+            0.21,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.65,
+            0.66,
+            0.63,
+            1
+          ],
+          "roughness": 0.25,
+          "metallic": 0.9,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1644,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.mugs",
+      "key": "mugs",
+      "category": "kitchen",
+      "names": {
+        "de": "Keramiktassen",
+        "en": "Ceramic mugs",
+        "es": "Tazas de cerámica",
+        "fr": "Tasses en céramique",
+        "nl": "Keramische mokken"
+      },
+      "dimensions": [
+        0.22478,
+        0.092,
+        0.127
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.65,
+            0.48,
+            0.34,
+            1
+          ],
+          "roughness": 0.43,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.31,
+            0.44,
+            0.43,
+            1
+          ],
+          "roughness": 0.43,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1816,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.drinking_glasses",
+      "key": "drinking_glasses",
+      "category": "kitchen",
+      "names": {
+        "de": "Trinkgläser",
+        "en": "Drinking glasses",
+        "es": "Vasos",
+        "fr": "Verres",
+        "nl": "Drinkglazen"
+      },
+      "dimensions": [
+        0.168,
+        0.13,
+        0.097
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.65,
+            0.78,
+            0.77,
+            0.36
+          ],
+          "roughness": 0.13,
+          "metallic": 0,
+          "finish": "glass",
+          "editable": true
+        }
+      ],
+      "triangles": 960,
+      "batch": "kitchen",
+      "review": "pending"
+    },
+    {
+      "id": "living.monstera",
+      "key": "monstera",
+      "category": "plants",
+      "names": {
+        "de": "Monstera im Keramiktopf",
+        "en": "Monstera in ceramic pot",
+        "es": "Monstera en maceta de cerámica",
+        "fr": "Monstera en pot en céramique",
+        "nl": "Monstera in keramische pot"
+      },
+      "dimensions": [
+        0.78428,
+        0.70597,
+        0.77399
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.66,
+            0.59,
+            0.44,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.27,
+            0.1,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.24,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.19,
+            0.24,
+            0.09,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 17448,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.ficus",
+      "key": "ficus",
+      "category": "plants",
+      "names": {
+        "de": "Gummibaum",
+        "en": "Rubber plant",
+        "es": "Ficus elástica",
+        "fr": "Ficus elastica",
+        "nl": "Rubberplant"
+      },
+      "dimensions": [
+        0.6748,
+        1.23171,
+        0.67724
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.61,
+            0.58,
+            0.49,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.27,
+            0.1,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.24,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.19,
+            0.24,
+            0.09,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "bark",
+          "color": [
+            0.28,
+            0.18,
+            0.09,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        }
+      ],
+      "triangles": 6248,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.succulent",
+      "key": "succulent",
+      "category": "plants",
+      "names": {
+        "de": "Rosetten-Sukkulente",
+        "en": "Rosette succulent",
+        "es": "Suculenta en roseta",
+        "fr": "Succulente en rosette",
+        "nl": "Rozetsucculent"
+      },
+      "dimensions": [
+        0.1901,
+        0.14198,
+        0.19205
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.68,
+            0.51,
+            0.39,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.3,
+            0.43,
+            0.32,
+            1
+          ],
+          "roughness": 0.69,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 7800,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.cactus",
+      "key": "cactus",
+      "category": "plants",
+      "names": {
+        "de": "Kugelkaktus",
+        "en": "Barrel cactus",
+        "es": "Cactus de barril",
+        "fr": "Cactus boule",
+        "nl": "Bolkaktus"
+      },
+      "dimensions": [
+        0.2,
+        0.383,
+        0.2
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.62,
+            0.35,
+            0.22,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.25,
+            0.36,
+            0.15,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "needles",
+          "color": [
+            0.76,
+            0.69,
+            0.45,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 6936,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.basil",
+      "key": "basil",
+      "category": "plants",
+      "names": {
+        "de": "Basilikumtopf",
+        "en": "Potted basil",
+        "es": "Albahaca en maceta",
+        "fr": "Basilic en pot",
+        "nl": "Basilicum in pot"
+      },
+      "dimensions": [
+        0.1552,
+        0.30498,
+        0.15609
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.58,
+            0.32,
+            0.2,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.27,
+            0.1,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.24,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.19,
+            0.24,
+            0.09,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 11864,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.ivy",
+      "key": "ivy",
+      "category": "plants",
+      "names": {
+        "de": "Efeu im Übertopf",
+        "en": "Ivy in cachepot",
+        "es": "Hiedra en macetero",
+        "fr": "Lierre en cache-pot",
+        "nl": "Klimop in sierpot"
+      },
+      "dimensions": [
+        0.41754,
+        0.18179,
+        0.37653
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.64,
+            0.67,
+            0.57,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.27,
+            0.1,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.24,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.19,
+            0.24,
+            0.09,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 14112,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.pampas",
+      "key": "pampas",
+      "category": "plants",
+      "names": {
+        "de": "Pampasgras in Bodenvase",
+        "en": "Pampas grass in floor vase",
+        "es": "Hierba de la pampa en jarrón de suelo",
+        "fr": "Herbe de la pampa en vase de sol",
+        "nl": "Pampasgras in vloervaas"
+      },
+      "dimensions": [
+        0.29585,
+        0.83774,
+        0.28846
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.59,
+            0.4,
+            0.27,
+            1
+          ],
+          "roughness": 0.74,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.43,
+            0.32,
+            0.15,
+            1
+          ],
+          "roughness": 0.93,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "flowers",
+          "color": [
+            0.74,
+            0.64,
+            0.45,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 22744,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.fern",
+      "key": "fern",
+      "category": "plants",
+      "names": {
+        "de": "Zimmerfarn",
+        "en": "Indoor fern",
+        "es": "Helecho de interior",
+        "fr": "Fougère d’intérieur",
+        "nl": "Kamervaren"
+      },
+      "dimensions": [
+        0.46689,
+        0.34765,
+        0.44325
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.56,
+            0.58,
+            0.44,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.27,
+            0.1,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.24,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.19,
+            0.24,
+            0.09,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 17894,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.snakeplant",
+      "key": "snakeplant",
+      "category": "plants",
+      "names": {
+        "de": "Bogenhanf",
+        "en": "Snake plant",
+        "es": "Sansevieria",
+        "fr": "Sansevière",
+        "nl": "Sansevieria"
+      },
+      "dimensions": [
+        0.26,
+        0.77154,
+        0.28538
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.72,
+            0.67,
+            0.56,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.27,
+            0.1,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.24,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 3448,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.olive",
+      "key": "olive",
+      "category": "plants",
+      "names": {
+        "de": "Kleiner Olivenbaum",
+        "en": "Small olive tree",
+        "es": "Olivo pequeño",
+        "fr": "Petit olivier",
+        "nl": "Kleine olijfboom"
+      },
+      "dimensions": [
+        0.40115,
+        1.04279,
+        0.40078
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.51,
+            0.46,
+            0.35,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.29,
+            0.36,
+            0.2,
+            1
+          ],
+          "roughness": 0.81,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.46,
+            0.5,
+            0.35,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "bark",
+          "color": [
+            0.34,
+            0.24,
+            0.13,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        }
+      ],
+      "triangles": 11764,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.low_planter",
+      "key": "low_planter",
+      "category": "plants",
+      "names": {
+        "de": "Flache Pflanzschale auf Holzfüßen",
+        "en": "Low planter on wooden feet",
+        "es": "Macetero bajo con patas de madera",
+        "fr": "Coupe à plantes sur pieds en bois",
+        "nl": "Lage plantenbak op houten poten"
+      },
+      "dimensions": [
+        0.44528,
+        0.19266,
+        0.44528
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.63,
+            0.59,
+            0.49,
+            1
+          ],
+          "roughness": 0.87,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.39,
+            0.3,
+            0.21,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        }
+      ],
+      "triangles": 1132,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.tall_planter",
+      "key": "tall_planter",
+      "category": "plants",
+      "names": {
+        "de": "Geriffelter Übertopf mit Gestell",
+        "en": "Fluted planter on stand",
+        "es": "Macetero estriado con soporte",
+        "fr": "Cache-pot cannelé sur support",
+        "nl": "Geribbelde sierpot op standaard"
+      },
+      "dimensions": [
+        0.3075,
+        0.45,
+        0.3075
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.63,
+            0.38,
+            0.24,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.3,
+            0.23,
+            0.17,
+            1
+          ],
+          "roughness": 0.52,
+          "metallic": 0.6,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 2172,
+      "batch": "plants",
+      "review": "pending"
+    },
+    {
+      "id": "living.pumpkin",
+      "key": "pumpkin",
+      "category": "seasonal",
+      "names": {
+        "de": "Dekokürbis",
+        "en": "Decorative pumpkin",
+        "es": "Calabaza decorativa",
+        "fr": "Citrouille décorative",
+        "nl": "Decoratieve pompoen"
+      },
+      "dimensions": [
+        0.2782,
+        0.22139,
+        0.26589
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.71,
+            0.29,
+            0.075,
+            1
+          ],
+          "roughness": 0.75,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "stem",
+          "color": [
+            0.28,
+            0.25,
+            0.11,
+            1
+          ],
+          "roughness": 0.93,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 4012,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.gourd",
+      "key": "gourd",
+      "category": "seasonal",
+      "names": {
+        "de": "Flaschenkürbis",
+        "en": "Bottle gourd",
+        "es": "Calabaza de botella",
+        "fr": "Calebasse",
+        "nl": "Fleskalebas"
+      },
+      "dimensions": [
+        0.16974,
+        0.31819,
+        0.16974
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.63,
+            0.64,
+            0.4,
+            1
+          ],
+          "roughness": 0.82,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "stem",
+          "color": [
+            0.28,
+            0.24,
+            0.12,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1062,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.autumn_wreath",
+      "key": "autumn_wreath",
+      "category": "seasonal",
+      "names": {
+        "de": "Herbstkranz",
+        "en": "Autumn wreath",
+        "es": "Corona otoñal",
+        "fr": "Couronne d’automne",
+        "nl": "Herfstkrans"
+      },
+      "dimensions": [
+        0.40766,
+        0.0739,
+        0.40708
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.43,
+            0.29,
+            0.13,
+            1
+          ],
+          "roughness": 0.88,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "foliage",
+          "color": [
+            0.57,
+            0.29,
+            0.1,
+            1
+          ],
+          "roughness": 0.91,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "berries",
+          "color": [
+            0.56,
+            0.11,
+            0.055,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 15120,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.advent_wreath",
+      "key": "advent_wreath",
+      "category": "seasonal",
+      "names": {
+        "de": "Adventskranz",
+        "en": "Advent wreath",
+        "es": "Corona de Adviento",
+        "fr": "Couronne de l’Avent",
+        "nl": "Adventskrans"
+      },
+      "dimensions": [
+        0.40759,
+        0.192,
+        0.40708
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.43,
+            0.29,
+            0.13,
+            1
+          ],
+          "roughness": 0.88,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "foliage",
+          "color": [
+            0.15,
+            0.24,
+            0.12,
+            1
+          ],
+          "roughness": 0.91,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "berries",
+          "color": [
+            0.56,
+            0.11,
+            0.055,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "wax",
+          "color": [
+            0.76,
+            0.66,
+            0.47,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "wick",
+          "color": [
+            0.035,
+            0.026,
+            0.02,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 9264,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.winter_centerpiece",
+      "key": "winter_centerpiece",
+      "category": "seasonal",
+      "names": {
+        "de": "Winterliche Zapfenschale",
+        "en": "Winter pinecone centerpiece",
+        "es": "Centro invernal con piñas",
+        "fr": "Composition hivernale de pommes de pin",
+        "nl": "Winters dennenappelschaaltje"
+      },
+      "dimensions": [
+        0.32,
+        0.14183,
+        0.32
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.68,
+            0.64,
+            0.53,
+            1
+          ],
+          "roughness": 0.75,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "branches",
+          "color": [
+            0.31,
+            0.23,
+            0.13,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        },
+        {
+          "id": "cones",
+          "color": [
+            0.4,
+            0.28,
+            0.14,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "foliage",
+          "color": [
+            0.14,
+            0.23,
+            0.14,
+            1
+          ],
+          "roughness": 0.93,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 27552,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.wooden_stars",
+      "key": "wooden_stars",
+      "category": "seasonal",
+      "names": {
+        "de": "Sterne auf Holzsockeln",
+        "en": "Stars on wooden bases",
+        "es": "Estrellas sobre bases de madera",
+        "fr": "Étoiles sur socles en bois",
+        "nl": "Sterren op houten voetjes"
+      },
+      "dimensions": [
+        0.33095,
+        0.298,
+        0.07
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.52,
+            0.35,
+            0.19,
+            1
+          ],
+          "roughness": 0.81,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.69,
+            0.55,
+            0.31,
+            1
+          ],
+          "roughness": 0.45,
+          "metallic": 0.65,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 496,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.daffodils",
+      "key": "daffodils",
+      "category": "seasonal",
+      "names": {
+        "de": "Narzissen im Keramiktopf",
+        "en": "Daffodils in ceramic pot",
+        "es": "Narcisos en maceta de cerámica",
+        "fr": "Narcisses en pot en céramique",
+        "nl": "Narcissen in keramische pot"
+      },
+      "dimensions": [
+        0.21655,
+        0.343,
+        0.19913
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.69,
+            0.67,
+            0.48,
+            1
+          ],
+          "roughness": 0.61,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.26,
+            0.39,
+            0.11,
+            1
+          ],
+          "roughness": 0.79,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.3,
+            0.4,
+            0.14,
+            1
+          ],
+          "roughness": 0.88,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "flowers",
+          "color": [
+            0.9,
+            0.7,
+            0.17,
+            1
+          ],
+          "roughness": 0.7,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 11016,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.dried_bouquet",
+      "key": "dried_bouquet",
+      "category": "seasonal",
+      "names": {
+        "de": "Trockenblumenstrauß",
+        "en": "Dried flower bouquet",
+        "es": "Ramo de flores secas",
+        "fr": "Bouquet de fleurs séchées",
+        "nl": "Droogboeket"
+      },
+      "dimensions": [
+        0.22128,
+        0.42993,
+        0.22089
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.63,
+            0.5,
+            0.33,
+            1
+          ],
+          "roughness": 0.84,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.45,
+            0.34,
+            0.19,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "flowers",
+          "color": [
+            0.67,
+            0.5,
+            0.28,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.45,
+            0.49,
+            0.32,
+            1
+          ],
+          "roughness": 0.92,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 11508,
+      "batch": "seasonal",
+      "review": "pending"
+    },
+    {
+      "id": "living.fireplace_tools",
+      "key": "fireplace_tools",
+      "category": "hearth",
+      "names": {
+        "de": "Kaminbesteck auf Ständer",
+        "en": "Fireplace tools on stand",
+        "es": "Utensilios de chimenea con soporte",
+        "fr": "Serviteur de cheminée",
+        "nl": "Haardset op standaard"
+      },
+      "dimensions": [
+        0.2,
+        0.68,
+        0.2
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.13,
+            0.15,
+            0.14,
+            1
+          ],
+          "roughness": 0.56,
+          "metallic": 0.75,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.44,
+            0.3,
+            0.16,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "bristles",
+          "color": [
+            0.31,
+            0.25,
+            0.16,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 3060,
+      "batch": "hearth",
+      "review": "pending"
+    },
+    {
+      "id": "living.log_stack",
+      "key": "log_stack",
+      "category": "hearth",
+      "names": {
+        "de": "Kaminholz im Metallgestell",
+        "en": "Firewood in metal rack",
+        "es": "Leña en soporte metálico",
+        "fr": "Bûches sur support métallique",
+        "nl": "Haardhout in metalen rek"
+      },
+      "dimensions": [
+        0.474,
+        0.39695,
+        0.32914
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.14,
+            0.17,
+            0.15,
+            1
+          ],
+          "roughness": 0.55,
+          "metallic": 0.72,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "bark",
+          "color": [
+            0.28,
+            0.17,
+            0.075,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        },
+        {
+          "id": "endgrain",
+          "color": [
+            0.65,
+            0.47,
+            0.27,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        }
+      ],
+      "triangles": 664,
+      "batch": "hearth",
+      "review": "pending"
+    },
+    {
+      "id": "living.ash_bucket",
+      "key": "ash_bucket",
+      "category": "hearth",
+      "names": {
+        "de": "Ascheeimer mit Deckel",
+        "en": "Ash bucket with lid",
+        "es": "Cubo de cenizas con tapa",
+        "fr": "Seau à cendres avec couvercle",
+        "nl": "Asemmer met deksel"
+      },
+      "dimensions": [
+        0.448,
+        0.335,
+        0.248
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.23,
+            0.27,
+            0.24,
+            1
+          ],
+          "roughness": 0.57,
+          "metallic": 0.75,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.51,
+            0.35,
+            0.18,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        }
+      ],
+      "triangles": 2132,
+      "batch": "hearth",
+      "review": "pending"
+    },
+    {
+      "id": "living.ceramic_vase",
+      "key": "ceramic_vase",
+      "category": "decor",
+      "names": {
+        "de": "Bauchige Keramikvase",
+        "en": "Rounded ceramic vase",
+        "es": "Jarrón de cerámica redondeado",
+        "fr": "Vase en céramique arrondi",
+        "nl": "Bolvormige keramische vaas"
+      },
+      "dimensions": [
+        0.15881,
+        0.252,
+        0.15881
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.7,
+            0.54,
+            0.37,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1664,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.glass_vase",
+      "key": "glass_vase",
+      "category": "decor",
+      "names": {
+        "de": "Geschwungene Glasvase",
+        "en": "Curved glass vase",
+        "es": "Jarrón de vidrio curvo",
+        "fr": "Vase en verre galbé",
+        "nl": "Gebogen glazen vaas"
+      },
+      "dimensions": [
+        0.16,
+        0.26,
+        0.16
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.46,
+            0.66,
+            0.6,
+            0.32
+          ],
+          "roughness": 0.12,
+          "metallic": 0,
+          "finish": "glass",
+          "editable": true
+        }
+      ],
+      "triangles": 1232,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.decor_bowl",
+      "key": "decor_bowl",
+      "category": "decor",
+      "names": {
+        "de": "Gewellte Dekoschale",
+        "en": "Wavy decorative bowl",
+        "es": "Cuenco decorativo ondulado",
+        "fr": "Coupe décorative ondulée",
+        "nl": "Golvende decoratieschaal"
+      },
+      "dimensions": [
+        0.34,
+        0.10177,
+        0.34
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.58,
+            0.39,
+            0.26,
+            1
+          ],
+          "roughness": 0.72,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1296,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.serving_tray",
+      "key": "serving_tray",
+      "category": "decor",
+      "names": {
+        "de": "Holztablett mit Messinggriffen",
+        "en": "Wooden tray with brass handles",
+        "es": "Bandeja de madera con asas de latón",
+        "fr": "Plateau en bois à poignées en laiton",
+        "nl": "Houten dienblad met messing handgrepen"
+      },
+      "dimensions": [
+        0.37,
+        0.08267,
+        0.25
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.47,
+            0.29,
+            0.13,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.57,
+            0.46,
+            0.29,
+            1
+          ],
+          "roughness": 0.32,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1060,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.magazine",
+      "key": "magazine",
+      "category": "decor",
+      "names": {
+        "de": "Aufgeschlagenes Magazin",
+        "en": "Open magazine",
+        "es": "Revista abierta",
+        "fr": "Magazine ouvert",
+        "nl": "Opengeslagen tijdschrift"
+      },
+      "dimensions": [
+        0.24159,
+        0.0385,
+        0.30119
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.58,
+            0.32,
+            0.24,
+            1
+          ],
+          "roughness": 0.81,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "paper",
+          "color": [
+            0.82,
+            0.78,
+            0.66,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "print",
+          "color": [
+            0.28,
+            0.38,
+            0.35,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 3020,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.picture_frame",
+      "key": "picture_frame",
+      "category": "decor",
+      "names": {
+        "de": "Bilderrahmen mit abstraktem Motiv",
+        "en": "Frame with abstract artwork",
+        "es": "Marco con arte abstracto",
+        "fr": "Cadre avec motif abstrait",
+        "nl": "Fotolijst met abstracte kunst"
+      },
+      "dimensions": [
+        0.2,
+        0.26418,
+        0.09965
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.42,
+            0.27,
+            0.14,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "mat",
+          "color": [
+            0.82,
+            0.78,
+            0.68,
+            1
+          ],
+          "roughness": 0.91,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.4,
+            0.48,
+            0.38,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1484,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.candle_holder",
+      "key": "candle_holder",
+      "category": "decor",
+      "names": {
+        "de": "Dreiarmiger Kerzenleuchter",
+        "en": "Three-arm candelabra",
+        "es": "Candelabro de tres brazos",
+        "fr": "Candélabre à trois branches",
+        "nl": "Driearmige kandelaar"
+      },
+      "dimensions": [
+        0.216,
+        0.446,
+        0.16
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.52,
+            0.39,
+            0.2,
+            1
+          ],
+          "roughness": 0.32,
+          "metallic": 0.78,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "wax",
+          "color": [
+            0.84,
+            0.76,
+            0.59,
+            1
+          ],
+          "roughness": 0.72,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "wick",
+          "color": [
+            0.04,
+            0.03,
+            0.02,
+            1
+          ],
+          "roughness": 0.99,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 2060,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.lantern",
+      "key": "lantern",
+      "category": "decor",
+      "names": {
+        "de": "Kerzenlaterne",
+        "en": "Candle lantern",
+        "es": "Farol con vela",
+        "fr": "Lanterne à bougie",
+        "nl": "Kaarslantaarn"
+      },
+      "dimensions": [
+        0.18,
+        0.337,
+        0.18
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.21,
+            0.25,
+            0.24,
+            1
+          ],
+          "roughness": 0.48,
+          "metallic": 0.75,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "glass",
+          "color": [
+            0.72,
+            0.73,
+            0.65,
+            0.21
+          ],
+          "roughness": 0.16,
+          "metallic": 0,
+          "finish": "glass",
+          "editable": false
+        },
+        {
+          "id": "wax",
+          "color": [
+            0.86,
+            0.76,
+            0.57,
+            1
+          ],
+          "roughness": 0.7,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "wick",
+          "color": [
+            0.03,
+            0.02,
+            0.015,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1900,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.throw_blanket",
+      "key": "throw_blanket",
+      "category": "decor",
+      "names": {
+        "de": "Gefaltetes Wollplaid",
+        "en": "Folded wool throw",
+        "es": "Manta de lana doblada",
+        "fr": "Plaid en laine plié",
+        "nl": "Gevouwen wollen plaid"
+      },
+      "dimensions": [
+        0.58,
+        0.1376,
+        0.41548
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.56,
+            0.4,
+            0.28,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.77,
+            0.69,
+            0.52,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 8706,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.square_cushion",
+      "key": "square_cushion",
+      "category": "decor",
+      "names": {
+        "de": "Stoffkissen mit Keder",
+        "en": "Fabric cushion with piping",
+        "es": "Cojín de tela con ribete",
+        "fr": "Coussin en tissu passepoilé",
+        "nl": "Stoffen kussen met bies"
+      },
+      "dimensions": [
+        0.4352,
+        0.16687,
+        0.4352
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.64,
+            0.39,
+            0.27,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.78,
+            0.65,
+            0.44,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 3872,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.round_cushion",
+      "key": "round_cushion",
+      "category": "decor",
+      "names": {
+        "de": "Rundes Faltenkissen",
+        "en": "Round pleated cushion",
+        "es": "Cojín redondo plisado",
+        "fr": "Coussin rond plissé",
+        "nl": "Rond geplooid kussen"
+      },
+      "dimensions": [
+        0.412,
+        0.11697,
+        0.412
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.33,
+            0.44,
+            0.39,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.63,
+            0.58,
+            0.42,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 2276,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.stone_sculpture",
+      "key": "stone_sculpture",
+      "category": "decor",
+      "names": {
+        "de": "Steinskulptur als Knoten",
+        "en": "Stone knot sculpture",
+        "es": "Escultura de piedra anudada",
+        "fr": "Sculpture de nœud en pierre",
+        "nl": "Stenen knoopsculptuur"
+      },
+      "dimensions": [
+        0.21947,
+        0.186,
+        0.1
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.64,
+            0.59,
+            0.48,
+            1
+          ],
+          "roughness": 0.87,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 3476,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.floor_amphora",
+      "key": "floor_amphora",
+      "category": "decor",
+      "names": {
+        "de": "Große Bodenamphore",
+        "en": "Large floor amphora",
+        "es": "Ánfora grande de suelo",
+        "fr": "Grande amphore de sol",
+        "nl": "Grote vloeramfoor"
+      },
+      "dimensions": [
+        0.44664,
+        0.55,
+        0.3857
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.65,
+            0.48,
+            0.33,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 2104,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.reed_diffuser",
+      "key": "reed_diffuser",
+      "category": "decor",
+      "names": {
+        "de": "Raumduft mit Rattanstäbchen",
+        "en": "Reed diffuser",
+        "es": "Difusor de varillas",
+        "fr": "Diffuseur à bâtonnets",
+        "nl": "Geurstokjes"
+      },
+      "dimensions": [
+        0.11198,
+        0.31032,
+        0.11061
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.57,
+            0.32,
+            0.17,
+            1
+          ],
+          "roughness": 0.45,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.5,
+            0.43,
+            0.29,
+            1
+          ],
+          "roughness": 0.35,
+          "metallic": 0.75,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "reeds",
+          "color": [
+            0.6,
+            0.47,
+            0.28,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1178,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.keepsake_box",
+      "key": "keepsake_box",
+      "category": "decor",
+      "names": {
+        "de": "Holzschatulle",
+        "en": "Wooden keepsake box",
+        "es": "Caja de recuerdos de madera",
+        "fr": "Coffret à souvenirs en bois",
+        "nl": "Houten herinneringsdoos"
+      },
+      "dimensions": [
+        0.247,
+        0.1175,
+        0.17
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.38,
+            0.24,
+            0.13,
+            1
+          ],
+          "roughness": 0.79,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.56,
+            0.43,
+            0.23,
+            1
+          ],
+          "roughness": 0.35,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 940,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.hourglass",
+      "key": "hourglass",
+      "category": "decor",
+      "names": {
+        "de": "Sanduhr mit Holzgestell",
+        "en": "Hourglass with wooden frame",
+        "es": "Reloj de arena con estructura de madera",
+        "fr": "Sablier sur cadre en bois",
+        "nl": "Zandloper in houten frame"
+      },
+      "dimensions": [
+        0.15,
+        0.252,
+        0.15
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.41,
+            0.28,
+            0.14,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "glass",
+          "color": [
+            0.7,
+            0.75,
+            0.7,
+            0.25
+          ],
+          "roughness": 0.12,
+          "metallic": 0,
+          "finish": "glass",
+          "editable": false
+        },
+        {
+          "id": "sand",
+          "color": [
+            0.73,
+            0.56,
+            0.31,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1828,
+      "batch": "decor",
+      "review": "pending"
+    },
+    {
+      "id": "living.soap_pump",
+      "key": "soap_pump",
+      "category": "bathroom",
+      "names": {
+        "de": "Keramik-Seifenspender",
+        "en": "Ceramic soap dispenser",
+        "es": "Dispensador de jabón de cerámica",
+        "fr": "Distributeur de savon en céramique",
+        "nl": "Keramische zeepdispenser"
+      },
+      "dimensions": [
+        0.1171,
+        0.21071,
+        0.104
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.51,
+            0.63,
+            0.58,
+            1
+          ],
+          "roughness": 0.46,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.5,
+            0.53,
+            0.5,
+            1
+          ],
+          "roughness": 0.27,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 912,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.toothbrush_holder",
+      "key": "toothbrush_holder",
+      "category": "bathroom",
+      "names": {
+        "de": "Zahnbürstenhalter mit Bambusbürsten",
+        "en": "Toothbrush holder with bamboo brushes",
+        "es": "Portacepillos con cepillos de bambú",
+        "fr": "Porte-brosses avec brosses en bambou",
+        "nl": "Tandenborstelhouder met bamboeborstels"
+      },
+      "dimensions": [
+        0.08,
+        0.205,
+        0.08
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.67,
+            0.6,
+            0.46,
+            1
+          ],
+          "roughness": 0.5,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.52,
+            0.36,
+            0.18,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "bristles",
+          "color": [
+            0.76,
+            0.76,
+            0.62,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 3032,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.cosmetic_bottles",
+      "key": "cosmetic_bottles",
+      "category": "bathroom",
+      "names": {
+        "de": "Kosmetikflaschen",
+        "en": "Cosmetic bottles",
+        "es": "Frascos de cosméticos",
+        "fr": "Flacons de cosmétiques",
+        "nl": "Cosmeticaflessen"
+      },
+      "dimensions": [
+        0.146,
+        0.187,
+        0.146
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.49,
+            0.57,
+            0.49,
+            1
+          ],
+          "roughness": 0.42,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.76,
+            0.69,
+            0.55,
+            1
+          ],
+          "roughness": 0.48,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "labels",
+          "color": [
+            0.79,
+            0.77,
+            0.66,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 2220,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.paper_holder",
+      "key": "paper_holder",
+      "category": "bathroom",
+      "names": {
+        "de": "Freistehender Toilettenpapierhalter",
+        "en": "Freestanding toilet roll holder",
+        "es": "Portarrollos de pie",
+        "fr": "Porte-papier toilette sur pied",
+        "nl": "Vrijstaande toiletrolhouder"
+      },
+      "dimensions": [
+        0.166,
+        0.596,
+        0.16
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.48,
+            0.42,
+            0.31,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "paper",
+          "color": [
+            0.88,
+            0.84,
+            0.72,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 724,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.bath_basket",
+      "key": "bath_basket",
+      "category": "bathroom",
+      "names": {
+        "de": "Badkorb mit Handtüchern",
+        "en": "Bathroom basket with towels",
+        "es": "Cesta de baño con toallas",
+        "fr": "Panier de salle de bain avec serviettes",
+        "nl": "Badkamermand met handdoeken"
+      },
+      "dimensions": [
+        0.27,
+        0.17486,
+        0.20362
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.49,
+            0.34,
+            0.19,
+            1
+          ],
+          "roughness": 0.88,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.72,
+            0.7,
+            0.57,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 5984,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.soap_dish",
+      "key": "soap_dish",
+      "category": "bathroom",
+      "names": {
+        "de": "Seifenschale mit Seife",
+        "en": "Soap dish with soap",
+        "es": "Jabonera con jabón",
+        "fr": "Porte-savon avec savon",
+        "nl": "Zeepschaal met zeep"
+      },
+      "dimensions": [
+        0.232,
+        0.0455,
+        0.16
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.43,
+            0.56,
+            0.49,
+            1
+          ],
+          "roughness": 0.57,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.8,
+            0.7,
+            0.46,
+            1
+          ],
+          "roughness": 0.81,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1232,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.rolled_towels",
+      "key": "rolled_towels",
+      "category": "bathroom",
+      "names": {
+        "de": "Gerollte Gästehandtücher",
+        "en": "Rolled guest towels",
+        "es": "Toallas de invitados enrolladas",
+        "fr": "Serviettes d’invités roulées",
+        "nl": "Opgerolde gastendoekjes"
+      },
+      "dimensions": [
+        0.27,
+        0.088,
+        0.2233
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.57,
+            0.65,
+            0.58,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.77,
+            0.76,
+            0.64,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 3144,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.bath_plant",
+      "key": "bath_plant",
+      "category": "bathroom",
+      "names": {
+        "de": "Kleine Ufopflanze",
+        "en": "Small Chinese money plant",
+        "es": "Pequeña planta del dinero china",
+        "fr": "Petit pilea",
+        "nl": "Kleine pannenkoekplant"
+      },
+      "dimensions": [
+        0.14315,
+        0.17591,
+        0.1415
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.74,
+            0.68,
+            0.53,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soil",
+          "color": [
+            0.085,
+            0.055,
+            0.027,
+            1
+          ],
+          "roughness": 1,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "leaves",
+          "color": [
+            0.12,
+            0.27,
+            0.1,
+            1
+          ],
+          "roughness": 0.73,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "young_leaves",
+          "color": [
+            0.24,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.76,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "stems",
+          "color": [
+            0.19,
+            0.24,
+            0.09,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 4424,
+      "batch": "bathroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.alarm_clock",
+      "key": "alarm_clock",
+      "category": "bedroom",
+      "names": {
+        "de": "Analoger Doppelglockenwecker",
+        "en": "Analog twin-bell alarm clock",
+        "es": "Despertador analógico de dos campanas",
+        "fr": "Réveil analogique à deux cloches",
+        "nl": "Analoge wekker met twee bellen"
+      },
+      "dimensions": [
+        0.142,
+        0.19001,
+        0.0565
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.37,
+            0.48,
+            0.45,
+            1
+          ],
+          "roughness": 0.44,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.58,
+            0.49,
+            0.32,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "face",
+          "color": [
+            0.83,
+            0.79,
+            0.64,
+            1
+          ],
+          "roughness": 0.87,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "hands",
+          "color": [
+            0.07,
+            0.1,
+            0.09,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 6616,
+      "batch": "bedroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.jewelry_dish",
+      "key": "jewelry_dish",
+      "category": "bedroom",
+      "names": {
+        "de": "Schmuckschale",
+        "en": "Jewelry dish",
+        "es": "Bandeja para joyas",
+        "fr": "Coupelle à bijoux",
+        "nl": "Sieradenschaaltje"
+      },
+      "dimensions": [
+        0.156,
+        0.0255,
+        0.156
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.72,
+            0.57,
+            0.43,
+            1
+          ],
+          "roughness": 0.57,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.63,
+            0.5,
+            0.25,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.9,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 1956,
+      "batch": "bedroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.folded_duvet",
+      "key": "folded_duvet",
+      "category": "bedroom",
+      "names": {
+        "de": "Gefaltete Steppdecke",
+        "en": "Folded quilt",
+        "es": "Edredón doblado",
+        "fr": "Couette pliée",
+        "nl": "Gevouwen dekbed"
+      },
+      "dimensions": [
+        0.83,
+        0.27152,
+        0.56
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.77,
+            0.74,
+            0.62,
+            1
+          ],
+          "roughness": 0.97,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.53,
+            0.6,
+            0.53,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 8096,
+      "batch": "bedroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.bolster",
+      "key": "bolster",
+      "category": "bedroom",
+      "names": {
+        "de": "Nackenrolle mit Keder",
+        "en": "Bolster with piping",
+        "es": "Cojín cilíndrico con ribete",
+        "fr": "Traversin passepoilé",
+        "nl": "Rolkussen met bies"
+      },
+      "dimensions": [
+        0.4808,
+        0.16,
+        0.16
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.44,
+            0.49,
+            0.43,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.72,
+            0.64,
+            0.47,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        }
+      ],
+      "triangles": 1644,
+      "batch": "bedroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.bedside_lamp",
+      "key": "bedside_lamp",
+      "category": "bedroom",
+      "names": {
+        "de": "Keramik-Nachttischlampe",
+        "en": "Ceramic bedside lamp",
+        "es": "Lámpara de noche de cerámica",
+        "fr": "Lampe de chevet en céramique",
+        "nl": "Keramische nachtlamp"
+      },
+      "dimensions": [
+        0.257,
+        0.383,
+        0.257
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.62,
+            0.46,
+            0.31,
+            1
+          ],
+          "roughness": 0.69,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.82,
+            0.74,
+            0.57,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "metal",
+          "color": [
+            0.46,
+            0.38,
+            0.25,
+            1
+          ],
+          "roughness": 0.33,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 2932,
+      "batch": "bedroom",
+      "review": "pending"
+    },
+    {
+      "id": "living.arr_coffee",
+      "key": "arr_coffee",
+      "category": "arrangements",
+      "names": {
+        "de": "Kaffeeecke",
+        "en": "Coffee corner",
+        "es": "Rincón de café",
+        "fr": "Coin café",
+        "nl": "Koffiehoek"
+      },
+      "dimensions": [
+        0.5985,
+        0.39,
+        0.349
+      ],
+      "zones": [
+        {
+          "id": "coffee_automatic_body",
+          "color": [
+            0.16,
+            0.24,
+            0.23,
+            1
+          ],
+          "roughness": 0.32,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "coffee_automatic_accent",
+          "color": [
+            0.53,
+            0.56,
+            0.57,
+            1
+          ],
+          "roughness": 0.23,
+          "metallic": 0.9,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "coffee_automatic_technical",
+          "color": [
+            0.022,
+            0.027,
+            0.031,
+            1
+          ],
+          "roughness": 0.48,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "coffee_automatic_beans",
+          "color": [
+            0.12,
+            0.055,
+            0.025,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "coffee_automatic_ceramic",
+          "color": [
+            0.9,
+            0.85,
+            0.73,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "mugs_body",
+          "color": [
+            0.65,
+            0.48,
+            0.34,
+            1
+          ],
+          "roughness": 0.43,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "mugs_accent",
+          "color": [
+            0.31,
+            0.44,
+            0.43,
+            1
+          ],
+          "roughness": 0.43,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "coffee_tin_body",
+          "color": [
+            0.27,
+            0.36,
+            0.34,
+            1
+          ],
+          "roughness": 0.38,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "coffee_tin_accent",
+          "color": [
+            0.57,
+            0.52,
+            0.39,
+            1
+          ],
+          "roughness": 0.28,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 10472,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.coffee_automatic",
+          "offset": [
+            -0.19,
+            0,
+            -0.035
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.mugs",
+          "offset": [
+            0.1,
+            0,
+            0.08
+          ],
+          "yaw": -0.12
+        },
+        {
+          "id": "living.coffee_tin",
+          "offset": [
+            0.19,
+            0,
+            -0.14
+          ],
+          "yaw": 0
+        }
+      ]
+    },
+    {
+      "id": "living.arr_counter",
+      "key": "arr_counter",
+      "category": "arrangements",
+      "names": {
+        "de": "Arrangement für die Arbeitsplatte",
+        "en": "Countertop accessory arrangement",
+        "es": "Composición de accesorios para encimera",
+        "fr": "Composition d’accessoires pour plan de travail",
+        "nl": "Accessoires voor het aanrecht"
+      },
+      "dimensions": [
+        0.4895,
+        0.377,
+        0.3771
+      ],
+      "zones": [
+        {
+          "id": "toaster_body",
+          "color": [
+            0.78,
+            0.63,
+            0.45,
+            1
+          ],
+          "roughness": 0.35,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "toaster_accent",
+          "color": [
+            0.6,
+            0.63,
+            0.64,
+            1
+          ],
+          "roughness": 0.22,
+          "metallic": 0.9,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "toaster_technical",
+          "color": [
+            0.025,
+            0.025,
+            0.026,
+            1
+          ],
+          "roughness": 0.6,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "utensil_crock_body",
+          "color": [
+            0.71,
+            0.63,
+            0.47,
+            1
+          ],
+          "roughness": 0.62,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "utensil_crock_accent",
+          "color": [
+            0.52,
+            0.33,
+            0.16,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "utensil_crock_metal",
+          "color": [
+            0.49,
+            0.51,
+            0.5,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "cutting_boards_body",
+          "color": [
+            0.51,
+            0.31,
+            0.16,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "cutting_boards_accent",
+          "color": [
+            0.3,
+            0.2,
+            0.12,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        }
+      ],
+      "triangles": 6424,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.toaster",
+          "offset": [
+            -0.18,
+            0,
+            0.06
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.utensil_crock",
+          "offset": [
+            0.1,
+            0,
+            -0.055
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.cutting_boards",
+          "offset": [
+            -0.07,
+            0,
+            -0.19
+          ],
+          "yaw": -0.1
+        }
+      ]
+    },
+    {
+      "id": "living.arr_coffee_table",
+      "key": "arr_coffee_table",
+      "category": "arrangements",
+      "names": {
+        "de": "Kerzen und Schale auf dem Couchtisch",
+        "en": "Coffee table candles and bowl",
+        "es": "Velas y cuenco para mesa de centro",
+        "fr": "Bougies et coupe pour table basse",
+        "nl": "Kaarsen en schaal voor de salontafel"
+      },
+      "dimensions": [
+        0.658,
+        0.19813,
+        0.58592
+      ],
+      "zones": [
+        {
+          "id": "candle_tray_body",
+          "color": [
+            0.49,
+            0.37,
+            0.24,
+            1
+          ],
+          "roughness": 0.7,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "candle_tray_wax",
+          "color": [
+            0.88,
+            0.8,
+            0.62,
+            1
+          ],
+          "roughness": 0.67,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "candle_tray_wick",
+          "color": [
+            0.05,
+            0.035,
+            0.025,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "decor_bowl_body",
+          "color": [
+            0.58,
+            0.39,
+            0.26,
+            1
+          ],
+          "roughness": 0.72,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "magazine_body",
+          "color": [
+            0.58,
+            0.32,
+            0.24,
+            1
+          ],
+          "roughness": 0.81,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "magazine_paper",
+          "color": [
+            0.82,
+            0.78,
+            0.66,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "magazine_print",
+          "color": [
+            0.28,
+            0.38,
+            0.35,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 6464,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.candle_tray",
+          "offset": [
+            -0.16,
+            0,
+            -0.02
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.decor_bowl",
+          "offset": [
+            0.17,
+            0,
+            0.035
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.magazine",
+          "offset": [
+            0.15,
+            0,
+            -0.22
+          ],
+          "yaw": 0.12
+        }
+      ]
+    },
+    {
+      "id": "living.arr_sideboard",
+      "key": "arr_sideboard",
+      "category": "arrangements",
+      "names": {
+        "de": "Vase, Bücher und Bild",
+        "en": "Vase, books and picture",
+        "es": "Jarrón, libros y cuadro",
+        "fr": "Vase, livres et cadre",
+        "nl": "Vaas, boeken en lijst"
+      },
+      "dimensions": [
+        0.68989,
+        0.46689,
+        0.27792
+      ],
+      "zones": [
+        {
+          "id": "tulip_vase_body",
+          "color": [
+            0.68,
+            0.35,
+            0.26,
+            1
+          ],
+          "roughness": 0.62,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "tulip_vase_stems",
+          "color": [
+            0.16,
+            0.27,
+            0.08,
+            1
+          ],
+          "roughness": 0.86,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "tulip_vase_leaves",
+          "color": [
+            0.22,
+            0.36,
+            0.12,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "tulip_vase_flowers",
+          "color": [
+            0.92,
+            0.66,
+            0.36,
+            1
+          ],
+          "roughness": 0.56,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "book_stack_body",
+          "color": [
+            0.23,
+            0.35,
+            0.39,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "book_stack_accent",
+          "color": [
+            0.69,
+            0.39,
+            0.23,
+            1
+          ],
+          "roughness": 0.74,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "book_stack_paper",
+          "color": [
+            0.79,
+            0.75,
+            0.65,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "picture_frame_body",
+          "color": [
+            0.42,
+            0.27,
+            0.14,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "picture_frame_mat",
+          "color": [
+            0.82,
+            0.78,
+            0.68,
+            1
+          ],
+          "roughness": 0.91,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "picture_frame_accent",
+          "color": [
+            0.4,
+            0.48,
+            0.38,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 19006,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.tulip_vase",
+          "offset": [
+            -0.24,
+            0,
+            0
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.book_stack",
+          "offset": [
+            0.02,
+            0,
+            0.045
+          ],
+          "yaw": -0.05
+        },
+        {
+          "id": "living.picture_frame",
+          "offset": [
+            0.23,
+            0,
+            -0.08
+          ],
+          "yaw": -0.13
+        }
+      ]
+    },
+    {
+      "id": "living.arr_autumn",
+      "key": "arr_autumn",
+      "category": "arrangements",
+      "names": {
+        "de": "Herbstliches Tischarrangement",
+        "en": "Autumn table arrangement",
+        "es": "Composición otoñal de mesa",
+        "fr": "Composition de table automnale",
+        "nl": "Herfsttafelarrangement"
+      },
+      "dimensions": [
+        0.6071,
+        0.446,
+        0.46839
+      ],
+      "zones": [
+        {
+          "id": "pumpkin_body",
+          "color": [
+            0.71,
+            0.29,
+            0.075,
+            1
+          ],
+          "roughness": 0.75,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "pumpkin_stem",
+          "color": [
+            0.28,
+            0.25,
+            0.11,
+            1
+          ],
+          "roughness": 0.93,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "candle_holder_body",
+          "color": [
+            0.52,
+            0.39,
+            0.2,
+            1
+          ],
+          "roughness": 0.32,
+          "metallic": 0.78,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "candle_holder_wax",
+          "color": [
+            0.84,
+            0.76,
+            0.59,
+            1
+          ],
+          "roughness": 0.72,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "candle_holder_wick",
+          "color": [
+            0.04,
+            0.03,
+            0.02,
+            1
+          ],
+          "roughness": 0.99,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "dried_bouquet_body",
+          "color": [
+            0.63,
+            0.5,
+            0.33,
+            1
+          ],
+          "roughness": 0.84,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "dried_bouquet_stems",
+          "color": [
+            0.45,
+            0.34,
+            0.19,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "dried_bouquet_flowers",
+          "color": [
+            0.67,
+            0.5,
+            0.28,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "dried_bouquet_leaves",
+          "color": [
+            0.45,
+            0.49,
+            0.32,
+            1
+          ],
+          "roughness": 0.92,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 17580,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.pumpkin",
+          "offset": [
+            -0.2,
+            0,
+            0.025
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.candle_holder",
+          "offset": [
+            0.16,
+            0,
+            -0.02
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.dried_bouquet",
+          "offset": [
+            -0.025,
+            0,
+            -0.2
+          ],
+          "yaw": 0
+        }
+      ]
+    },
+    {
+      "id": "living.arr_bathroom",
+      "key": "arr_bathroom",
+      "category": "arrangements",
+      "names": {
+        "de": "Handtücher und Seife",
+        "en": "Towels and soap",
+        "es": "Toallas y jabón",
+        "fr": "Serviettes et savon",
+        "nl": "Handdoeken en zeep"
+      },
+      "dimensions": [
+        0.516,
+        0.21071,
+        0.325
+      ],
+      "zones": [
+        {
+          "id": "towel_stack_body",
+          "color": [
+            0.62,
+            0.67,
+            0.58,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "towel_stack_accent",
+          "color": [
+            0.8,
+            0.79,
+            0.69,
+            1
+          ],
+          "roughness": 0.98,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "soap_pump_body",
+          "color": [
+            0.51,
+            0.63,
+            0.58,
+            1
+          ],
+          "roughness": 0.46,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soap_pump_accent",
+          "color": [
+            0.5,
+            0.53,
+            0.5,
+            1
+          ],
+          "roughness": 0.27,
+          "metallic": 0.85,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soap_dish_body",
+          "color": [
+            0.43,
+            0.56,
+            0.49,
+            1
+          ],
+          "roughness": 0.57,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "soap_dish_accent",
+          "color": [
+            0.8,
+            0.7,
+            0.46,
+            1
+          ],
+          "roughness": 0.81,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        }
+      ],
+      "triangles": 6524,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.towel_stack",
+          "offset": [
+            -0.13,
+            0,
+            0
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.soap_pump",
+          "offset": [
+            0.1,
+            0,
+            -0.025
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.soap_dish",
+          "offset": [
+            0.13,
+            0,
+            0.14
+          ],
+          "yaw": 0
+        }
+      ]
+    },
+    {
+      "id": "living.arr_bedside",
+      "key": "arr_bedside",
+      "category": "arrangements",
+      "names": {
+        "de": "Nachttischarrangement",
+        "en": "Bedside arrangement",
+        "es": "Composición de mesita de noche",
+        "fr": "Composition de chevet",
+        "nl": "Nachtkastjearrangement"
+      },
+      "dimensions": [
+        0.54276,
+        0.383,
+        0.39157
+      ],
+      "zones": [
+        {
+          "id": "bedside_lamp_body",
+          "color": [
+            0.62,
+            0.46,
+            0.31,
+            1
+          ],
+          "roughness": 0.69,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "bedside_lamp_accent",
+          "color": [
+            0.82,
+            0.74,
+            0.57,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "bedside_lamp_metal",
+          "color": [
+            0.46,
+            0.38,
+            0.25,
+            1
+          ],
+          "roughness": 0.33,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "alarm_clock_body",
+          "color": [
+            0.37,
+            0.48,
+            0.45,
+            1
+          ],
+          "roughness": 0.44,
+          "metallic": 0,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "alarm_clock_accent",
+          "color": [
+            0.58,
+            0.49,
+            0.32,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.8,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "alarm_clock_face",
+          "color": [
+            0.83,
+            0.79,
+            0.64,
+            1
+          ],
+          "roughness": 0.87,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "alarm_clock_hands",
+          "color": [
+            0.07,
+            0.1,
+            0.09,
+            1
+          ],
+          "roughness": 0.65,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "book_stack_body",
+          "color": [
+            0.23,
+            0.35,
+            0.39,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "book_stack_accent",
+          "color": [
+            0.69,
+            0.39,
+            0.23,
+            1
+          ],
+          "roughness": 0.74,
+          "metallic": 0,
+          "finish": "fabric",
+          "editable": true
+        },
+        {
+          "id": "book_stack_paper",
+          "color": [
+            0.79,
+            0.75,
+            0.65,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 12932,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.bedside_lamp",
+          "offset": [
+            -0.18,
+            0,
+            -0.035
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.alarm_clock",
+          "offset": [
+            0.08,
+            0,
+            -0.06
+          ],
+          "yaw": -0.1
+        },
+        {
+          "id": "living.book_stack",
+          "offset": [
+            0.11,
+            0,
+            0.13
+          ],
+          "yaw": 0.12
+        }
+      ]
+    },
+    {
+      "id": "living.arr_hearth",
+      "key": "arr_hearth",
+      "category": "arrangements",
+      "names": {
+        "de": "Kaminbereich mit Holz und Besteck",
+        "en": "Fireplace arrangement with wood and tools",
+        "es": "Composición de chimenea con leña y utensilios",
+        "fr": "Composition de cheminée avec bûches et outils",
+        "nl": "Haardarrangement met hout en haardset"
+      },
+      "dimensions": [
+        0.62699,
+        0.68,
+        0.31656
+      ],
+      "zones": [
+        {
+          "id": "log_basket_body",
+          "color": [
+            0.49,
+            0.32,
+            0.16,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "log_basket_accent",
+          "color": [
+            0.32,
+            0.21,
+            0.11,
+            1
+          ],
+          "roughness": 0.85,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "log_basket_logs",
+          "color": [
+            0.27,
+            0.14,
+            0.055,
+            1
+          ],
+          "roughness": 0.96,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        },
+        {
+          "id": "log_basket_endgrain",
+          "color": [
+            0.62,
+            0.45,
+            0.26,
+            1
+          ],
+          "roughness": 0.9,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": false
+        },
+        {
+          "id": "fireplace_tools_body",
+          "color": [
+            0.13,
+            0.15,
+            0.14,
+            1
+          ],
+          "roughness": 0.56,
+          "metallic": 0.75,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "fireplace_tools_accent",
+          "color": [
+            0.44,
+            0.3,
+            0.16,
+            1
+          ],
+          "roughness": 0.8,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "fireplace_tools_bristles",
+          "color": [
+            0.31,
+            0.25,
+            0.16,
+            1
+          ],
+          "roughness": 0.95,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 23858,
+      "batch": "arrangements",
+      "review": "pending",
+      "components": [
+        {
+          "id": "living.log_basket",
+          "offset": [
+            -0.19,
+            0,
+            0.02
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.fireplace_tools",
+          "offset": [
+            0.18,
+            0,
+            -0.025
+          ],
+          "yaw": 0
+        }
+      ]
+    },
+    {
+      "id": "living.christmas_tree",
+      "key": "christmas_tree",
+      "category": "seasonal",
+      "names": {
+        "de": "Weihnachtsbaum",
+        "en": "Christmas tree",
+        "es": "Árbol de Navidad",
+        "fr": "Sapin de Noël",
+        "nl": "Kerstboom"
+      },
+      "dimensions": [
+        1.30507,
+        2.084,
+        1.20993
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.34,
+            0.22,
+            0.12,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "fir_shadow",
+          "color": [
+            0.055,
+            0.155,
+            0.108,
+            1
+          ],
+          "roughness": 0.94,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "fir_tips",
+          "color": [
+            0.105,
+            0.245,
+            0.155,
+            1
+          ],
+          "roughness": 0.89,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.6,
+            0.37,
+            0.13,
+            1
+          ],
+          "roughness": 0.3,
+          "metallic": 0.62,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "cranberry",
+          "color": [
+            0.46,
+            0.075,
+            0.06,
+            1
+          ],
+          "roughness": 0.34,
+          "metallic": 0.45,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "bulb0",
+          "color": [
+            0.88,
+            0.75,
+            0.54,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "bulb1",
+          "color": [
+            0.88,
+            0.75,
+            0.54,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "bulb2",
+          "color": [
+            0.88,
+            0.75,
+            0.54,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        },
+        {
+          "id": "bulb3",
+          "color": [
+            0.88,
+            0.75,
+            0.54,
+            1
+          ],
+          "roughness": 0.36,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 30380,
+      "batch": "christmas",
+      "review": "pending"
+    },
+    {
+      "id": "living.window_star",
+      "key": "window_star",
+      "category": "seasonal",
+      "names": {
+        "de": "Leuchtstern",
+        "en": "Illuminated star",
+        "es": "Estrella luminosa",
+        "fr": "Étoile lumineuse",
+        "nl": "Lichtster"
+      },
+      "dimensions": [
+        0.43368,
+        0.56446,
+        0.09
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.51,
+            0.34,
+            0.16,
+            1
+          ],
+          "roughness": 0.44,
+          "metallic": 0.58,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "bulb0",
+          "color": [
+            0.94,
+            0.8,
+            0.55,
+            1
+          ],
+          "roughness": 0.81,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 40,
+      "batch": "christmas",
+      "review": "pending"
+    },
+    {
+      "id": "living.window_arch",
+      "key": "window_arch",
+      "category": "seasonal",
+      "names": {
+        "de": "Fensterleuchter",
+        "en": "Window candle bridge",
+        "es": "Candelabro de ventana",
+        "fr": "Chandelier de fenêtre",
+        "nl": "Vensterkandelaar"
+      },
+      "dimensions": [
+        0.48,
+        0.2505,
+        0.076
+      ],
+      "zones": [
+        {
+          "id": "body",
+          "color": [
+            0.59,
+            0.42,
+            0.25,
+            1
+          ],
+          "roughness": 0.78,
+          "metallic": 0,
+          "finish": "wood",
+          "editable": true
+        },
+        {
+          "id": "accent",
+          "color": [
+            0.57,
+            0.38,
+            0.15,
+            1
+          ],
+          "roughness": 0.41,
+          "metallic": 0.62,
+          "finish": "",
+          "editable": true
+        },
+        {
+          "id": "bulb0",
+          "color": [
+            0.92,
+            0.84,
+            0.68,
+            1
+          ],
+          "roughness": 0.38,
+          "metallic": 0,
+          "finish": "",
+          "editable": false
+        }
+      ],
+      "triangles": 1504,
+      "batch": "christmas",
+      "review": "pending"
+    }
+  ]
+}

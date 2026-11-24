@@ -1,0 +1,4006 @@
+{
+  "schema": "mikonus.signature-outdoor",
+  "version": "1.0.0",
+  "coordinates": {
+    "units": "metres",
+    "handedness": "right",
+    "up": "+Y",
+    "east": "+X",
+    "north": "-Z",
+    "pivot": "per_variant",
+    "saved_root": "unchanged",
+    "fit": "render_child_only"
+  },
+  "primary_material_aliases": [
+    "primary",
+    "Hauptmaterial"
+  ],
+  "color_presets": {
+    "warm_gray": [
+      0.49,
+      0.46,
+      0.42,
+      1
+    ],
+    "sand": [
+      0.72,
+      0.66,
+      0.54,
+      1
+    ],
+    "sage_green": [
+      0.4,
+      0.51,
+      0.4,
+      1
+    ],
+    "anthracite": [
+      0.16,
+      0.18,
+      0.18,
+      1
+    ],
+    "off_white": [
+      0.9,
+      0.89,
+      0.83,
+      1
+    ],
+    "white": [
+      0.94,
+      0.94,
+      0.91,
+      1
+    ],
+    "blue": [
+      0.12,
+      0.28,
+      0.45,
+      1
+    ],
+    "pink": [
+      0.72,
+      0.35,
+      0.48,
+      1
+    ],
+    "purple": [
+      0.43,
+      0.31,
+      0.64,
+      1
+    ],
+    "golden": [
+      0.48,
+      0.55,
+      0.25,
+      1
+    ],
+    "metal": [
+      0.16,
+      0.18,
+      0.18,
+      1
+    ],
+    "modern": [
+      0.49,
+      0.46,
+      0.42,
+      1
+    ],
+    "round_gray": [
+      0.49,
+      0.46,
+      0.42,
+      1
+    ],
+    "compact_gray": [
+      0.49,
+      0.46,
+      0.42,
+      1
+    ],
+    "round_sage": [
+      0.4,
+      0.51,
+      0.4,
+      1
+    ],
+    "compact_sage": [
+      0.4,
+      0.51,
+      0.4,
+      1
+    ],
+    "historical_lying_anthracite": [
+      0.16,
+      0.18,
+      0.18,
+      1
+    ],
+    "historical_lying_warm_gray": [
+      0.49,
+      0.46,
+      0.42,
+      1
+    ]
+  },
+  "legacy_material_slots": {
+    "body": [
+      "body",
+      "housing",
+      "shell",
+      "fur",
+      "feathers",
+      "bowl",
+      "base",
+      "wallBody"
+    ],
+    "shell": [
+      "shell",
+      "housing"
+    ],
+    "frame": [
+      "frame",
+      "structure"
+    ],
+    "technicalParts": [
+      "technicalParts",
+      "hardware",
+      "metal",
+      "grille",
+      "controls",
+      "rubber",
+      "connector",
+      "emitter"
+    ],
+    "mount": [
+      "mount",
+      "metal",
+      "hardware"
+    ],
+    "seat": [
+      "seat",
+      "accents",
+      "cushions"
+    ],
+    "interior": [
+      "interior",
+      "lining"
+    ],
+    "steps": [
+      "steps",
+      "lining"
+    ],
+    "slats": [
+      "slats",
+      "accents",
+      "infill",
+      "wood",
+      "panel"
+    ],
+    "details": [
+      "details",
+      "hardware",
+      "metal",
+      "seams",
+      "accents"
+    ],
+    "trunk": [
+      "bark"
+    ],
+    "leaves": [
+      "foliage"
+    ],
+    "flowers": [
+      "petal",
+      "flower"
+    ]
+  },
+  "vegetation_placement_aliases": {
+    "grass": {
+      "natural": "fine"
+    }
+  },
+  "policy": {
+    "allowlist_only": true,
+    "legacy_fallback": false,
+    "primitive_fallback": false,
+    "external_publication_authorized": true
+  },
+  "objects": [
+    {
+      "asset_id": "outdoor_tree",
+      "catalog_type": "tree",
+      "catalog_forms": [
+        "serviceberry_master",
+        "slender_tree",
+        "flowering_tree"
+      ],
+      "dashboard_export": "portable_glb_pbr_with_documented_runtime_adapters",
+      "family": "V01",
+      "variants": [
+        {
+          "legacy_variant": "round_crown",
+          "master": "serviceberry_master",
+          "glb": "assets/incoming/signature_collection/serviceberry_master.glb",
+          "material_slots": [
+            "bark",
+            "foliage"
+          ],
+          "tint_slots": [
+            "foliage"
+          ],
+          "parameters": {
+            "legacy_variant": "round_crown",
+            "color_preset": "round_crown",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "round_crown"
+          },
+          "visible_entry": "outdoor_tree",
+          "dimensions_m": [
+            2.907115,
+            4.202258,
+            3.132182
+          ],
+          "bounds_m": {
+            "min": [
+              -1.4535574913024902,
+              0,
+              -1.5660910606384277
+            ],
+            "max": [
+              1.4535574913024902,
+              4.202258110046387,
+              1.5660910606384277
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/serviceberry_master_lod1.glb",
+            "sha256": "66be126a9b2e50f23327a64d6879e336f27474feaacc0b81ea97afc06e877ed1",
+            "bytes": 1264424,
+            "triangles": 14660,
+            "material_slots": [
+              "bark",
+              "foliage"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              },
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending.",
+            "Slender and flowering tree forms are separate production gaps; this master must not stand in for them."
+          ],
+          "license": "Original Mikonus Living Island Phase 1C; original source retained byte-identically",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "96b2aa0894456d08761a57388f385834f7768b82feee74f1b109a9e102331807"
+        },
+        {
+          "legacy_variant": "slender",
+          "master": "slender_tree",
+          "glb": "assets/incoming/signature_collection/slender_tree.glb",
+          "material_slots": [
+            "foliage",
+            "bark"
+          ],
+          "tint_slots": [
+            "foliage"
+          ],
+          "parameters": {
+            "legacy_variant": "slender",
+            "color_preset": "slender",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "slender"
+          },
+          "visible_entry": "outdoor_tree",
+          "dimensions_m": [
+            1.608005,
+            3.328779,
+            1.603837
+          ],
+          "bounds_m": {
+            "min": [
+              -0.8040022850036621,
+              0,
+              -0.8019186854362488
+            ],
+            "max": [
+              0.8040022850036621,
+              3.3287785053253174,
+              0.8019186854362488
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/slender_tree_lod1.glb",
+            "sha256": "a8915185971403b52737cdb6f03991a361127f323cfb529787cb4533ba524775",
+            "bytes": 622836,
+            "triangles": 7949,
+            "material_slots": [
+              "foliage",
+              "bark"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "5cd0c2350f60ef17aa3491d2cf19054721163886f6da197c4e230f798b47c6b6"
+        },
+        {
+          "legacy_variant": "flowering",
+          "master": "flowering_tree",
+          "glb": "assets/incoming/signature_collection/flowering_tree.glb",
+          "material_slots": [
+            "floret",
+            "stem",
+            "foliage",
+            "bark",
+            "petal"
+          ],
+          "tint_slots": [
+            "foliage",
+            "petal"
+          ],
+          "parameters": {
+            "legacy_variant": "flowering",
+            "color_preset": "flowering",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "flowering"
+          },
+          "visible_entry": "outdoor_tree",
+          "dimensions_m": [
+            2.07249,
+            2.949524,
+            2.105376
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0362451076507568,
+              0,
+              -1.0526878833770752
+            ],
+            "max": [
+              1.0362451076507568,
+              2.949523687362671,
+              1.0526878833770752
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/flowering_tree_lod1.glb",
+            "sha256": "2cab8f9f436fe48a2abd72cb1f4ca7c30930430ebfd5986cb3e66dbca1169ba9",
+            "bytes": 1405468,
+            "triangles": 20073,
+            "material_slots": [
+              "floret",
+              "stem",
+              "foliage",
+              "bark",
+              "petal"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              },
+              {
+                "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+                "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+                "bytes": 4868
+              },
+              {
+                "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+                "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+                "bytes": 58725
+              },
+              {
+                "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+                "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+                "bytes": 27881
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "petal": {
+              "base_color_factor": [
+                0.95,
+                0.88,
+                0.75,
+                1
+              ],
+              "override": "replace_factor_preserve_textures_and_grayscale_variation"
+            },
+            "floret": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "9ade61755c8536a292cecff58006f66ff2b4714078f39781b02df4d0b2a7a69b"
+        }
+      ]
+    },
+    {
+      "asset_id": "outdoor_shrub",
+      "catalog_type": "shrub",
+      "catalog_forms": [
+        "mounded_shrub",
+        "natural_shrub",
+        "flowering_shrub"
+      ],
+      "dashboard_export": "portable_glb_pbr_with_documented_runtime_adapters",
+      "family": "V02",
+      "variants": [
+        {
+          "legacy_variant": "mounded",
+          "master": "mounded_shrub",
+          "glb": "assets/incoming/signature_collection/mounded_shrub.glb",
+          "material_slots": [
+            "bark",
+            "foliage"
+          ],
+          "tint_slots": [
+            "foliage"
+          ],
+          "parameters": {
+            "legacy_variant": "mounded",
+            "color_preset": "mounded",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "mounded"
+          },
+          "visible_entry": "outdoor_shrub",
+          "dimensions_m": [
+            1.10261,
+            0.66381,
+            1.033529
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5513050556182861,
+              0,
+              -0.5167644023895264
+            ],
+            "max": [
+              0.5513050556182861,
+              0.6638100743293762,
+              0.5167644023895264
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/mounded_shrub_lod1.glb",
+            "sha256": "4680d95f28464754b0b1d64ed4c4d8ee163ebdcf10b201682a4b5ea93ffe8083",
+            "bytes": 201688,
+            "triangles": 2571,
+            "material_slots": [
+              "bark",
+              "foliage"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              },
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "70b11eadd02207cb06e39080464a5e4d3b8a9facb95c420ced9c5184b9a6131d"
+        },
+        {
+          "legacy_variant": "natural",
+          "master": "natural_shrub",
+          "glb": "assets/incoming/signature_collection/natural_shrub.glb",
+          "material_slots": [
+            "bark",
+            "foliage"
+          ],
+          "tint_slots": [
+            "foliage"
+          ],
+          "parameters": {
+            "legacy_variant": "natural",
+            "color_preset": "natural",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "natural"
+          },
+          "visible_entry": "outdoor_shrub",
+          "dimensions_m": [
+            1.130292,
+            0.613231,
+            1.271956
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5651458501815796,
+              0,
+              -0.635978102684021
+            ],
+            "max": [
+              0.5651458501815796,
+              0.6132314801216125,
+              0.635978102684021
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/natural_shrub_lod1.glb",
+            "sha256": "4f90e396754d40066ba255a3ecb9a6c5b76a5c7d9ca28516f4befaadfe8d1e1c",
+            "bytes": 201400,
+            "triangles": 2571,
+            "material_slots": [
+              "bark",
+              "foliage"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              },
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "99b38a085d816c9ad1c488a3d911ba241b48f0fa453b0edab8ba8427a3a47d65"
+        },
+        {
+          "legacy_variant": "flowering",
+          "master": "flowering_shrub",
+          "glb": "assets/incoming/signature_collection/flowering_shrub.glb",
+          "material_slots": [
+            "bark",
+            "floret",
+            "stem",
+            "foliage",
+            "petal"
+          ],
+          "tint_slots": [
+            "foliage",
+            "petal"
+          ],
+          "parameters": {
+            "legacy_variant": "flowering",
+            "color_preset": "flowering",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "flowering"
+          },
+          "visible_entry": "outdoor_shrub",
+          "dimensions_m": [
+            1.316615,
+            0.758845,
+            1.154275
+          ],
+          "bounds_m": {
+            "min": [
+              -0.6583072543144226,
+              0,
+              -0.5771376490592957
+            ],
+            "max": [
+              0.6583072543144226,
+              0.7588446140289307,
+              0.5771376490592957
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/flowering_shrub_lod1.glb",
+            "sha256": "bc2503f1978280f0dc889178a3d51a7c542ced0548733e262a73e9caba43405f",
+            "bytes": 429616,
+            "triangles": 6034,
+            "material_slots": [
+              "bark",
+              "floret",
+              "stem",
+              "foliage",
+              "petal"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              },
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+                "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+                "bytes": 4868
+              },
+              {
+                "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+                "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+                "bytes": 58725
+              },
+              {
+                "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+                "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+                "bytes": 27881
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "petal": {
+              "base_color_factor": [
+                0.93,
+                0.87,
+                0.72,
+                1
+              ],
+              "override": "replace_factor_preserve_textures_and_grayscale_variation"
+            },
+            "floret": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "308d5ef7b40c7065d44c0ea6b2899b25dd2fff269d06d1cb22bfd8ce602f04fc"
+        }
+      ]
+    },
+    {
+      "asset_id": "outdoor_hedge",
+      "catalog_type": "hedge",
+      "catalog_forms": [
+        "deciduous_hedge",
+        "natural_hedge"
+      ],
+      "dashboard_export": "portable_glb_pbr_with_documented_runtime_adapters",
+      "family": "V04",
+      "variants": [
+        {
+          "legacy_variant": "clipped",
+          "master": "deciduous_hedge",
+          "glb": "assets/incoming/signature_collection/deciduous_hedge.glb",
+          "material_slots": [
+            "bark",
+            "foliage"
+          ],
+          "tint_slots": [
+            "foliage"
+          ],
+          "parameters": {
+            "legacy_variant": "clipped",
+            "color_preset": "clipped",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "clipped"
+          },
+          "visible_entry": "outdoor_hedge",
+          "dimensions_m": [
+            2.506006,
+            1.06006,
+            0.756267
+          ],
+          "bounds_m": {
+            "min": [
+              -1.2530031204223633,
+              0,
+              -0.3781335651874542
+            ],
+            "max": [
+              1.2530031204223633,
+              1.0600602626800537,
+              0.3781335651874542
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/deciduous_hedge_lod1.glb",
+            "sha256": "aa42c8f916c3974cff4df3cf6a8b5ee12db0d3f90c8fb81b4200974b3049cbb6",
+            "bytes": 518336,
+            "triangles": 6314,
+            "material_slots": [
+              "bark",
+              "foliage"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              },
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "line_kit": {
+            "manifest": "manifests/collection_hedges.json",
+            "style": "clipped",
+            "straight_master": "hedge_clipped_straight_1200_a",
+            "status": "review_complete_modules"
+          },
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "664c17ca67e5022848ab775c6a85393648f96cde5161a731837d2dadb414077e"
+        },
+        {
+          "legacy_variant": "natural",
+          "master": "natural_hedge",
+          "glb": "assets/incoming/signature_collection/natural_hedge.glb",
+          "material_slots": [
+            "bark",
+            "foliage"
+          ],
+          "tint_slots": [
+            "foliage"
+          ],
+          "parameters": {
+            "legacy_variant": "natural",
+            "color_preset": "natural",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "natural"
+          },
+          "visible_entry": "outdoor_hedge",
+          "dimensions_m": [
+            2.610574,
+            1.21914,
+            0.927816
+          ],
+          "bounds_m": {
+            "min": [
+              -1.3052868843078613,
+              0,
+              -0.4639081358909607
+            ],
+            "max": [
+              1.3052868843078613,
+              1.2191401720046997,
+              0.4639081358909607
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/natural_hedge_lod1.glb",
+            "sha256": "64a4b268a8df0a8d0b15490d88c33baf3230b5356be6b2ce86360c8bd90f740d",
+            "bytes": 518280,
+            "triangles": 6314,
+            "material_slots": [
+              "bark",
+              "foliage"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+                "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+                "bytes": 183935
+              },
+              {
+                "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+                "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+                "bytes": 116663
+              },
+              {
+                "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+                "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+                "bytes": 117289
+              },
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "bark": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "line_kit": {
+            "manifest": "manifests/collection_hedges.json",
+            "style": "natural",
+            "straight_master": "hedge_natural_straight_1200_a",
+            "status": "review_complete_modules"
+          },
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "eb3d2d31d9118e7342137b2cd8b9527764dd163251ac79c8f2eab4f53cd2e90a"
+        }
+      ]
+    },
+    {
+      "asset_id": "outdoor_perennial",
+      "catalog_type": "perennial",
+      "catalog_forms": [
+        "lobed_groundcover",
+        "upright_perennial"
+      ],
+      "dashboard_export": "portable_glb_pbr_with_documented_runtime_adapters",
+      "family": "V05",
+      "variants": [
+        {
+          "legacy_variant": "leafy",
+          "master": "lobed_groundcover",
+          "glb": "assets/incoming/signature_collection/lobed_groundcover.glb",
+          "material_slots": [
+            "foliage",
+            "stem"
+          ],
+          "tint_slots": [
+            "foliage"
+          ],
+          "parameters": {
+            "legacy_variant": "leafy",
+            "color_preset": "leafy",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "leafy"
+          },
+          "visible_entry": "outdoor_perennial",
+          "dimensions_m": [
+            0.565379,
+            0.196451,
+            0.580318
+          ],
+          "bounds_m": {
+            "min": [
+              -0.2826894521713257,
+              0,
+              -0.2901591360569
+            ],
+            "max": [
+              0.2826894521713257,
+              0.19645093381404877,
+              0.2901591360569
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/lobed_groundcover_lod1.glb",
+            "sha256": "d927475a1dd96c3596e1c9de5a8e5e6e4cf5aab5335e89915a0f40c13f388a75",
+            "bytes": 68664,
+            "triangles": 1053,
+            "material_slots": [
+              "foliage",
+              "stem"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "3cb3c7612a957f52f2d126b6674643127868dab8950727dd7eaf6e5fe4892887"
+        },
+        {
+          "legacy_variant": "purple",
+          "master": "upright_perennial",
+          "glb": "assets/incoming/signature_collection/upright_perennial.glb",
+          "material_slots": [
+            "foliage",
+            "petal",
+            "stem"
+          ],
+          "tint_slots": [
+            "petal"
+          ],
+          "parameters": {
+            "legacy_variant": "purple",
+            "color_preset": "purple",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "upright"
+          },
+          "visible_entry": "outdoor_perennial",
+          "dimensions_m": [
+            0.454463,
+            0.629709,
+            0.405983
+          ],
+          "bounds_m": {
+            "min": [
+              -0.2272317260503769,
+              0,
+              -0.2029913365840912
+            ],
+            "max": [
+              0.2272317260503769,
+              0.6297087669372559,
+              0.2029913365840912
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/upright_perennial_lod1.glb",
+            "sha256": "a02f42b9b0a37b2de2083a541dc636b767b42a61a0f312f172a91eb3024c4972",
+            "bytes": 283976,
+            "triangles": 4009,
+            "material_slots": [
+              "foliage",
+              "petal",
+              "stem"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+                "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+                "bytes": 4868
+              },
+              {
+                "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+                "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+                "bytes": 58725
+              },
+              {
+                "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+                "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+                "bytes": 27881
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "petal": {
+              "base_color_factor": [
+                0.4,
+                0.27,
+                0.54,
+                1
+              ],
+              "override": "replace_factor_preserve_textures_and_grayscale_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "ff34754bfe3e4757e343d63f28297db81bc03af4e518683ffce59ff635e5d359"
+        },
+        {
+          "legacy_variant": "white",
+          "master": "upright_perennial",
+          "glb": "assets/incoming/signature_collection/upright_perennial.glb",
+          "material_slots": [
+            "foliage",
+            "petal",
+            "stem"
+          ],
+          "tint_slots": [
+            "petal"
+          ],
+          "parameters": {
+            "legacy_variant": "white",
+            "color_preset": "white",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "upright"
+          },
+          "visible_entry": "outdoor_perennial",
+          "dimensions_m": [
+            0.454463,
+            0.629709,
+            0.405983
+          ],
+          "bounds_m": {
+            "min": [
+              -0.2272317260503769,
+              0,
+              -0.2029913365840912
+            ],
+            "max": [
+              0.2272317260503769,
+              0.6297087669372559,
+              0.2029913365840912
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/upright_perennial_lod1.glb",
+            "sha256": "a02f42b9b0a37b2de2083a541dc636b767b42a61a0f312f172a91eb3024c4972",
+            "bytes": 283976,
+            "triangles": 4009,
+            "material_slots": [
+              "foliage",
+              "petal",
+              "stem"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+                "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+                "bytes": 4868
+              },
+              {
+                "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+                "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+                "bytes": 58725
+              },
+              {
+                "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+                "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+                "bytes": 27881
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "petal": {
+              "base_color_factor": [
+                0.4,
+                0.27,
+                0.54,
+                1
+              ],
+              "override": "replace_factor_preserve_textures_and_grayscale_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "ff34754bfe3e4757e343d63f28297db81bc03af4e518683ffce59ff635e5d359"
+        }
+      ]
+    },
+    {
+      "asset_id": "outdoor_grass",
+      "catalog_type": "grass",
+      "catalog_forms": [
+        "deschampsia",
+        "upright_grass"
+      ],
+      "dashboard_export": "portable_glb_pbr_with_documented_runtime_adapters",
+      "family": "V07",
+      "variants": [
+        {
+          "legacy_variant": "fine",
+          "master": "deschampsia",
+          "glb": "assets/incoming/signature_collection/deschampsia.glb",
+          "material_slots": [
+            "foliage_grass"
+          ],
+          "tint_slots": [
+            "foliage_grass"
+          ],
+          "parameters": {
+            "legacy_variant": "fine",
+            "color_preset": "fine",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "deschampsia"
+          },
+          "visible_entry": "outdoor_grass",
+          "dimensions_m": [
+            1.050899,
+            0.999164,
+            0.969371
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5254493355751038,
+              0,
+              -0.48468539118766785
+            ],
+            "max": [
+              0.5254493355751038,
+              0.9991637468338013,
+              0.48468539118766785
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/deschampsia_lod1.glb",
+            "sha256": "16edf9f1f1dae0ca8d70005d89571a11286cb06b3ab8fad6e4adf9d8afe9286d",
+            "bytes": 100620,
+            "triangles": 1233,
+            "material_slots": [
+              "foliage_grass"
+            ],
+            "dependencies": [],
+            "embedded_pbr": true,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage_grass": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Original Mikonus Living Island, extracted complete medium tussock; original vertex colors retained",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "fdc3ff4ceb1c73b3b38aa1fa32cff4efdbfea3433b1417a3a47aeb79576047bb"
+        },
+        {
+          "legacy_variant": "upright",
+          "master": "upright_grass",
+          "glb": "assets/incoming/signature_collection/upright_grass.glb",
+          "material_slots": [
+            "foliage_grass"
+          ],
+          "tint_slots": [
+            "foliage_grass"
+          ],
+          "parameters": {
+            "legacy_variant": "upright",
+            "color_preset": "upright",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "upright"
+          },
+          "visible_entry": "outdoor_grass",
+          "dimensions_m": [
+            0.504251,
+            0.878447,
+            0.505165
+          ],
+          "bounds_m": {
+            "min": [
+              -0.25212562084198,
+              0,
+              -0.2525826692581177
+            ],
+            "max": [
+              0.25212562084198,
+              0.8784466981887817,
+              0.2525826692581177
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/upright_grass_lod1.glb",
+            "sha256": "6f4d4c2b9bcdfa12e48be795b15442dcc6cbe8b7c661de4acd421cac30fdd355",
+            "bytes": 148028,
+            "triangles": 1892,
+            "material_slots": [
+              "foliage_grass"
+            ],
+            "dependencies": [],
+            "embedded_pbr": true,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage_grass": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "7fc0bf0782ea8d11a2b4c34e773df7f135d667ca83f59df1a6b7eec879b3d2f1"
+        },
+        {
+          "legacy_variant": "golden",
+          "master": "deschampsia",
+          "glb": "assets/incoming/signature_collection/deschampsia.glb",
+          "material_slots": [
+            "foliage_grass"
+          ],
+          "tint_slots": [
+            "foliage_grass"
+          ],
+          "parameters": {
+            "legacy_variant": "golden",
+            "color_preset": "golden",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true,
+            "form": "deschampsia"
+          },
+          "visible_entry": "outdoor_grass",
+          "dimensions_m": [
+            1.050899,
+            0.999164,
+            0.969371
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5254493355751038,
+              0,
+              -0.48468539118766785
+            ],
+            "max": [
+              0.5254493355751038,
+              0.9991637468338013,
+              0.48468539118766785
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/deschampsia_lod1.glb",
+            "sha256": "16edf9f1f1dae0ca8d70005d89571a11286cb06b3ab8fad6e4adf9d8afe9286d",
+            "bytes": 100620,
+            "triangles": 1233,
+            "material_slots": [
+              "foliage_grass"
+            ],
+            "dependencies": [],
+            "embedded_pbr": true,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage_grass": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Original Mikonus Living Island, extracted complete medium tussock; original vertex colors retained",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "fdc3ff4ceb1c73b3b38aa1fa32cff4efdbfea3433b1417a3a47aeb79576047bb"
+        }
+      ]
+    },
+    {
+      "asset_id": "outdoor_flower",
+      "catalog_type": "flower",
+      "catalog_forms": [
+        "radial_flower"
+      ],
+      "dashboard_export": "portable_glb_pbr_with_documented_runtime_adapters",
+      "family": "V06",
+      "variants": [
+        {
+          "legacy_variant": "white",
+          "master": "radial_flower",
+          "glb": "assets/incoming/signature_collection/radial_flower.glb",
+          "material_slots": [
+            "floret",
+            "foliage",
+            "petal",
+            "stem"
+          ],
+          "tint_slots": [
+            "petal"
+          ],
+          "parameters": {
+            "legacy_variant": "white",
+            "color_preset": "white",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true
+          },
+          "visible_entry": "outdoor_flower",
+          "dimensions_m": [
+            0.411707,
+            0.504805,
+            0.40538
+          ],
+          "bounds_m": {
+            "min": [
+              -0.20585334300994873,
+              0,
+              -0.2026902139186859
+            ],
+            "max": [
+              0.20585334300994873,
+              0.5048052668571472,
+              0.2026902139186859
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/radial_flower_lod1.glb",
+            "sha256": "adab25644876a9bd2056acf88a69b1a56ac01a26dad777f17c5d6b04c01359eb",
+            "bytes": 87168,
+            "triangles": 1272,
+            "material_slots": [
+              "floret",
+              "foliage",
+              "petal",
+              "stem"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+                "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+                "bytes": 4868
+              },
+              {
+                "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+                "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+                "bytes": 58725
+              },
+              {
+                "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+                "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+                "bytes": 27881
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "petal": {
+              "base_color_factor": [
+                0.91,
+                0.85,
+                0.7,
+                1
+              ],
+              "override": "replace_factor_preserve_textures_and_grayscale_variation"
+            },
+            "floret": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "a6b4dec5ace805ac62cba834f8551dbecb7d13a2be876217509844bc973b0639"
+        },
+        {
+          "legacy_variant": "pink",
+          "master": "radial_flower",
+          "glb": "assets/incoming/signature_collection/radial_flower.glb",
+          "material_slots": [
+            "floret",
+            "foliage",
+            "petal",
+            "stem"
+          ],
+          "tint_slots": [
+            "petal"
+          ],
+          "parameters": {
+            "legacy_variant": "pink",
+            "color_preset": "pink",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true
+          },
+          "visible_entry": "outdoor_flower",
+          "dimensions_m": [
+            0.411707,
+            0.504805,
+            0.40538
+          ],
+          "bounds_m": {
+            "min": [
+              -0.20585334300994873,
+              0,
+              -0.2026902139186859
+            ],
+            "max": [
+              0.20585334300994873,
+              0.5048052668571472,
+              0.2026902139186859
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/radial_flower_lod1.glb",
+            "sha256": "adab25644876a9bd2056acf88a69b1a56ac01a26dad777f17c5d6b04c01359eb",
+            "bytes": 87168,
+            "triangles": 1272,
+            "material_slots": [
+              "floret",
+              "foliage",
+              "petal",
+              "stem"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+                "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+                "bytes": 4868
+              },
+              {
+                "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+                "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+                "bytes": 58725
+              },
+              {
+                "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+                "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+                "bytes": 27881
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "petal": {
+              "base_color_factor": [
+                0.91,
+                0.85,
+                0.7,
+                1
+              ],
+              "override": "replace_factor_preserve_textures_and_grayscale_variation"
+            },
+            "floret": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "a6b4dec5ace805ac62cba834f8551dbecb7d13a2be876217509844bc973b0639"
+        },
+        {
+          "legacy_variant": "purple",
+          "master": "radial_flower",
+          "glb": "assets/incoming/signature_collection/radial_flower.glb",
+          "material_slots": [
+            "floret",
+            "foliage",
+            "petal",
+            "stem"
+          ],
+          "tint_slots": [
+            "petal"
+          ],
+          "parameters": {
+            "legacy_variant": "purple",
+            "color_preset": "purple",
+            "color_value_source": "existing_native_variant_defaults_then_saved_overrides",
+            "preserve_existing_material_overrides": true
+          },
+          "visible_entry": "outdoor_flower",
+          "dimensions_m": [
+            0.411707,
+            0.504805,
+            0.40538
+          ],
+          "bounds_m": {
+            "min": [
+              -0.20585334300994873,
+              0,
+              -0.2026902139186859
+            ],
+            "max": [
+              0.20585334300994873,
+              0.5048052668571472,
+              0.2026902139186859
+            ]
+          },
+          "pivot": "ground_center",
+          "front_axis": "+Z",
+          "lod": {
+            "path": "assets/incoming/signature_collection/radial_flower_lod1.glb",
+            "sha256": "adab25644876a9bd2056acf88a69b1a56ac01a26dad777f17c5d6b04c01359eb",
+            "bytes": 87168,
+            "triangles": 1272,
+            "material_slots": [
+              "floret",
+              "foliage",
+              "petal",
+              "stem"
+            ],
+            "dependencies": [
+              {
+                "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+                "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+                "bytes": 123879
+              },
+              {
+                "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+                "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+                "bytes": 199042
+              },
+              {
+                "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+                "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+                "bytes": 98359
+              },
+              {
+                "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+                "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+                "bytes": 4868
+              },
+              {
+                "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+                "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+                "bytes": 58725
+              },
+              {
+                "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+                "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+                "bytes": 27881
+              }
+            ],
+            "embedded_pbr": false,
+            "status": "approved",
+            "selectable": false
+          },
+          "slot_defaults": {
+            "foliage": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "stem": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            },
+            "petal": {
+              "base_color_factor": [
+                0.91,
+                0.85,
+                0.7,
+                1
+              ],
+              "override": "replace_factor_preserve_textures_and_grayscale_variation"
+            },
+            "floret": {
+              "base_color_factor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "override": "preserve_texture_and_vertex_variation"
+            }
+          },
+          "review_limits": [
+            "Desktop Godot review only; iPad A16 performance and native integration pending."
+          ],
+          "license": "Authored Mikonus; Island leaf/bark PBR reused",
+          "studio_status": "review",
+          "status": "approved",
+          "fingerprint": "a6b4dec5ace805ac62cba834f8551dbecb7d13a2be876217509844bc973b0639"
+        }
+      ]
+    }
+  ],
+  "masters": {
+    "deciduous_hedge": {
+      "path": "assets/incoming/signature_collection/deciduous_hedge.glb",
+      "sha256": "664c17ca67e5022848ab775c6a85393648f96cde5161a731837d2dadb414077e",
+      "bytes": 738456,
+      "triangles": 11480,
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        },
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/deciduous_hedge_lod1.glb",
+        "sha256": "aa42c8f916c3974cff4df3cf6a8b5ee12db0d3f90c8fb81b4200974b3049cbb6",
+        "bytes": 518336,
+        "triangles": 6314,
+        "material_slots": [
+          "bark",
+          "foliage"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          },
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "deschampsia": {
+      "path": "assets/incoming/signature_collection/deschampsia.glb",
+      "sha256": "fdc3ff4ceb1c73b3b38aa1fa32cff4efdbfea3433b1417a3a47aeb79576047bb",
+      "bytes": 156180,
+      "triangles": 2245,
+      "material_slots": [
+        "foliage_grass"
+      ],
+      "dependencies": [],
+      "embedded_pbr": true,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/deschampsia_lod1.glb",
+        "sha256": "16edf9f1f1dae0ca8d70005d89571a11286cb06b3ab8fad6e4adf9d8afe9286d",
+        "bytes": 100620,
+        "triangles": 1233,
+        "material_slots": [
+          "foliage_grass"
+        ],
+        "dependencies": [],
+        "embedded_pbr": true,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Original Mikonus Living Island, extracted complete medium tussock; original vertex colors retained"
+    },
+    "flowering_shrub": {
+      "path": "assets/incoming/signature_collection/flowering_shrub.glb",
+      "sha256": "308d5ef7b40c7065d44c0ea6b2899b25dd2fff269d06d1cb22bfd8ce602f04fc",
+      "bytes": 643028,
+      "triangles": 10976,
+      "material_slots": [
+        "bark",
+        "floret",
+        "stem",
+        "foliage",
+        "petal"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        },
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        },
+        {
+          "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+          "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+          "bytes": 4868
+        },
+        {
+          "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+          "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+          "bytes": 58725
+        },
+        {
+          "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+          "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+          "bytes": 27881
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/flowering_shrub_lod1.glb",
+        "sha256": "bc2503f1978280f0dc889178a3d51a7c542ced0548733e262a73e9caba43405f",
+        "bytes": 429616,
+        "triangles": 6034,
+        "material_slots": [
+          "bark",
+          "floret",
+          "stem",
+          "foliage",
+          "petal"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          },
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          },
+          {
+            "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+            "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+            "bytes": 4868
+          },
+          {
+            "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+            "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+            "bytes": 58725
+          },
+          {
+            "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+            "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+            "bytes": 27881
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "flowering_tree": {
+      "path": "assets/incoming/signature_collection/flowering_tree.glb",
+      "sha256": "9ade61755c8536a292cecff58006f66ff2b4714078f39781b02df4d0b2a7a69b",
+      "bytes": 2130720,
+      "triangles": 36504,
+      "material_slots": [
+        "floret",
+        "stem",
+        "foliage",
+        "bark",
+        "petal"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        },
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        },
+        {
+          "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+          "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+          "bytes": 4868
+        },
+        {
+          "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+          "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+          "bytes": 58725
+        },
+        {
+          "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+          "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+          "bytes": 27881
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/flowering_tree_lod1.glb",
+        "sha256": "2cab8f9f436fe48a2abd72cb1f4ca7c30930430ebfd5986cb3e66dbca1169ba9",
+        "bytes": 1405468,
+        "triangles": 20073,
+        "material_slots": [
+          "floret",
+          "stem",
+          "foliage",
+          "bark",
+          "petal"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          },
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          },
+          {
+            "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+            "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+            "bytes": 4868
+          },
+          {
+            "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+            "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+            "bytes": 58725
+          },
+          {
+            "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+            "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+            "bytes": 27881
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "lobed_groundcover": {
+      "path": "assets/incoming/signature_collection/lobed_groundcover.glb",
+      "sha256": "3cb3c7612a957f52f2d126b6674643127868dab8950727dd7eaf6e5fe4892887",
+      "bytes": 107436,
+      "triangles": 1917,
+      "material_slots": [
+        "foliage",
+        "stem"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/lobed_groundcover_lod1.glb",
+        "sha256": "d927475a1dd96c3596e1c9de5a8e5e6e4cf5aab5335e89915a0f40c13f388a75",
+        "bytes": 68664,
+        "triangles": 1053,
+        "material_slots": [
+          "foliage",
+          "stem"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "mounded_shrub": {
+      "path": "assets/incoming/signature_collection/mounded_shrub.glb",
+      "sha256": "70b11eadd02207cb06e39080464a5e4d3b8a9facb95c420ced9c5184b9a6131d",
+      "bytes": 286344,
+      "triangles": 4676,
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        },
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/mounded_shrub_lod1.glb",
+        "sha256": "4680d95f28464754b0b1d64ed4c4d8ee163ebdcf10b201682a4b5ea93ffe8083",
+        "bytes": 201688,
+        "triangles": 2571,
+        "material_slots": [
+          "bark",
+          "foliage"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          },
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "natural_hedge": {
+      "path": "assets/incoming/signature_collection/natural_hedge.glb",
+      "sha256": "eb3d2d31d9118e7342137b2cd8b9527764dd163251ac79c8f2eab4f53cd2e90a",
+      "bytes": 738452,
+      "triangles": 11480,
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        },
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/natural_hedge_lod1.glb",
+        "sha256": "64a4b268a8df0a8d0b15490d88c33baf3230b5356be6b2ce86360c8bd90f740d",
+        "bytes": 518280,
+        "triangles": 6314,
+        "material_slots": [
+          "bark",
+          "foliage"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          },
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "natural_shrub": {
+      "path": "assets/incoming/signature_collection/natural_shrub.glb",
+      "sha256": "99b38a085d816c9ad1c488a3d911ba241b48f0fa453b0edab8ba8427a3a47d65",
+      "bytes": 286340,
+      "triangles": 4676,
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        },
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/natural_shrub_lod1.glb",
+        "sha256": "4f90e396754d40066ba255a3ecb9a6c5b76a5c7d9ca28516f4befaadfe8d1e1c",
+        "bytes": 201400,
+        "triangles": 2571,
+        "material_slots": [
+          "bark",
+          "foliage"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          },
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "radial_flower": {
+      "path": "assets/incoming/signature_collection/radial_flower.glb",
+      "sha256": "a6b4dec5ace805ac62cba834f8551dbecb7d13a2be876217509844bc973b0639",
+      "bytes": 133792,
+      "triangles": 2320,
+      "material_slots": [
+        "floret",
+        "foliage",
+        "petal",
+        "stem"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        },
+        {
+          "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+          "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+          "bytes": 4868
+        },
+        {
+          "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+          "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+          "bytes": 58725
+        },
+        {
+          "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+          "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+          "bytes": 27881
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/radial_flower_lod1.glb",
+        "sha256": "adab25644876a9bd2056acf88a69b1a56ac01a26dad777f17c5d6b04c01359eb",
+        "bytes": 87168,
+        "triangles": 1272,
+        "material_slots": [
+          "floret",
+          "foliage",
+          "petal",
+          "stem"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          },
+          {
+            "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+            "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+            "bytes": 4868
+          },
+          {
+            "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+            "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+            "bytes": 58725
+          },
+          {
+            "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+            "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+            "bytes": 27881
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "serviceberry_master": {
+      "path": "assets/incoming/signature_collection/serviceberry_master.glb",
+      "sha256": "96b2aa0894456d08761a57388f385834f7768b82feee74f1b109a9e102331807",
+      "bytes": 1750740,
+      "triangles": 26658,
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        },
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/serviceberry_master_lod1.glb",
+        "sha256": "66be126a9b2e50f23327a64d6879e336f27474feaacc0b81ea97afc06e877ed1",
+        "bytes": 1264424,
+        "triangles": 14660,
+        "material_slots": [
+          "bark",
+          "foliage"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          },
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Original Mikonus Living Island Phase 1C; original source retained byte-identically"
+    },
+    "slender_tree": {
+      "path": "assets/incoming/signature_collection/slender_tree.glb",
+      "sha256": "5cd0c2350f60ef17aa3491d2cf19054721163886f6da197c4e230f798b47c6b6",
+      "bytes": 894104,
+      "triangles": 14454,
+      "material_slots": [
+        "foliage",
+        "bark"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        },
+        {
+          "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+          "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+          "bytes": 183935
+        },
+        {
+          "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+          "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+          "bytes": 116663
+        },
+        {
+          "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+          "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+          "bytes": 117289
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/slender_tree_lod1.glb",
+        "sha256": "a8915185971403b52737cdb6f03991a361127f323cfb529787cb4533ba524775",
+        "bytes": 622836,
+        "triangles": 7949,
+        "material_slots": [
+          "foliage",
+          "bark"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          },
+          {
+            "path": "materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+            "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad",
+            "bytes": 183935
+          },
+          {
+            "path": "materials/signature_collection/shared/4bd346e082bbfd388548.png",
+            "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5",
+            "bytes": 116663
+          },
+          {
+            "path": "materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+            "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598",
+            "bytes": 117289
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "upright_grass": {
+      "path": "assets/incoming/signature_collection/upright_grass.glb",
+      "sha256": "7fc0bf0782ea8d11a2b4c34e773df7f135d667ca83f59df1a6b7eec879b3d2f1",
+      "bytes": 221052,
+      "triangles": 3442,
+      "material_slots": [
+        "foliage_grass"
+      ],
+      "dependencies": [],
+      "embedded_pbr": true,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/upright_grass_lod1.glb",
+        "sha256": "6f4d4c2b9bcdfa12e48be795b15442dcc6cbe8b7c661de4acd421cac30fdd355",
+        "bytes": 148028,
+        "triangles": 1892,
+        "material_slots": [
+          "foliage_grass"
+        ],
+        "dependencies": [],
+        "embedded_pbr": true,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "upright_perennial": {
+      "path": "assets/incoming/signature_collection/upright_perennial.glb",
+      "sha256": "ff34754bfe3e4757e343d63f28297db81bc03af4e518683ffce59ff635e5d359",
+      "bytes": 457912,
+      "triangles": 7294,
+      "material_slots": [
+        "foliage",
+        "petal",
+        "stem"
+      ],
+      "dependencies": [
+        {
+          "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+          "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+          "bytes": 123879
+        },
+        {
+          "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+          "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+          "bytes": 199042
+        },
+        {
+          "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+          "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+          "bytes": 98359
+        },
+        {
+          "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+          "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+          "bytes": 4868
+        },
+        {
+          "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+          "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+          "bytes": 58725
+        },
+        {
+          "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+          "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+          "bytes": 27881
+        }
+      ],
+      "embedded_pbr": false,
+      "lod1": {
+        "path": "assets/incoming/signature_collection/upright_perennial_lod1.glb",
+        "sha256": "a02f42b9b0a37b2de2083a541dc636b767b42a61a0f312f172a91eb3024c4972",
+        "bytes": 283976,
+        "triangles": 4009,
+        "material_slots": [
+          "foliage",
+          "petal",
+          "stem"
+        ],
+        "dependencies": [
+          {
+            "path": "materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+            "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80",
+            "bytes": 123879
+          },
+          {
+            "path": "materials/signature_collection/shared/adc7439490c91d58a80f.png",
+            "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b",
+            "bytes": 199042
+          },
+          {
+            "path": "materials/signature_collection/shared/a740931235b7aeca178c.png",
+            "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16",
+            "bytes": 98359
+          },
+          {
+            "path": "materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+            "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e",
+            "bytes": 4868
+          },
+          {
+            "path": "materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png",
+            "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7",
+            "bytes": 58725
+          },
+          {
+            "path": "materials/signature_collection/shared/da2588c0a5f867564579.png",
+            "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647",
+            "bytes": 27881
+          }
+        ],
+        "embedded_pbr": false,
+        "status": "approved",
+        "selectable": false
+      },
+      "status": "approved",
+      "selectable": false,
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    }
+  },
+  "master_contracts": {
+    "deciduous_hedge": {
+      "dimensions_m": [
+        2.506006,
+        1.06006,
+        0.756267
+      ],
+      "bounds_m": {
+        "min": [
+          -1.2530031204223633,
+          0,
+          -0.3781335651874542
+        ],
+        "max": [
+          1.2530031204223633,
+          1.0600602626800537,
+          0.3781335651874542
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "deschampsia": {
+      "dimensions_m": [
+        1.050899,
+        0.999164,
+        0.969371
+      ],
+      "bounds_m": {
+        "min": [
+          -0.5254493355751038,
+          0,
+          -0.48468539118766785
+        ],
+        "max": [
+          0.5254493355751038,
+          0.9991637468338013,
+          0.48468539118766785
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "foliage_grass"
+      ],
+      "slot_defaults": {
+        "foliage_grass": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Original Mikonus Living Island, extracted complete medium tussock; original vertex colors retained"
+    },
+    "flowering_shrub": {
+      "dimensions_m": [
+        1.316615,
+        0.758845,
+        1.154275
+      ],
+      "bounds_m": {
+        "min": [
+          -0.6583072543144226,
+          0,
+          -0.5771376490592957
+        ],
+        "max": [
+          0.6583072543144226,
+          0.7588446140289307,
+          0.5771376490592957
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "bark",
+        "floret",
+        "stem",
+        "foliage",
+        "petal"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "petal": {
+          "base_color_factor": [
+            0.93,
+            0.87,
+            0.72,
+            1
+          ],
+          "override": "replace_factor_preserve_textures_and_grayscale_variation"
+        },
+        "floret": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "stem": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "flowering_tree": {
+      "dimensions_m": [
+        2.07249,
+        2.949524,
+        2.105376
+      ],
+      "bounds_m": {
+        "min": [
+          -1.0362451076507568,
+          0,
+          -1.0526878833770752
+        ],
+        "max": [
+          1.0362451076507568,
+          2.949523687362671,
+          1.0526878833770752
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "floret",
+        "stem",
+        "foliage",
+        "bark",
+        "petal"
+      ],
+      "slot_defaults": {
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "petal": {
+          "base_color_factor": [
+            0.95,
+            0.88,
+            0.75,
+            1
+          ],
+          "override": "replace_factor_preserve_textures_and_grayscale_variation"
+        },
+        "floret": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "stem": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "lobed_groundcover": {
+      "dimensions_m": [
+        0.565379,
+        0.196451,
+        0.580318
+      ],
+      "bounds_m": {
+        "min": [
+          -0.2826894521713257,
+          0,
+          -0.2901591360569
+        ],
+        "max": [
+          0.2826894521713257,
+          0.19645093381404877,
+          0.2901591360569
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "foliage",
+        "stem"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "stem": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "mounded_shrub": {
+      "dimensions_m": [
+        1.10261,
+        0.66381,
+        1.033529
+      ],
+      "bounds_m": {
+        "min": [
+          -0.5513050556182861,
+          0,
+          -0.5167644023895264
+        ],
+        "max": [
+          0.5513050556182861,
+          0.6638100743293762,
+          0.5167644023895264
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "natural_hedge": {
+      "dimensions_m": [
+        2.610574,
+        1.21914,
+        0.927816
+      ],
+      "bounds_m": {
+        "min": [
+          -1.3052868843078613,
+          0,
+          -0.4639081358909607
+        ],
+        "max": [
+          1.3052868843078613,
+          1.2191401720046997,
+          0.4639081358909607
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "natural_shrub": {
+      "dimensions_m": [
+        1.130292,
+        0.613231,
+        1.271956
+      ],
+      "bounds_m": {
+        "min": [
+          -0.5651458501815796,
+          0,
+          -0.635978102684021
+        ],
+        "max": [
+          0.5651458501815796,
+          0.6132314801216125,
+          0.635978102684021
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "radial_flower": {
+      "dimensions_m": [
+        0.411707,
+        0.504805,
+        0.40538
+      ],
+      "bounds_m": {
+        "min": [
+          -0.20585334300994873,
+          0,
+          -0.2026902139186859
+        ],
+        "max": [
+          0.20585334300994873,
+          0.5048052668571472,
+          0.2026902139186859
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "floret",
+        "foliage",
+        "petal",
+        "stem"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "stem": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "petal": {
+          "base_color_factor": [
+            0.91,
+            0.85,
+            0.7,
+            1
+          ],
+          "override": "replace_factor_preserve_textures_and_grayscale_variation"
+        },
+        "floret": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "serviceberry_master": {
+      "dimensions_m": [
+        2.907115,
+        4.202258,
+        3.132182
+      ],
+      "bounds_m": {
+        "min": [
+          -1.4535574913024902,
+          0,
+          -1.5660910606384277
+        ],
+        "max": [
+          1.4535574913024902,
+          4.202258110046387,
+          1.5660910606384277
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "bark",
+        "foliage"
+      ],
+      "slot_defaults": {
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Original Mikonus Living Island Phase 1C; original source retained byte-identically"
+    },
+    "slender_tree": {
+      "dimensions_m": [
+        1.608005,
+        3.328779,
+        1.603837
+      ],
+      "bounds_m": {
+        "min": [
+          -0.8040022850036621,
+          0,
+          -0.8019186854362488
+        ],
+        "max": [
+          0.8040022850036621,
+          3.3287785053253174,
+          0.8019186854362488
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "foliage",
+        "bark"
+      ],
+      "slot_defaults": {
+        "bark": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "upright_grass": {
+      "dimensions_m": [
+        0.504251,
+        0.878447,
+        0.505165
+      ],
+      "bounds_m": {
+        "min": [
+          -0.25212562084198,
+          0,
+          -0.2525826692581177
+        ],
+        "max": [
+          0.25212562084198,
+          0.8784466981887817,
+          0.2525826692581177
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "foliage_grass"
+      ],
+      "slot_defaults": {
+        "foliage_grass": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    },
+    "upright_perennial": {
+      "dimensions_m": [
+        0.454463,
+        0.629709,
+        0.405983
+      ],
+      "bounds_m": {
+        "min": [
+          -0.2272317260503769,
+          0,
+          -0.2029913365840912
+        ],
+        "max": [
+          0.2272317260503769,
+          0.6297087669372559,
+          0.2029913365840912
+        ]
+      },
+      "pivot": "ground_center",
+      "front_axis": "+Z",
+      "material_slots": [
+        "foliage",
+        "petal",
+        "stem"
+      ],
+      "slot_defaults": {
+        "foliage": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "stem": {
+          "base_color_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "override": "preserve_texture_and_vertex_variation"
+        },
+        "petal": {
+          "base_color_factor": [
+            0.4,
+            0.27,
+            0.54,
+            1
+          ],
+          "override": "replace_factor_preserve_textures_and_grayscale_variation"
+        }
+      },
+      "license": "Authored Mikonus; Island leaf/bark PBR reused"
+    }
+  },
+  "aliases": {},
+  "legacy_resources": [],
+  "auxiliary": {}
+}

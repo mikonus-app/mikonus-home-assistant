@@ -3,6 +3,7 @@
 import asyncio
 import json
 import re
+from math import isfinite
 
 from homeassistant.components.http import HomeAssistantView
 from homeassistant.components.http.const import KEY_HASS, KEY_HASS_USER
@@ -16,11 +17,19 @@ from .const import (
     MAX_SCENES,
     VERSION,
 )
+from .living_island import SUPPORTED_VERSIONS, WORLD_FIELDS
 from .models import ContractError
 
 
 def reject_constant(value):
     raise ValueError("Non-finite JSON number")
+
+
+def finite_float(value):
+    number = float(value)
+    if not isfinite(number):
+        reject_constant(value)
+    return number
 
 
 def unique_object(pairs):
@@ -61,6 +70,10 @@ class MetadataView(HomeAssistantView):
                         "assets": "catalogKeysOnly",
                         "sceneDeletion": True,
                         "atomicSceneReplacement": True,
+                        "livingIsland": {
+                            "supportedVersions": list(SUPPORTED_VERSIONS),
+                            "atomicPublication": True,
+                        },
                     },
                     "scenes": [
                         store.metadata(record)
@@ -124,6 +137,7 @@ class PublishView(HomeAssistantView):
                 payload = json.loads(
                     body.decode("utf-8"),
                     parse_constant=reject_constant,
+                    parse_float=finite_float,
                     object_pairs_hook=unique_object,
                 )
             except (ValueError, RecursionError):
@@ -138,7 +152,11 @@ class PublishView(HomeAssistantView):
             }
             if replacing:
                 expected_fields.update({"replacedSceneId", "replacedExpectedRevision"})
-            if not isinstance(payload, dict) or set(payload) != expected_fields:
+            if (
+                not isinstance(payload, dict)
+                or not expected_fields <= payload.keys()
+                or payload.keys() - expected_fields - set(WORLD_FIELDS)
+            ):
                 raise ContractError(
                     "invalid_request",
                     "Expected instanceId, requestId, expectedRevision and scene.",

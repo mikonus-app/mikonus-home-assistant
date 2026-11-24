@@ -1,0 +1,516 @@
+{
+  "schema": "mikonus.signature-outdoor-index",
+  "version": "1.0.0",
+  "files": {
+    "media/assets/incoming/signature_collection/deciduous_hedge.glb": {
+      "bytes": 738456,
+      "sha256": "664c17ca67e5022848ab775c6a85393648f96cde5161a731837d2dadb414077e"
+    },
+    "media/materials/signature_collection/shared/4bd346e082bbfd388548.png": {
+      "bytes": 116663,
+      "sha256": "4bd346e082bbfd388548d874017a62c505c8ec7e79113228f9930d4eb326cec5"
+    },
+    "media/materials/signature_collection/shared/a740931235b7aeca178c.png": {
+      "bytes": 98359,
+      "sha256": "a740931235b7aeca178cd35c06fc1bb1ebc00caaa4156b0e248724ad10390c16"
+    },
+    "media/materials/signature_collection/shared/adc7439490c91d58a80f.png": {
+      "bytes": 199042,
+      "sha256": "adc7439490c91d58a80fdcc3f3bf5a517a62c88754a85e2eeb5efc0823b2a50b"
+    },
+    "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png": {
+      "bytes": 183935,
+      "sha256": "b6384c2aee04c8e2289ba6883b097964a425c10e8a01c2c5ea817008440bfaad"
+    },
+    "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png": {
+      "bytes": 123879,
+      "sha256": "c8d4a9d6cd2682e4f11cda921c62226d5cd0acc4ecede7168cb3f6c459d38f80"
+    },
+    "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png": {
+      "bytes": 117289,
+      "sha256": "ee36830b1f7b4d204c9335afac2cd299a5719fc6b7b4460e5e3b22f147965598"
+    },
+    "media/assets/incoming/signature_collection/deciduous_hedge_lod1.glb": {
+      "bytes": 518336,
+      "sha256": "aa42c8f916c3974cff4df3cf6a8b5ee12db0d3f90c8fb81b4200974b3049cbb6"
+    },
+    "media/assets/incoming/signature_collection/deschampsia.glb": {
+      "bytes": 156180,
+      "sha256": "fdc3ff4ceb1c73b3b38aa1fa32cff4efdbfea3433b1417a3a47aeb79576047bb"
+    },
+    "media/assets/incoming/signature_collection/deschampsia_lod1.glb": {
+      "bytes": 100620,
+      "sha256": "16edf9f1f1dae0ca8d70005d89571a11286cb06b3ab8fad6e4adf9d8afe9286d"
+    },
+    "media/assets/incoming/signature_collection/flowering_shrub.glb": {
+      "bytes": 643028,
+      "sha256": "308d5ef7b40c7065d44c0ea6b2899b25dd2fff269d06d1cb22bfd8ce602f04fc"
+    },
+    "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png": {
+      "bytes": 4868,
+      "sha256": "c3ebb8dba51fe6ecdc69fde6ab221268c4d8158aa8948fb6fb05568f9922bf4e"
+    },
+    "media/materials/signature_collection/shared/da2588c0a5f867564579.png": {
+      "bytes": 27881,
+      "sha256": "da2588c0a5f867564579583acc20c3f2a4613baf427a2223f0537223cc3fb647"
+    },
+    "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png": {
+      "bytes": 58725,
+      "sha256": "f6f7cb1ebacfbaa40ebccb4a77897fac29a835e96287810f82bd24307a905ec7"
+    },
+    "media/assets/incoming/signature_collection/flowering_shrub_lod1.glb": {
+      "bytes": 429616,
+      "sha256": "bc2503f1978280f0dc889178a3d51a7c542ced0548733e262a73e9caba43405f"
+    },
+    "media/assets/incoming/signature_collection/flowering_tree.glb": {
+      "bytes": 2130720,
+      "sha256": "9ade61755c8536a292cecff58006f66ff2b4714078f39781b02df4d0b2a7a69b"
+    },
+    "media/assets/incoming/signature_collection/flowering_tree_lod1.glb": {
+      "bytes": 1405468,
+      "sha256": "2cab8f9f436fe48a2abd72cb1f4ca7c30930430ebfd5986cb3e66dbca1169ba9"
+    },
+    "media/assets/incoming/signature_collection/lobed_groundcover.glb": {
+      "bytes": 107436,
+      "sha256": "3cb3c7612a957f52f2d126b6674643127868dab8950727dd7eaf6e5fe4892887"
+    },
+    "media/assets/incoming/signature_collection/lobed_groundcover_lod1.glb": {
+      "bytes": 68664,
+      "sha256": "d927475a1dd96c3596e1c9de5a8e5e6e4cf5aab5335e89915a0f40c13f388a75"
+    },
+    "media/assets/incoming/signature_collection/mounded_shrub.glb": {
+      "bytes": 286344,
+      "sha256": "70b11eadd02207cb06e39080464a5e4d3b8a9facb95c420ced9c5184b9a6131d"
+    },
+    "media/assets/incoming/signature_collection/mounded_shrub_lod1.glb": {
+      "bytes": 201688,
+      "sha256": "4680d95f28464754b0b1d64ed4c4d8ee163ebdcf10b201682a4b5ea93ffe8083"
+    },
+    "media/assets/incoming/signature_collection/natural_hedge.glb": {
+      "bytes": 738452,
+      "sha256": "eb3d2d31d9118e7342137b2cd8b9527764dd163251ac79c8f2eab4f53cd2e90a"
+    },
+    "media/assets/incoming/signature_collection/natural_hedge_lod1.glb": {
+      "bytes": 518280,
+      "sha256": "64a4b268a8df0a8d0b15490d88c33baf3230b5356be6b2ce86360c8bd90f740d"
+    },
+    "media/assets/incoming/signature_collection/natural_shrub.glb": {
+      "bytes": 286340,
+      "sha256": "99b38a085d816c9ad1c488a3d911ba241b48f0fa453b0edab8ba8427a3a47d65"
+    },
+    "media/assets/incoming/signature_collection/natural_shrub_lod1.glb": {
+      "bytes": 201400,
+      "sha256": "4f90e396754d40066ba255a3ecb9a6c5b76a5c7d9ca28516f4befaadfe8d1e1c"
+    },
+    "media/assets/incoming/signature_collection/radial_flower.glb": {
+      "bytes": 133792,
+      "sha256": "a6b4dec5ace805ac62cba834f8551dbecb7d13a2be876217509844bc973b0639"
+    },
+    "media/assets/incoming/signature_collection/radial_flower_lod1.glb": {
+      "bytes": 87168,
+      "sha256": "adab25644876a9bd2056acf88a69b1a56ac01a26dad777f17c5d6b04c01359eb"
+    },
+    "media/assets/incoming/signature_collection/serviceberry_master.glb": {
+      "bytes": 1750740,
+      "sha256": "96b2aa0894456d08761a57388f385834f7768b82feee74f1b109a9e102331807"
+    },
+    "media/assets/incoming/signature_collection/serviceberry_master_lod1.glb": {
+      "bytes": 1264424,
+      "sha256": "66be126a9b2e50f23327a64d6879e336f27474feaacc0b81ea97afc06e877ed1"
+    },
+    "media/assets/incoming/signature_collection/slender_tree.glb": {
+      "bytes": 894104,
+      "sha256": "5cd0c2350f60ef17aa3491d2cf19054721163886f6da197c4e230f798b47c6b6"
+    },
+    "media/assets/incoming/signature_collection/slender_tree_lod1.glb": {
+      "bytes": 622836,
+      "sha256": "a8915185971403b52737cdb6f03991a361127f323cfb529787cb4533ba524775"
+    },
+    "media/assets/incoming/signature_collection/upright_grass.glb": {
+      "bytes": 221052,
+      "sha256": "7fc0bf0782ea8d11a2b4c34e773df7f135d667ca83f59df1a6b7eec879b3d2f1"
+    },
+    "media/assets/incoming/signature_collection/upright_grass_lod1.glb": {
+      "bytes": 148028,
+      "sha256": "6f4d4c2b9bcdfa12e48be795b15442dcc6cbe8b7c661de4acd421cac30fdd355"
+    },
+    "media/assets/incoming/signature_collection/upright_perennial.glb": {
+      "bytes": 457912,
+      "sha256": "ff34754bfe3e4757e343d63f28297db81bc03af4e518683ffce59ff635e5d359"
+    },
+    "media/assets/incoming/signature_collection/upright_perennial_lod1.glb": {
+      "bytes": 283976,
+      "sha256": "a02f42b9b0a37b2de2083a541dc636b767b42a61a0f312f172a91eb3024c4972"
+    }
+  },
+  "models": {
+    "assets/incoming/signature_collection/deciduous_hedge.glb": {
+      "id": "deciduous_hedge",
+      "level": "master",
+      "bytes": 738456,
+      "sha256": "664c17ca67e5022848ab775c6a85393648f96cde5161a731837d2dadb414077e",
+      "file": "media/assets/incoming/signature_collection/deciduous_hedge.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/deciduous_hedge_lod1.glb": {
+      "id": "deciduous_hedge",
+      "level": "lod1",
+      "bytes": 518336,
+      "sha256": "aa42c8f916c3974cff4df3cf6a8b5ee12db0d3f90c8fb81b4200974b3049cbb6",
+      "file": "media/assets/incoming/signature_collection/deciduous_hedge_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/deschampsia.glb": {
+      "id": "deschampsia",
+      "level": "master",
+      "bytes": 156180,
+      "sha256": "fdc3ff4ceb1c73b3b38aa1fa32cff4efdbfea3433b1417a3a47aeb79576047bb",
+      "file": "media/assets/incoming/signature_collection/deschampsia.glb",
+      "dependencies": []
+    },
+    "assets/incoming/signature_collection/deschampsia_lod1.glb": {
+      "id": "deschampsia",
+      "level": "lod1",
+      "bytes": 100620,
+      "sha256": "16edf9f1f1dae0ca8d70005d89571a11286cb06b3ab8fad6e4adf9d8afe9286d",
+      "file": "media/assets/incoming/signature_collection/deschampsia_lod1.glb",
+      "dependencies": []
+    },
+    "assets/incoming/signature_collection/flowering_shrub.glb": {
+      "id": "flowering_shrub",
+      "level": "master",
+      "bytes": 643028,
+      "sha256": "308d5ef7b40c7065d44c0ea6b2899b25dd2fff269d06d1cb22bfd8ce602f04fc",
+      "file": "media/assets/incoming/signature_collection/flowering_shrub.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    },
+    "assets/incoming/signature_collection/flowering_shrub_lod1.glb": {
+      "id": "flowering_shrub",
+      "level": "lod1",
+      "bytes": 429616,
+      "sha256": "bc2503f1978280f0dc889178a3d51a7c542ced0548733e262a73e9caba43405f",
+      "file": "media/assets/incoming/signature_collection/flowering_shrub_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    },
+    "assets/incoming/signature_collection/flowering_tree.glb": {
+      "id": "flowering_tree",
+      "level": "master",
+      "bytes": 2130720,
+      "sha256": "9ade61755c8536a292cecff58006f66ff2b4714078f39781b02df4d0b2a7a69b",
+      "file": "media/assets/incoming/signature_collection/flowering_tree.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    },
+    "assets/incoming/signature_collection/flowering_tree_lod1.glb": {
+      "id": "flowering_tree",
+      "level": "lod1",
+      "bytes": 1405468,
+      "sha256": "2cab8f9f436fe48a2abd72cb1f4ca7c30930430ebfd5986cb3e66dbca1169ba9",
+      "file": "media/assets/incoming/signature_collection/flowering_tree_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    },
+    "assets/incoming/signature_collection/lobed_groundcover.glb": {
+      "id": "lobed_groundcover",
+      "level": "master",
+      "bytes": 107436,
+      "sha256": "3cb3c7612a957f52f2d126b6674643127868dab8950727dd7eaf6e5fe4892887",
+      "file": "media/assets/incoming/signature_collection/lobed_groundcover.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png"
+      ]
+    },
+    "assets/incoming/signature_collection/lobed_groundcover_lod1.glb": {
+      "id": "lobed_groundcover",
+      "level": "lod1",
+      "bytes": 68664,
+      "sha256": "d927475a1dd96c3596e1c9de5a8e5e6e4cf5aab5335e89915a0f40c13f388a75",
+      "file": "media/assets/incoming/signature_collection/lobed_groundcover_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png"
+      ]
+    },
+    "assets/incoming/signature_collection/mounded_shrub.glb": {
+      "id": "mounded_shrub",
+      "level": "master",
+      "bytes": 286344,
+      "sha256": "70b11eadd02207cb06e39080464a5e4d3b8a9facb95c420ced9c5184b9a6131d",
+      "file": "media/assets/incoming/signature_collection/mounded_shrub.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/mounded_shrub_lod1.glb": {
+      "id": "mounded_shrub",
+      "level": "lod1",
+      "bytes": 201688,
+      "sha256": "4680d95f28464754b0b1d64ed4c4d8ee163ebdcf10b201682a4b5ea93ffe8083",
+      "file": "media/assets/incoming/signature_collection/mounded_shrub_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/natural_hedge.glb": {
+      "id": "natural_hedge",
+      "level": "master",
+      "bytes": 738452,
+      "sha256": "eb3d2d31d9118e7342137b2cd8b9527764dd163251ac79c8f2eab4f53cd2e90a",
+      "file": "media/assets/incoming/signature_collection/natural_hedge.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/natural_hedge_lod1.glb": {
+      "id": "natural_hedge",
+      "level": "lod1",
+      "bytes": 518280,
+      "sha256": "64a4b268a8df0a8d0b15490d88c33baf3230b5356be6b2ce86360c8bd90f740d",
+      "file": "media/assets/incoming/signature_collection/natural_hedge_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/natural_shrub.glb": {
+      "id": "natural_shrub",
+      "level": "master",
+      "bytes": 286340,
+      "sha256": "99b38a085d816c9ad1c488a3d911ba241b48f0fa453b0edab8ba8427a3a47d65",
+      "file": "media/assets/incoming/signature_collection/natural_shrub.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/natural_shrub_lod1.glb": {
+      "id": "natural_shrub",
+      "level": "lod1",
+      "bytes": 201400,
+      "sha256": "4f90e396754d40066ba255a3ecb9a6c5b76a5c7d9ca28516f4befaadfe8d1e1c",
+      "file": "media/assets/incoming/signature_collection/natural_shrub_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/radial_flower.glb": {
+      "id": "radial_flower",
+      "level": "master",
+      "bytes": 133792,
+      "sha256": "a6b4dec5ace805ac62cba834f8551dbecb7d13a2be876217509844bc973b0639",
+      "file": "media/assets/incoming/signature_collection/radial_flower.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    },
+    "assets/incoming/signature_collection/radial_flower_lod1.glb": {
+      "id": "radial_flower",
+      "level": "lod1",
+      "bytes": 87168,
+      "sha256": "adab25644876a9bd2056acf88a69b1a56ac01a26dad777f17c5d6b04c01359eb",
+      "file": "media/assets/incoming/signature_collection/radial_flower_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    },
+    "assets/incoming/signature_collection/serviceberry_master.glb": {
+      "id": "serviceberry_master",
+      "level": "master",
+      "bytes": 1750740,
+      "sha256": "96b2aa0894456d08761a57388f385834f7768b82feee74f1b109a9e102331807",
+      "file": "media/assets/incoming/signature_collection/serviceberry_master.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/serviceberry_master_lod1.glb": {
+      "id": "serviceberry_master",
+      "level": "lod1",
+      "bytes": 1264424,
+      "sha256": "66be126a9b2e50f23327a64d6879e336f27474feaacc0b81ea97afc06e877ed1",
+      "file": "media/assets/incoming/signature_collection/serviceberry_master_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/slender_tree.glb": {
+      "id": "slender_tree",
+      "level": "master",
+      "bytes": 894104,
+      "sha256": "5cd0c2350f60ef17aa3491d2cf19054721163886f6da197c4e230f798b47c6b6",
+      "file": "media/assets/incoming/signature_collection/slender_tree.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/slender_tree_lod1.glb": {
+      "id": "slender_tree",
+      "level": "lod1",
+      "bytes": 622836,
+      "sha256": "a8915185971403b52737cdb6f03991a361127f323cfb529787cb4533ba524775",
+      "file": "media/assets/incoming/signature_collection/slender_tree_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/4bd346e082bbfd388548.png",
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/b6384c2aee04c8e2289b.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/ee36830b1f7b4d204c93.png"
+      ]
+    },
+    "assets/incoming/signature_collection/upright_grass.glb": {
+      "id": "upright_grass",
+      "level": "master",
+      "bytes": 221052,
+      "sha256": "7fc0bf0782ea8d11a2b4c34e773df7f135d667ca83f59df1a6b7eec879b3d2f1",
+      "file": "media/assets/incoming/signature_collection/upright_grass.glb",
+      "dependencies": []
+    },
+    "assets/incoming/signature_collection/upright_grass_lod1.glb": {
+      "id": "upright_grass",
+      "level": "lod1",
+      "bytes": 148028,
+      "sha256": "6f4d4c2b9bcdfa12e48be795b15442dcc6cbe8b7c661de4acd421cac30fdd355",
+      "file": "media/assets/incoming/signature_collection/upright_grass_lod1.glb",
+      "dependencies": []
+    },
+    "assets/incoming/signature_collection/upright_perennial.glb": {
+      "id": "upright_perennial",
+      "level": "master",
+      "bytes": 457912,
+      "sha256": "ff34754bfe3e4757e343d63f28297db81bc03af4e518683ffce59ff635e5d359",
+      "file": "media/assets/incoming/signature_collection/upright_perennial.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    },
+    "assets/incoming/signature_collection/upright_perennial_lod1.glb": {
+      "id": "upright_perennial",
+      "level": "lod1",
+      "bytes": 283976,
+      "sha256": "a02f42b9b0a37b2de2083a541dc636b767b42a61a0f312f172a91eb3024c4972",
+      "file": "media/assets/incoming/signature_collection/upright_perennial_lod1.glb",
+      "dependencies": [
+        "media/materials/signature_collection/shared/a740931235b7aeca178c.png",
+        "media/materials/signature_collection/shared/adc7439490c91d58a80f.png",
+        "media/materials/signature_collection/shared/c3ebb8dba51fe6ecdc69.png",
+        "media/materials/signature_collection/shared/c8d4a9d6cd2682e4f11c.png",
+        "media/materials/signature_collection/shared/da2588c0a5f867564579.png",
+        "media/materials/signature_collection/shared/f6f7cb1ebacfbaa40ebc.png"
+      ]
+    }
+  }
+}

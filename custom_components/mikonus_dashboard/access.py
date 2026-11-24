@@ -5,6 +5,7 @@ from copy import deepcopy
 from homeassistant.auth.permissions.const import POLICY_READ
 
 from .const import DOMAIN
+from .living_island import WORLD_FIELDS
 from .models import ContractError
 
 
@@ -36,4 +37,5 @@ def delivery(store, scene_id, user):
     return {
         "scene": scene,
         "metadata": {**store.metadata(record), "bindingsRedacted": redacted},
+        **{key: deepcopy(record[key]) for key in WORLD_FIELDS if key in record},
     }

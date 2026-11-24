@@ -18,6 +18,7 @@ from .const import (
     STORAGE_VERSION,
     VERSION,
 )
+from .living_island import validate_world
 from .models import ContractError
 from .validation import validate_scene
 
@@ -36,6 +37,11 @@ def digest(value):
     return "sha256:" + hashlib.sha256(raw).hexdigest()
 
 
+def scene_digest(scene, world):
+    # Retain the legacy digest for old records and indoor-only clients.
+    return digest({"scene": scene, **world} if world else scene)
+
+
 def validate_storage(data):
     if (
         not isinstance(data, dict)
@@ -50,7 +56,7 @@ def validate_storage(data):
             scene_id != record["scene"]["sceneId"]
             or type(record["revision"]) is not int
             or record["revision"] < 1
-            or digest(record["scene"]) != record["digest"]
+            or scene_digest(record["scene"], validate_world(record)) != record["digest"]
         ):
             raise ValueError("Invalid persisted scene identity/revision/digest")
         datetime.fromisoformat(record["publishedAt"])
@@ -106,7 +112,12 @@ class SceneStore:
 
     async def async_load(self):
         data = await self.storage.async_load()
-        self.scenes = validate_storage(data)["scenes"] if data is not None else {}
+        if data is not None:
+            self.scenes = (
+                await self.hass.async_add_executor_job(validate_storage, data)
+            )["scenes"]
+        else:
+            self.scenes = {}
 
     def metadata(self, record):
         return {
@@ -117,6 +128,11 @@ class SceneStore:
             "digest": record["digest"],
             "publishedAt": record["publishedAt"],
             "generatorMetadata": record["scene"].get("metadata") or {},
+            **(
+                {"worldPublication": deepcopy(record["worldPublication"])}
+                if "worldPublication" in record
+                else {}
+            ),
         }
 
     def get(self, scene_id):
@@ -132,6 +148,18 @@ class SceneStore:
             raise ContractError(
                 "integration_not_setup", "Set up or reload Mikonus Dashboard.", 503
             )
+
+    async def _validate_world(self, payload, current):
+        if "worldPublication" in payload or "livingIsland" in payload:
+            return await self.hass.async_add_executor_job(validate_world, payload)
+        if current and "worldPublication" in current:
+            raise ContractError(
+                "world_publication_required",
+                "This scene requires a revisioned world publication.",
+                409,
+                currentRevision=current["revision"],
+            )
+        return {}
 
     def subscribe(self, callback):
         self.ensure_open()
@@ -211,15 +239,18 @@ class SceneStore:
                     "Maximum number of stored scenes reached.",
                     409,
                 )
-            content_digest = digest(scene)
+            world = await self._validate_world(payload, current)
+            content_digest = scene_digest(scene, world)
             updated = current is None or current["digest"] != content_digest
             record = deepcopy(current) if current else {"requests": {}}
             if updated:
+                record.pop("livingIsland", None)
                 record.update(
                     scene=deepcopy(scene),
                     revision=revision + 1,
                     digest=content_digest,
                     publishedAt=datetime.now(timezone.utc).isoformat(),
+                    **deepcopy(world),
                 )
             receipt = {
                 "integration": DOMAIN,
@@ -315,13 +346,15 @@ class SceneStore:
                     "Only Mikonus-managed scenes can participate in replacement.",
                 )
 
-            content_digest = digest(scene)
+            world = await self._validate_world(payload, current)
+            content_digest = scene_digest(scene, world)
             record = {
                 "scene": deepcopy(scene),
                 "revision": revision + 1,
                 "digest": content_digest,
                 "publishedAt": datetime.now(timezone.utc).isoformat(),
                 "requests": {},
+                **deepcopy(world),
             }
             receipt = {
                 "integration": DOMAIN,

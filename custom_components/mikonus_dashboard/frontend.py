@@ -9,7 +9,8 @@ from homeassistant.loader import async_get_integration
 
 from .const import DOMAIN
 
-URL_PATH = "/mikonus_dashboard/frontend/mikonus-3d-card.js"
+FRONTEND_PATH = "/mikonus_dashboard/frontend"
+URL_PATH = f"{FRONTEND_PATH}/mikonus-3d-card.js"
 DATA_FRONTEND = f"{DOMAIN}_frontend"
 
 
@@ -20,13 +21,20 @@ async def async_register_frontend(hass):
     )
     async with state["lock"]:
         if not state["static"]:
+            frontend = Path(__file__).parent / "frontend"
             await hass.http.async_register_static_paths(
                 [
                     StaticPathConfig(
                         URL_PATH,
-                        str(Path(__file__).parent / "frontend" / "mikonus-3d-card.js"),
+                        str(frontend / "mikonus-3d-card.js"),
                         False,
-                    )
+                    ),
+                    StaticPathConfig(
+                        f"{FRONTEND_PATH}/assets", str(frontend / "assets"), False
+                    ),
+                    StaticPathConfig(
+                        f"{FRONTEND_PATH}/outdoor", str(frontend / "outdoor"), False
+                    ),
                 ]
             )
             state["static"] = True

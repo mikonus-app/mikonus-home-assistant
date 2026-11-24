@@ -1,0 +1,26 @@
+{
+  "packageName": "@mikonus/native-web-assets",
+  "scope": "signature-outdoor",
+  "assetVersion": "0.4.0-island.1",
+  "releaseState": "candidate",
+  "contractVersion": "1.0.0",
+  "index": {
+    "path": "asset-index.json",
+    "bytes": 26762,
+    "sha256": "b25ad50f47965c3d94113ae3ba102a8dc838bc421d6fcef57ce188a4048e043c"
+  },
+  "contents": {
+    "path": "contents.json",
+    "bytes": 6572,
+    "sha256": "7c0f7cd99c882bc5bc27ed3f973799ae646216227208730096a95f7da2acf931"
+  },
+  "counts": {
+    "resources": 35,
+    "masters": 13,
+    "lod1": 13,
+    "types": 6
+  },
+  "approval": {
+    "publicationAuthorized": true
+  }
+}

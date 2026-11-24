@@ -1,0 +1,4908 @@
+{
+  "contractVersion": "1.0.0",
+  "packageName": "@mikonus/native-web-assets",
+  "assetVersion": "0.2.0-web2c.1",
+  "releaseState": "candidate",
+  "materialBindings": [
+    {
+      "id": "oak",
+      "nativeRef": "media/assets/signature/manifest.json#/assets/oak",
+      "textures": [
+        {
+          "source": "media/assets/signature/oak_albedo.png",
+          "sha256": "700f1eb9665904f0887162cdd238b74bef9b796efaca0d4c01043a712441e257",
+          "channel": "albedo"
+        },
+        {
+          "source": "media/assets/signature/oak_normal.png",
+          "sha256": "a0dce140e4726ce588f3dc398b63bbdffc5726abb9d30250dc91bbeed3a922ca",
+          "channel": "normal"
+        },
+        {
+          "source": "media/assets/signature/oak_orm.png",
+          "sha256": "982f357c2faa8aa73b1b9d509df57ac41b0439597467d13dbd42fcd72f27cd75",
+          "channel": "orm"
+        }
+      ]
+    },
+    {
+      "id": "fabric",
+      "nativeRef": "media/assets/signature/manifest.json#/assets/fabric",
+      "textures": [
+        {
+          "source": "media/assets/signature/fabric_albedo.png",
+          "sha256": "9bd56ee29b094ac8b8fd39d9e578180b329cd80cfb5a590c1fcd20d44e4ef9b9",
+          "channel": "albedo"
+        },
+        {
+          "source": "media/assets/signature/fabric_normal.png",
+          "sha256": "1516743081e126e680f83929c6ab6b4ae8d9b07058b0cc6c8ab83367e16b7de7",
+          "channel": "normal"
+        },
+        {
+          "source": "media/assets/signature/fabric_orm.png",
+          "sha256": "a9f86784226d90ec08230989aecf9e47c15653b6632aa76801530109f9ac3d1d",
+          "channel": "orm"
+        }
+      ]
+    },
+    {
+      "id": "plaster",
+      "nativeRef": "media/assets/signature/manifest.json#/assets/plaster",
+      "textures": [
+        {
+          "source": "media/assets/signature/plaster_albedo.png",
+          "sha256": "5ed30ea67b8b25c2381402f6a5bac668bd055eaeb79a30b694ea427f48ed1f5a",
+          "channel": "albedo"
+        },
+        {
+          "source": "media/assets/signature/plaster_normal.png",
+          "sha256": "0ad042fb3dc5670da04e4c34e9922c55a246c285dc73bcbe1f6113d1f74a4c7e",
+          "channel": "normal"
+        },
+        {
+          "source": "media/assets/signature/plaster_orm.png",
+          "sha256": "4a1187a986f8f149c0c4ac669a708e52c56bcf600baff6035b95dfb237a053d6",
+          "channel": "orm"
+        }
+      ]
+    },
+    {
+      "id": "wood",
+      "nativeRef": "media/assets/signature/manifest.json#/assets/wood",
+      "textures": [
+        {
+          "source": "media/assets/signature/wood_albedo.png",
+          "sha256": "19ce40834968ad82a5bc1fe60a1b158fb8538f2109e939b8f2113d6bafcc7617",
+          "channel": "albedo"
+        },
+        {
+          "source": "media/assets/signature/wood_normal.png",
+          "sha256": "a8b21d519962411af3b59b57b7d3b3ff0c06ee6e546692c7ae5c335dc04edeba",
+          "channel": "normal"
+        },
+        {
+          "source": "media/assets/signature/wood_orm.png",
+          "sha256": "a61c9352cead536cf890dd749355b78c7e4118424b407c714ecb958f6cf33626",
+          "channel": "orm"
+        }
+      ]
+    },
+    {
+      "id": "metal",
+      "nativeRef": "media/assets/signature/manifest.json#/assets/metal",
+      "textures": [
+        {
+          "source": "media/assets/signature/metal_albedo.png",
+          "sha256": "cf52cdd3485f87adbd5406981fd0fd8599b9e9c3e523a7f631b042b745fd8605",
+          "channel": "albedo"
+        },
+        {
+          "source": "media/assets/signature/metal_normal.png",
+          "sha256": "54c4c3880c1d9b08c0c9171cb8b7a57ecf52761fc46f9f4beb8e139c530b9aeb",
+          "channel": "normal"
+        },
+        {
+          "source": "media/assets/signature/metal_orm.png",
+          "sha256": "ec104f3e487554588a539bf8ec5ae3d8e8bf5fab330ca2bda9980f963be9209a",
+          "channel": "orm"
+        }
+      ]
+    },
+    {
+      "id": "tile",
+      "nativeRef": "media/assets/signature/manifest.json#/assets/tile",
+      "textures": [
+        {
+          "source": "media/assets/signature/tile_albedo.png",
+          "sha256": "b808c816be789144a201b707ec05646971990451369fa9c14e0960c23f623ffe",
+          "channel": "albedo"
+        },
+        {
+          "source": "media/assets/signature/tile_normal.png",
+          "sha256": "85d05556646ee3d47c65e4518531a9432d3a32ea0d7a0141b193c86384be23f6",
+          "channel": "normal"
+        },
+        {
+          "source": "media/assets/signature/tile_orm.png",
+          "sha256": "d13d9f3989f4ec221cca1244f0c718a5984a9c7befca016ff2a94d4d77c0b648",
+          "channel": "orm"
+        }
+      ]
+    },
+    {
+      "id": "stone",
+      "nativeRef": "media/assets/signature/manifest.json#/assets/stone",
+      "textures": [
+        {
+          "source": "media/assets/signature/stone_albedo.png",
+          "sha256": "6d81125e4a954397a697ac13ca809030e076376e5e453d38b99f513d570cdb3d",
+          "channel": "albedo"
+        },
+        {
+          "source": "media/assets/signature/stone_normal.png",
+          "sha256": "d0eefb208c76db419edbc30d088427919ebb3c02fdd1e8d004bf54fb9e637d88",
+          "channel": "normal"
+        },
+        {
+          "source": "media/assets/signature/stone_orm.png",
+          "sha256": "f09c3f2eb363527527fd222fab1abceea6675f29d72264c6e34df14cdd1337ef",
+          "channel": "orm"
+        }
+      ]
+    }
+  ],
+  "componentGlb": {
+    "source": "media/assets/interior/signature_components.glb",
+    "sha256": "b5a128aab440f4ed1709e70d8a893a7509444a1fa6210bf3878c0763f262108e",
+    "components": [
+      {
+        "name": "arm",
+        "nodeIndex": 0,
+        "meshIndex": 0,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "back",
+        "nodeIndex": 1,
+        "meshIndex": 1,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "base",
+        "nodeIndex": 2,
+        "meshIndex": 2,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "duvet",
+        "nodeIndex": 3,
+        "meshIndex": 3,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "floor_leaves",
+        "nodeIndex": 4,
+        "meshIndex": 4,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.21118968725204468,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "COLOR_0",
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "floor_pot",
+        "nodeIndex": 5,
+        "meshIndex": 5,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.26433178782463074,
+                -0.5,
+                -0.2502524256706238
+              ],
+              "max": [
+                0.2874024212360382,
+                -0.25421980023384094,
+                0.30099377036094666
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "floor_soil",
+        "nodeIndex": 6,
+        "meshIndex": 6,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.23398640751838684,
+                -0.2861712574958801,
+                -0.2199338972568512
+              ],
+              "max": [
+                0.2570570409297943,
+                -0.2812556326389313,
+                0.2706752121448517
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "floor_stems",
+        "nodeIndex": 7,
+        "meshIndex": 7,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.20620501041412354,
+                -0.30466610193252563,
+                -0.22675904631614685
+              ],
+              "max": [
+                0.21713271737098694,
+                0.4530382454395294,
+                0.21085703372955322
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "housing",
+        "nodeIndex": 8,
+        "meshIndex": 8,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "pillow_a",
+        "nodeIndex": 9,
+        "meshIndex": 9,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "pillow_b",
+        "nodeIndex": 10,
+        "meshIndex": 10,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "reflector",
+        "nodeIndex": 11,
+        "meshIndex": 11,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "seat",
+        "nodeIndex": 12,
+        "meshIndex": 12,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "shade",
+        "nodeIndex": 13,
+        "meshIndex": 13,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                -0.5,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "small_leaves",
+        "nodeIndex": 14,
+        "meshIndex": 14,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.5,
+                0.1190473809838295,
+                -0.5
+              ],
+              "max": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            "attributes": [
+              "COLOR_0",
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "small_pot",
+        "nodeIndex": 15,
+        "meshIndex": 15,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.3817555904388428,
+                -0.5,
+                -0.3350484073162079
+              ],
+              "max": [
+                0.36745426058769226,
+                0.020365487784147263,
+                0.3581048548221588
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "small_soil",
+        "nodeIndex": 16,
+        "meshIndex": 16,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.3405490517616272,
+                -0.04728202894330025,
+                -0.29692497849464417
+              ],
+              "max": [
+                0.3262477219104767,
+                -0.03687472641468048,
+                0.3199814260005951
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      },
+      {
+        "name": "small_stems",
+        "nodeIndex": 17,
+        "meshIndex": 17,
+        "transform": {},
+        "primitives": [
+          {
+            "bounds": {
+              "min": [
+                -0.2523883581161499,
+                -0.04911533743143082,
+                -0.27618736028671265
+              ],
+              "max": [
+                0.2560363709926605,
+                0.41778671741485596,
+                0.2862779200077057
+              ]
+            },
+            "attributes": [
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0"
+            ],
+            "materialSlot": null
+          }
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "mesh": 0,
+        "name": "arm"
+      },
+      {
+        "mesh": 1,
+        "name": "back"
+      },
+      {
+        "mesh": 2,
+        "name": "base"
+      },
+      {
+        "mesh": 3,
+        "name": "duvet"
+      },
+      {
+        "mesh": 4,
+        "name": "floor_leaves"
+      },
+      {
+        "mesh": 5,
+        "name": "floor_pot"
+      },
+      {
+        "mesh": 6,
+        "name": "floor_soil"
+      },
+      {
+        "mesh": 7,
+        "name": "floor_stems"
+      },
+      {
+        "mesh": 8,
+        "name": "housing"
+      },
+      {
+        "mesh": 9,
+        "name": "pillow_a"
+      },
+      {
+        "mesh": 10,
+        "name": "pillow_b"
+      },
+      {
+        "mesh": 11,
+        "name": "reflector"
+      },
+      {
+        "mesh": 12,
+        "name": "seat"
+      },
+      {
+        "mesh": 13,
+        "name": "shade"
+      },
+      {
+        "mesh": 14,
+        "name": "small_leaves"
+      },
+      {
+        "mesh": 15,
+        "name": "small_pot"
+      },
+      {
+        "mesh": 16,
+        "name": "small_soil"
+      },
+      {
+        "mesh": 17,
+        "name": "small_stems"
+      }
+    ],
+    "scenes": [
+      {
+        "name": "Scene",
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ],
+    "materials": []
+  },
+  "living": [
+    {
+      "catalogId": "living.coffee_automatic",
+      "glb": "media/assets/living/coffee_automatic.glb",
+      "sha256": "b490d1c0b8935be3afea4dda91e3fbd9b07879bdb0cfba098ddb1188444c5c64",
+      "dimensions": [
+        0.295,
+        0.39,
+        0.346
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "coffee_automatic__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "coffee_automatic__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "coffee_automatic__technical"
+        },
+        {
+          "id": "beans",
+          "meshNode": "coffee_automatic__beans"
+        },
+        {
+          "id": "ceramic",
+          "meshNode": "coffee_automatic__ceramic"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.toaster",
+      "glb": "media/assets/living/toaster.glb",
+      "sha256": "3ca2a1363d77db68c80cd965aca456c7d867937f3ff2a14357bdf3ca904209fc",
+      "dimensions": [
+        0.309,
+        0.2065,
+        0.17
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "toaster__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "toaster__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "toaster__technical"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.kettle",
+      "glb": "media/assets/living/kettle.glb",
+      "sha256": "1d95229929ad5c74805623615c424fb660d4e12f83cd8219a707a4c4f2ea426e",
+      "dimensions": [
+        0.2683,
+        0.255,
+        0.182
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "kettle__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "kettle__accent"
+        },
+        {
+          "id": "metal",
+          "meshNode": "kettle__metal"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.tulip_vase",
+      "glb": "media/assets/living/tulip_vase.glb",
+      "sha256": "63856676d65e28bf45e8a9ba4691df23786f662d127086bf0f21f8190a84180c",
+      "dimensions": [
+        0.23285,
+        0.46689,
+        0.23016
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "tulip_vase__body"
+        },
+        {
+          "id": "stems",
+          "meshNode": "tulip_vase__stems"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "tulip_vase__leaves"
+        },
+        {
+          "id": "flowers",
+          "meshNode": "tulip_vase__flowers"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.candle_tray",
+      "glb": "media/assets/living/candle_tray.glb",
+      "sha256": "16840efc840a18935114c375332a43cdbc5a69bc54635913ee6ce63aa49c0204",
+      "dimensions": [
+        0.316,
+        0.19813,
+        0.316
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "candle_tray__body"
+        },
+        {
+          "id": "wax",
+          "meshNode": "candle_tray__wax"
+        },
+        {
+          "id": "wick",
+          "meshNode": "candle_tray__wick"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.book_stack",
+      "glb": "media/assets/living/book_stack.glb",
+      "sha256": "0c41855a32301222ef71ca875c0ccbe6fa721c228d424c6366852f805b74da37",
+      "dimensions": [
+        0.25177,
+        0.095,
+        0.19611
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "book_stack__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "book_stack__accent"
+        },
+        {
+          "id": "paper",
+          "meshNode": "book_stack__paper"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.willow_basket",
+      "glb": "media/assets/living/willow_basket.glb",
+      "sha256": "df1890fe62898dd854fadb10cb5c1ac89d93cef4107ebc71e2fb79e97c99d8e6",
+      "dimensions": [
+        0.31399,
+        0.284,
+        0.314
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "willow_basket__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "willow_basket__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.towel_stack",
+      "glb": "media/assets/living/towel_stack.glb",
+      "sha256": "eceec4fcafca6f2ad41b24cc5585548a6ef26d97e6e02231e7f236ebffef8025",
+      "dimensions": [
+        0.28,
+        0.14386,
+        0.21
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "towel_stack__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "towel_stack__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.orchid",
+      "glb": "media/assets/living/orchid.glb",
+      "sha256": "773c2af5a86973eac37f8f22aeae8086254f434e8ac19690e2f07a5fff46137e",
+      "dimensions": [
+        0.35157,
+        0.426,
+        0.24996
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "orchid__body"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "orchid__leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "orchid__stems"
+        },
+        {
+          "id": "flowers",
+          "meshNode": "orchid__flowers"
+        },
+        {
+          "id": "flower_center",
+          "meshNode": "orchid__flower_center"
+        },
+        {
+          "id": "soil",
+          "meshNode": "orchid__soil"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.log_basket",
+      "glb": "media/assets/living/log_basket.glb",
+      "sha256": "503d20978fcd1215c4f3f440591135c6ba3750b94e1e21e8c32848fae2fae3fa",
+      "dimensions": [
+        0.31399,
+        0.284,
+        0.31656
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "log_basket__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "log_basket__accent"
+        },
+        {
+          "id": "logs",
+          "meshNode": "log_basket__logs"
+        },
+        {
+          "id": "endgrain",
+          "meshNode": "log_basket__endgrain"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.coffee_filter",
+      "glb": "media/assets/living/coffee_filter.glb",
+      "sha256": "164e9bfa82580025c4eed38f0492ef5f1fc1e2885f8bce0d5d2e358dec3811a5",
+      "dimensions": [
+        0.251,
+        0.335,
+        0.25
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "coffee_filter__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "coffee_filter__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "coffee_filter__technical"
+        },
+        {
+          "id": "glass",
+          "meshNode": "coffee_filter__glass"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.espresso_machine",
+      "glb": "media/assets/living/espresso_machine.glb",
+      "sha256": "49b9450eabeeac83f409e2b193835f9ae5a8944a4ab01c09c2b20011539cca37",
+      "dimensions": [
+        0.275,
+        0.2545,
+        0.30997
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "espresso_machine__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "espresso_machine__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "espresso_machine__technical"
+        },
+        {
+          "id": "ceramic",
+          "meshNode": "espresso_machine__ceramic"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.capsule_machine",
+      "glb": "media/assets/living/capsule_machine.glb",
+      "sha256": "e945f33461882930ca7d1d8bb1d91fc3f55396d33dab0a17c29a75067d8056c0",
+      "dimensions": [
+        0.12,
+        0.26919,
+        0.263
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "capsule_machine__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "capsule_machine__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "capsule_machine__technical"
+        },
+        {
+          "id": "ceramic",
+          "meshNode": "capsule_machine__ceramic"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.airfryer",
+      "glb": "media/assets/living/airfryer.glb",
+      "sha256": "380d6767f2040e5154eda2ff25b6239172c33aea3479aed1a7fa4177f64796ed",
+      "dimensions": [
+        0.29,
+        0.31,
+        0.3416
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "airfryer__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "airfryer__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "airfryer__technical"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.stand_mixer",
+      "glb": "media/assets/living/stand_mixer.glb",
+      "sha256": "a3d9d1e450b92756a3daf96481df44e6b353f451d1582e6776a7230aa87d7ee3",
+      "dimensions": [
+        0.206,
+        0.3415,
+        0.3055
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "stand_mixer__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "stand_mixer__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "stand_mixer__technical"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.blender",
+      "glb": "media/assets/living/blender.glb",
+      "sha256": "ce2e2a6f245ff7a86874c762bc905eed0b152de4dd8528da4a4ae9729b796e91",
+      "dimensions": [
+        0.226,
+        0.391,
+        0.16
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "blender__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "blender__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "blender__technical"
+        },
+        {
+          "id": "glass",
+          "meshNode": "blender__glass"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.knife_block",
+      "glb": "media/assets/living/knife_block.glb",
+      "sha256": "22304854f88c00a3f689328c7cf20ab52ebfea983d0c95ec198bc33f5d87f41b",
+      "dimensions": [
+        0.15,
+        0.291,
+        0.115
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "knife_block__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "knife_block__accent"
+        },
+        {
+          "id": "metal",
+          "meshNode": "knife_block__metal"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.utensil_crock",
+      "glb": "media/assets/living/utensil_crock.glb",
+      "sha256": "96f729b08db9702c88ba1ee4d45acbe952f6382cd77681c3ae4535175e7c3160",
+      "dimensions": [
+        0.11,
+        0.341,
+        0.11
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "utensil_crock__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "utensil_crock__accent"
+        },
+        {
+          "id": "metal",
+          "meshNode": "utensil_crock__metal"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.cutting_boards",
+      "glb": "media/assets/living/cutting_boards.glb",
+      "sha256": "75609754ca179107c6b8696a01ad55aedd7561ed76b60e89feef16fcc018c2af",
+      "dimensions": [
+        0.29404,
+        0.377,
+        0.06998
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "cutting_boards__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "cutting_boards__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.skillet",
+      "glb": "media/assets/living/skillet.glb",
+      "sha256": "7be30742fcbe5e349b5cd95c4f7e0c1ff5c8580d6028688f34f526f3a5858b77",
+      "dimensions": [
+        0.43132,
+        0.06825,
+        0.28
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "skillet__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "skillet__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.stockpot",
+      "glb": "media/assets/living/stockpot.glb",
+      "sha256": "b5e0f5e1e3b745e4fc111603af2e1a47ece16019b3a8fb8db301c965bd54b93a",
+      "dimensions": [
+        0.314,
+        0.212,
+        0.212
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "stockpot__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "stockpot__accent"
+        },
+        {
+          "id": "technical",
+          "meshNode": "stockpot__technical"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.storage_jars",
+      "glb": "media/assets/living/storage_jars.glb",
+      "sha256": "ed5f649585ab0e7c2d20e15488b9eaaffb43c94d03446a6ec3f8da70fe965139",
+      "dimensions": [
+        0.20768,
+        0.186,
+        0.17526
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "storage_jars__body"
+        },
+        {
+          "id": "glass",
+          "meshNode": "storage_jars__glass"
+        },
+        {
+          "id": "contents",
+          "meshNode": "storage_jars__contents"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.spice_rack",
+      "glb": "media/assets/living/spice_rack.glb",
+      "sha256": "f4084cf4240d1134fd3e4f20dd7fb745a2a1344983940a387da0b51679835261",
+      "dimensions": [
+        0.292,
+        0.2245,
+        0.08
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "spice_rack__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "spice_rack__accent"
+        },
+        {
+          "id": "glass",
+          "meshNode": "spice_rack__glass"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.paper_towel",
+      "glb": "media/assets/living/paper_towel.glb",
+      "sha256": "ff212bef725e1f033804bcd271ce5f996622b41c541e68669970568d8964aa7a",
+      "dimensions": [
+        0.153,
+        0.265,
+        0.15
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "paper_towel__body"
+        },
+        {
+          "id": "paper",
+          "meshNode": "paper_towel__paper"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.bread_basket",
+      "glb": "media/assets/living/bread_basket.glb",
+      "sha256": "540160a819a58e7000d2bac74a0db3caf3b20c3aa63072b4c8153b5d55e8cc44",
+      "dimensions": [
+        0.29,
+        0.13571,
+        0.29
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "bread_basket__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "bread_basket__accent"
+        },
+        {
+          "id": "bread",
+          "meshNode": "bread_basket__bread"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.fruit_bowl",
+      "glb": "media/assets/living/fruit_bowl.glb",
+      "sha256": "1f85a373e202103a008b5f87cb2f2a94c63b4a8b0a84f0e533ff4142785ce278",
+      "dimensions": [
+        0.3,
+        0.17198,
+        0.3
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "fruit_bowl__body"
+        },
+        {
+          "id": "apples",
+          "meshNode": "fruit_bowl__apples"
+        },
+        {
+          "id": "oranges",
+          "meshNode": "fruit_bowl__oranges"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "fruit_bowl__leaves"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.coffee_tin",
+      "glb": "media/assets/living/coffee_tin.glb",
+      "sha256": "5ec08a90d008930377613329d8c887973ddc30f1832a879b81fc8efe7d31b696",
+      "dimensions": [
+        0.142,
+        0.191,
+        0.142
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "coffee_tin__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "coffee_tin__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.dinnerware",
+      "glb": "media/assets/living/dinnerware.glb",
+      "sha256": "f27d492d3e182d08e2635493a154c67198722a162ff7fef58c44ebd5b3640674",
+      "dimensions": [
+        0.25,
+        0.148,
+        0.25
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "dinnerware__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "dinnerware__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.cutlery",
+      "glb": "media/assets/living/cutlery.glb",
+      "sha256": "b6c8e2760833af5a14df81f660a960c60d27140ad3ae72d88270dbbf00639bc6",
+      "dimensions": [
+        0.093,
+        0.011,
+        0.16705
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "cutlery__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "cutlery__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.mugs",
+      "glb": "media/assets/living/mugs.glb",
+      "sha256": "d19df5bf8078a0aa45ffd2e34e17f31e253d4698e54308bfa15af25b8a333339",
+      "dimensions": [
+        0.22478,
+        0.092,
+        0.127
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "mugs__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "mugs__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.drinking_glasses",
+      "glb": "media/assets/living/drinking_glasses.glb",
+      "sha256": "543542d8b25ab2c3d52e1ae5069fe52967f1651d78fec020e29e8e68d1266044",
+      "dimensions": [
+        0.168,
+        0.13,
+        0.097
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "drinking_glasses__body"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.monstera",
+      "glb": "media/assets/living/monstera.glb",
+      "sha256": "58f4e25fdfbef94f1a0f6fd8b44634063d11373b86a72d9ea4b1552d9256d6be",
+      "dimensions": [
+        0.78428,
+        0.70597,
+        0.77399
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "monstera__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "monstera__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "monstera__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "monstera__young_leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "monstera__stems"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.ficus",
+      "glb": "media/assets/living/ficus.glb",
+      "sha256": "f13f62a108f88dfbc8b9765357428b2beaa0af623e8c6f603a790ffaf773609d",
+      "dimensions": [
+        0.6748,
+        1.23171,
+        0.67724
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "ficus__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "ficus__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "ficus__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "ficus__young_leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "ficus__stems"
+        },
+        {
+          "id": "bark",
+          "meshNode": "ficus__bark"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.succulent",
+      "glb": "media/assets/living/succulent.glb",
+      "sha256": "13f6c57a57fb9ecb3e6aa57db6d75bf66b3c0b9f5ac377621286272859748f13",
+      "dimensions": [
+        0.1901,
+        0.14198,
+        0.19205
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "succulent__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "succulent__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "succulent__leaves"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.cactus",
+      "glb": "media/assets/living/cactus.glb",
+      "sha256": "cb73cc65fd18ec0ff70cf82fe94e0208a47e08cb18dbae089a23311a133b9747",
+      "dimensions": [
+        0.2,
+        0.383,
+        0.2
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "cactus__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "cactus__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "cactus__leaves"
+        },
+        {
+          "id": "needles",
+          "meshNode": "cactus__needles"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.basil",
+      "glb": "media/assets/living/basil.glb",
+      "sha256": "fb0cd66e8ab32d975082cd71434973e5df90026c64197405f42755219f6bd6c3",
+      "dimensions": [
+        0.1552,
+        0.30498,
+        0.15609
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "basil__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "basil__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "basil__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "basil__young_leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "basil__stems"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.ivy",
+      "glb": "media/assets/living/ivy.glb",
+      "sha256": "95f3e4afb73fc6884eea65bd2ce27c6b0ac05a79c6d5425ca2411bf1917dbaf6",
+      "dimensions": [
+        0.41754,
+        0.18179,
+        0.37653
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "ivy__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "ivy__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "ivy__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "ivy__young_leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "ivy__stems"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.pampas",
+      "glb": "media/assets/living/pampas.glb",
+      "sha256": "d6911929e10b614f0db92a09692a4b9d66abf627f0c9860a6d496e724f3fc7ac",
+      "dimensions": [
+        0.29585,
+        0.83774,
+        0.28846
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "pampas__body"
+        },
+        {
+          "id": "stems",
+          "meshNode": "pampas__stems"
+        },
+        {
+          "id": "flowers",
+          "meshNode": "pampas__flowers"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.fern",
+      "glb": "media/assets/living/fern.glb",
+      "sha256": "3d277a275a2f237fa516e19aa621a6c287b7467bf8eff8f8217785a9c55eb91c",
+      "dimensions": [
+        0.46689,
+        0.34765,
+        0.44325
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "fern__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "fern__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "fern__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "fern__young_leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "fern__stems"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.snakeplant",
+      "glb": "media/assets/living/snakeplant.glb",
+      "sha256": "050b8664b49c4391035817c1001d0e127d5b53a427589a10a976d6c36123d00c",
+      "dimensions": [
+        0.26,
+        0.77154,
+        0.28538
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "snakeplant__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "snakeplant__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "snakeplant__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "snakeplant__young_leaves"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.olive",
+      "glb": "media/assets/living/olive.glb",
+      "sha256": "d656e2e6464691039c2e48f59d4e4aae44023a1897c875b4d44aeea9c22341a6",
+      "dimensions": [
+        0.40115,
+        1.04279,
+        0.40078
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "olive__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "olive__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "olive__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "olive__young_leaves"
+        },
+        {
+          "id": "bark",
+          "meshNode": "olive__bark"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.low_planter",
+      "glb": "media/assets/living/low_planter.glb",
+      "sha256": "2f8db3efd6a5b641187b8292bdadc46d04d5ec9d4901e8499fc24fe19b87740b",
+      "dimensions": [
+        0.44528,
+        0.19266,
+        0.44528
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "low_planter__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "low_planter__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.tall_planter",
+      "glb": "media/assets/living/tall_planter.glb",
+      "sha256": "681333e1accc9b7b4f316be8599c73a33e0a443d980723acaf923aca2852d77e",
+      "dimensions": [
+        0.3075,
+        0.45,
+        0.3075
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "tall_planter__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "tall_planter__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.pumpkin",
+      "glb": "media/assets/living/pumpkin.glb",
+      "sha256": "448b76a41962da898d488eb0bc04f7d260f37ce0eaef8f2baf1076d1d0667ae4",
+      "dimensions": [
+        0.2782,
+        0.22139,
+        0.26589
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "pumpkin__body"
+        },
+        {
+          "id": "stem",
+          "meshNode": "pumpkin__stem"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.gourd",
+      "glb": "media/assets/living/gourd.glb",
+      "sha256": "4b62042645757392933f7e355c846d12c2716265afb5efa249d982121232a45b",
+      "dimensions": [
+        0.16974,
+        0.31819,
+        0.16974
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "gourd__body"
+        },
+        {
+          "id": "stem",
+          "meshNode": "gourd__stem"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.autumn_wreath",
+      "glb": "media/assets/living/autumn_wreath.glb",
+      "sha256": "74ca08d111657b02b141fa93d6880d101547e49be1058ac422d03f320c034e5f",
+      "dimensions": [
+        0.40766,
+        0.0739,
+        0.40708
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "autumn_wreath__body"
+        },
+        {
+          "id": "foliage",
+          "meshNode": "autumn_wreath__foliage"
+        },
+        {
+          "id": "berries",
+          "meshNode": "autumn_wreath__berries"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.advent_wreath",
+      "glb": "media/assets/living/advent_wreath.glb",
+      "sha256": "895aadfb3928867b7391deb2b256cf25e15890aa1ff9a91cea5efa148e6f23d4",
+      "dimensions": [
+        0.40759,
+        0.192,
+        0.40708
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "advent_wreath__body"
+        },
+        {
+          "id": "foliage",
+          "meshNode": "advent_wreath__foliage"
+        },
+        {
+          "id": "berries",
+          "meshNode": "advent_wreath__berries"
+        },
+        {
+          "id": "wax",
+          "meshNode": "advent_wreath__wax"
+        },
+        {
+          "id": "wick",
+          "meshNode": "advent_wreath__wick"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.winter_centerpiece",
+      "glb": "media/assets/living/winter_centerpiece.glb",
+      "sha256": "9c80cf70af0b80d45adfdba744c930a26c861161305088098907920fe2bf882d",
+      "dimensions": [
+        0.32,
+        0.14183,
+        0.32
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "winter_centerpiece__body"
+        },
+        {
+          "id": "branches",
+          "meshNode": "winter_centerpiece__branches"
+        },
+        {
+          "id": "cones",
+          "meshNode": "winter_centerpiece__cones"
+        },
+        {
+          "id": "foliage",
+          "meshNode": "winter_centerpiece__foliage"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.wooden_stars",
+      "glb": "media/assets/living/wooden_stars.glb",
+      "sha256": "b6090ed0cb5151f2bf6ac339d40ee391a550477e1c878dfd99d70a869dea1073",
+      "dimensions": [
+        0.33095,
+        0.298,
+        0.07
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "wooden_stars__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "wooden_stars__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.daffodils",
+      "glb": "media/assets/living/daffodils.glb",
+      "sha256": "7dfe2745c648284f5f7c551a6997e0afd331633f96a1fb087939016e26a88351",
+      "dimensions": [
+        0.21655,
+        0.343,
+        0.19913
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "daffodils__body"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "daffodils__leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "daffodils__stems"
+        },
+        {
+          "id": "flowers",
+          "meshNode": "daffodils__flowers"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.dried_bouquet",
+      "glb": "media/assets/living/dried_bouquet.glb",
+      "sha256": "e698de7e95f50e88a91593499eca8c4c8a2175ab1585f05a970282e97f47e8fe",
+      "dimensions": [
+        0.22128,
+        0.42993,
+        0.22089
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "dried_bouquet__body"
+        },
+        {
+          "id": "stems",
+          "meshNode": "dried_bouquet__stems"
+        },
+        {
+          "id": "flowers",
+          "meshNode": "dried_bouquet__flowers"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "dried_bouquet__leaves"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.fireplace_tools",
+      "glb": "media/assets/living/fireplace_tools.glb",
+      "sha256": "7eb5e31c8d7ec60570883e3e521804d2b98110c1e8ec42be099fb51a61ca8450",
+      "dimensions": [
+        0.2,
+        0.68,
+        0.2
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "fireplace_tools__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "fireplace_tools__accent"
+        },
+        {
+          "id": "bristles",
+          "meshNode": "fireplace_tools__bristles"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.log_stack",
+      "glb": "media/assets/living/log_stack.glb",
+      "sha256": "f52d663f621a9734bb2c3f4c5060ff5b14616a15f791732016ed5e12cee8e19b",
+      "dimensions": [
+        0.474,
+        0.39695,
+        0.32914
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "log_stack__body"
+        },
+        {
+          "id": "bark",
+          "meshNode": "log_stack__bark"
+        },
+        {
+          "id": "endgrain",
+          "meshNode": "log_stack__endgrain"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.ash_bucket",
+      "glb": "media/assets/living/ash_bucket.glb",
+      "sha256": "e34d0345da1c5bd5942c8ac29ca6368eda6aa67c3d13b594170d3e3aed83c7de",
+      "dimensions": [
+        0.448,
+        0.335,
+        0.248
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "ash_bucket__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "ash_bucket__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.ceramic_vase",
+      "glb": "media/assets/living/ceramic_vase.glb",
+      "sha256": "b908d8595606d18f0d0139a6fa38efbb1f77e8924196d4a1a7a8770c1aef25b6",
+      "dimensions": [
+        0.15881,
+        0.252,
+        0.15881
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "ceramic_vase__body"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.glass_vase",
+      "glb": "media/assets/living/glass_vase.glb",
+      "sha256": "6ae8a3951c2b25ec9bf4d2af5bf56639a249106cc23c38f75ec6754fe7a2cc2d",
+      "dimensions": [
+        0.16,
+        0.26,
+        0.16
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "glass_vase__body"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.decor_bowl",
+      "glb": "media/assets/living/decor_bowl.glb",
+      "sha256": "aad0a28d76985454a8cda382c284c8a4890282072ec6ad7cf5294296245e57cb",
+      "dimensions": [
+        0.34,
+        0.10177,
+        0.34
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "decor_bowl__body"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.serving_tray",
+      "glb": "media/assets/living/serving_tray.glb",
+      "sha256": "c90916c3c75212e7a0a6e7035eb52904162a15f62d32dc9c9c00cbb7560d75f8",
+      "dimensions": [
+        0.37,
+        0.08267,
+        0.25
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "serving_tray__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "serving_tray__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.magazine",
+      "glb": "media/assets/living/magazine.glb",
+      "sha256": "66806cfbe21831a83642b4fe6c89227dead8037419a35786d16313dce05add97",
+      "dimensions": [
+        0.24159,
+        0.0385,
+        0.30119
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "magazine__body"
+        },
+        {
+          "id": "paper",
+          "meshNode": "magazine__paper"
+        },
+        {
+          "id": "print",
+          "meshNode": "magazine__print"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.picture_frame",
+      "glb": "media/assets/living/picture_frame.glb",
+      "sha256": "fb381ade123eb72f9d30a1cc103f4c50190bbb800995bf2f2147a592151098c8",
+      "dimensions": [
+        0.2,
+        0.26418,
+        0.09965
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "picture_frame__body"
+        },
+        {
+          "id": "mat",
+          "meshNode": "picture_frame__mat"
+        },
+        {
+          "id": "accent",
+          "meshNode": "picture_frame__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.candle_holder",
+      "glb": "media/assets/living/candle_holder.glb",
+      "sha256": "fdf944e5e638f1d929dc3b495f1a5e9bd25e97a2848b2ef87e4a67a0cdbec5b1",
+      "dimensions": [
+        0.216,
+        0.446,
+        0.16
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "candle_holder__body"
+        },
+        {
+          "id": "wax",
+          "meshNode": "candle_holder__wax"
+        },
+        {
+          "id": "wick",
+          "meshNode": "candle_holder__wick"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.lantern",
+      "glb": "media/assets/living/lantern.glb",
+      "sha256": "c2246081ccf6dabdfbed1b531dda8f1591a29509dd93906cca9764073fccf490",
+      "dimensions": [
+        0.18,
+        0.337,
+        0.18
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "lantern__body"
+        },
+        {
+          "id": "glass",
+          "meshNode": "lantern__glass"
+        },
+        {
+          "id": "wax",
+          "meshNode": "lantern__wax"
+        },
+        {
+          "id": "wick",
+          "meshNode": "lantern__wick"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.throw_blanket",
+      "glb": "media/assets/living/throw_blanket.glb",
+      "sha256": "03413d1b885e890e3fac7983fed2ee150f7a729f1e1c4fd4843dfcdfdadf8d51",
+      "dimensions": [
+        0.58,
+        0.1376,
+        0.41548
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "throw_blanket__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "throw_blanket__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.square_cushion",
+      "glb": "media/assets/living/square_cushion.glb",
+      "sha256": "938a74d4927103842307b7fa20cbc731359c72a2272e5df8887b8627a7e1a73e",
+      "dimensions": [
+        0.4352,
+        0.16687,
+        0.4352
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "square_cushion__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "square_cushion__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.round_cushion",
+      "glb": "media/assets/living/round_cushion.glb",
+      "sha256": "86d9f66cb6ced7c10dfa780d5ebcb2cb0efa653a10ec12ea1871e195c3d83d2c",
+      "dimensions": [
+        0.412,
+        0.11697,
+        0.412
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "round_cushion__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "round_cushion__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.stone_sculpture",
+      "glb": "media/assets/living/stone_sculpture.glb",
+      "sha256": "273379d0cde69a30d2f45ccf0827ff0290cc73f84ef47a3f6406b05c38ac3ee4",
+      "dimensions": [
+        0.21947,
+        0.186,
+        0.1
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "stone_sculpture__body"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.floor_amphora",
+      "glb": "media/assets/living/floor_amphora.glb",
+      "sha256": "b463587a3f08efaa6c4770ab18fd4e0657fa03d43390e233d775db09d6d92274",
+      "dimensions": [
+        0.44664,
+        0.55,
+        0.3857
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "floor_amphora__body"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.reed_diffuser",
+      "glb": "media/assets/living/reed_diffuser.glb",
+      "sha256": "9c521477dfa66a19791978c85de8c6716b0f1016e9116acfba8b2490270980ff",
+      "dimensions": [
+        0.11198,
+        0.31032,
+        0.11061
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "reed_diffuser__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "reed_diffuser__accent"
+        },
+        {
+          "id": "reeds",
+          "meshNode": "reed_diffuser__reeds"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.keepsake_box",
+      "glb": "media/assets/living/keepsake_box.glb",
+      "sha256": "fd6f693b413639fc085449b956e4967344365523749a1fe6da000227bb43bcd3",
+      "dimensions": [
+        0.247,
+        0.1175,
+        0.17
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "keepsake_box__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "keepsake_box__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.hourglass",
+      "glb": "media/assets/living/hourglass.glb",
+      "sha256": "2110fc7bccd5eb0b9bf00350fcd42ef02d021a277e93bc3ca3786e2fbcddea74",
+      "dimensions": [
+        0.15,
+        0.252,
+        0.15
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "hourglass__body"
+        },
+        {
+          "id": "glass",
+          "meshNode": "hourglass__glass"
+        },
+        {
+          "id": "sand",
+          "meshNode": "hourglass__sand"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.soap_pump",
+      "glb": "media/assets/living/soap_pump.glb",
+      "sha256": "9e38a7e45e584fca23cd2f4552142c386fc198fab7844797ba350476bf4cf489",
+      "dimensions": [
+        0.1171,
+        0.21071,
+        0.104
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "soap_pump__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "soap_pump__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.toothbrush_holder",
+      "glb": "media/assets/living/toothbrush_holder.glb",
+      "sha256": "944d85fd9a6912ba35180d9e33610bf29c1a66a995d5958ec801dd7174d3aca5",
+      "dimensions": [
+        0.08,
+        0.205,
+        0.08
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "toothbrush_holder__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "toothbrush_holder__accent"
+        },
+        {
+          "id": "bristles",
+          "meshNode": "toothbrush_holder__bristles"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.cosmetic_bottles",
+      "glb": "media/assets/living/cosmetic_bottles.glb",
+      "sha256": "ff5b6dfdd201189234fb0315c229231f3151e198d7f64bb5dd533426a6fe68ed",
+      "dimensions": [
+        0.146,
+        0.187,
+        0.146
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "cosmetic_bottles__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "cosmetic_bottles__accent"
+        },
+        {
+          "id": "labels",
+          "meshNode": "cosmetic_bottles__labels"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.paper_holder",
+      "glb": "media/assets/living/paper_holder.glb",
+      "sha256": "33c559970475313ca31872e19c9aade87feb3a92d152ebf1706eac09be69aab1",
+      "dimensions": [
+        0.166,
+        0.596,
+        0.16
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "paper_holder__body"
+        },
+        {
+          "id": "paper",
+          "meshNode": "paper_holder__paper"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.bath_basket",
+      "glb": "media/assets/living/bath_basket.glb",
+      "sha256": "44d4f970e96641b0ce1569bdf51db64f9178ca67bcd232c60ab13cdd9d09c3b9",
+      "dimensions": [
+        0.27,
+        0.17486,
+        0.20362
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "bath_basket__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "bath_basket__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.soap_dish",
+      "glb": "media/assets/living/soap_dish.glb",
+      "sha256": "2f3bd552f3e00f3eca2842062f15bb1d637524a6562e422be74baebdc1b8fef2",
+      "dimensions": [
+        0.232,
+        0.0455,
+        0.16
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "soap_dish__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "soap_dish__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.rolled_towels",
+      "glb": "media/assets/living/rolled_towels.glb",
+      "sha256": "a511281691d17a132e62ba5ae0cba04d81d1187992580f28b91a6a0cb15111f0",
+      "dimensions": [
+        0.27,
+        0.088,
+        0.2233
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "rolled_towels__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "rolled_towels__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.bath_plant",
+      "glb": "media/assets/living/bath_plant.glb",
+      "sha256": "5708d4a5be5e40d6b4cc82efc9353df1b9f3bb2bffd3f9dec26efb5ba05bdb6d",
+      "dimensions": [
+        0.14315,
+        0.17591,
+        0.1415
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "bath_plant__body"
+        },
+        {
+          "id": "soil",
+          "meshNode": "bath_plant__soil"
+        },
+        {
+          "id": "leaves",
+          "meshNode": "bath_plant__leaves"
+        },
+        {
+          "id": "young_leaves",
+          "meshNode": "bath_plant__young_leaves"
+        },
+        {
+          "id": "stems",
+          "meshNode": "bath_plant__stems"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.alarm_clock",
+      "glb": "media/assets/living/alarm_clock.glb",
+      "sha256": "296c91eaa70a5135eb3bb06f7b65233205c0f2c89c761e4abafb5c4e52e6ba4f",
+      "dimensions": [
+        0.142,
+        0.19001,
+        0.0565
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "alarm_clock__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "alarm_clock__accent"
+        },
+        {
+          "id": "face",
+          "meshNode": "alarm_clock__face"
+        },
+        {
+          "id": "hands",
+          "meshNode": "alarm_clock__hands"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.jewelry_dish",
+      "glb": "media/assets/living/jewelry_dish.glb",
+      "sha256": "b8f0ab8c1340f8e8ea7a8d5067910d704dbeea84596508c03823735ac4172066",
+      "dimensions": [
+        0.156,
+        0.0255,
+        0.156
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "jewelry_dish__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "jewelry_dish__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.folded_duvet",
+      "glb": "media/assets/living/folded_duvet.glb",
+      "sha256": "a2a761e616d7565dca0b91210f2a733b2bdfe4605a7ad1d244cbcd2e3f83f6a3",
+      "dimensions": [
+        0.83,
+        0.27152,
+        0.56
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "folded_duvet__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "folded_duvet__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.bolster",
+      "glb": "media/assets/living/bolster.glb",
+      "sha256": "57475a2b91bd03559d7bd945fe880e84f8a65ef38448f3d669091923a987be96",
+      "dimensions": [
+        0.4808,
+        0.16,
+        0.16
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "bolster__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "bolster__accent"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.bedside_lamp",
+      "glb": "media/assets/living/bedside_lamp.glb",
+      "sha256": "1bdbe0b78c7a24169bdfe7e6a27119ab915ecf66bac4d0280dea5b2d50c5aefd",
+      "dimensions": [
+        0.257,
+        0.383,
+        0.257
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "body",
+          "meshNode": "bedside_lamp__body"
+        },
+        {
+          "id": "accent",
+          "meshNode": "bedside_lamp__accent"
+        },
+        {
+          "id": "metal",
+          "meshNode": "bedside_lamp__metal"
+        }
+      ],
+      "components": [],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_coffee",
+      "glb": "media/assets/living/arr_coffee.glb",
+      "sha256": "88c170f42738170cbe0e296c369de45c90d6395186ef73e2c71a87ca78dc98fc",
+      "dimensions": [
+        0.5985,
+        0.39,
+        0.349
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "coffee_automatic_body",
+          "meshNode": "arr_coffee__coffee_automatic_body"
+        },
+        {
+          "id": "coffee_automatic_accent",
+          "meshNode": "arr_coffee__coffee_automatic_accent"
+        },
+        {
+          "id": "coffee_automatic_technical",
+          "meshNode": "arr_coffee__coffee_automatic_technical"
+        },
+        {
+          "id": "coffee_automatic_beans",
+          "meshNode": "arr_coffee__coffee_automatic_beans"
+        },
+        {
+          "id": "coffee_automatic_ceramic",
+          "meshNode": "arr_coffee__coffee_automatic_ceramic"
+        },
+        {
+          "id": "mugs_body",
+          "meshNode": "arr_coffee__mugs_body"
+        },
+        {
+          "id": "mugs_accent",
+          "meshNode": "arr_coffee__mugs_accent"
+        },
+        {
+          "id": "coffee_tin_body",
+          "meshNode": "arr_coffee__coffee_tin_body"
+        },
+        {
+          "id": "coffee_tin_accent",
+          "meshNode": "arr_coffee__coffee_tin_accent"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.coffee_automatic",
+          "offset": [
+            -0.19,
+            0,
+            -0.035
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.mugs",
+          "offset": [
+            0.1,
+            0,
+            0.08
+          ],
+          "yaw": -0.12
+        },
+        {
+          "id": "living.coffee_tin",
+          "offset": [
+            0.19,
+            0,
+            -0.14
+          ],
+          "yaw": 0
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_counter",
+      "glb": "media/assets/living/arr_counter.glb",
+      "sha256": "929b592cf2e56c91f08f2faf072a23689043112582472dbd22750bff9d9600d1",
+      "dimensions": [
+        0.4895,
+        0.377,
+        0.3771
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "toaster_body",
+          "meshNode": "arr_counter__toaster_body"
+        },
+        {
+          "id": "toaster_accent",
+          "meshNode": "arr_counter__toaster_accent"
+        },
+        {
+          "id": "toaster_technical",
+          "meshNode": "arr_counter__toaster_technical"
+        },
+        {
+          "id": "utensil_crock_body",
+          "meshNode": "arr_counter__utensil_crock_body"
+        },
+        {
+          "id": "utensil_crock_accent",
+          "meshNode": "arr_counter__utensil_crock_accent"
+        },
+        {
+          "id": "utensil_crock_metal",
+          "meshNode": "arr_counter__utensil_crock_metal"
+        },
+        {
+          "id": "cutting_boards_body",
+          "meshNode": "arr_counter__cutting_boards_body"
+        },
+        {
+          "id": "cutting_boards_accent",
+          "meshNode": "arr_counter__cutting_boards_accent"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.toaster",
+          "offset": [
+            -0.18,
+            0,
+            0.06
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.utensil_crock",
+          "offset": [
+            0.1,
+            0,
+            -0.055
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.cutting_boards",
+          "offset": [
+            -0.07,
+            0,
+            -0.19
+          ],
+          "yaw": -0.1
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_coffee_table",
+      "glb": "media/assets/living/arr_coffee_table.glb",
+      "sha256": "cb1973ee8ff232dbc13fe79e9659baed82b1ff4b95da84b22847706611675598",
+      "dimensions": [
+        0.658,
+        0.19813,
+        0.58592
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "candle_tray_body",
+          "meshNode": "arr_coffee_table__candle_tray_body"
+        },
+        {
+          "id": "candle_tray_wax",
+          "meshNode": "arr_coffee_table__candle_tray_wax"
+        },
+        {
+          "id": "candle_tray_wick",
+          "meshNode": "arr_coffee_table__candle_tray_wick"
+        },
+        {
+          "id": "decor_bowl_body",
+          "meshNode": "arr_coffee_table__decor_bowl_body"
+        },
+        {
+          "id": "magazine_body",
+          "meshNode": "arr_coffee_table__magazine_body"
+        },
+        {
+          "id": "magazine_paper",
+          "meshNode": "arr_coffee_table__magazine_paper"
+        },
+        {
+          "id": "magazine_print",
+          "meshNode": "arr_coffee_table__magazine_print"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.candle_tray",
+          "offset": [
+            -0.16,
+            0,
+            -0.02
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.decor_bowl",
+          "offset": [
+            0.17,
+            0,
+            0.035
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.magazine",
+          "offset": [
+            0.15,
+            0,
+            -0.22
+          ],
+          "yaw": 0.12
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_sideboard",
+      "glb": "media/assets/living/arr_sideboard.glb",
+      "sha256": "1040c6eeb0482fa21df67e5c9fc54776a3e7d1511a23b6a115b43c2fc57450ef",
+      "dimensions": [
+        0.68989,
+        0.46689,
+        0.27792
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "tulip_vase_body",
+          "meshNode": "arr_sideboard__tulip_vase_body"
+        },
+        {
+          "id": "tulip_vase_stems",
+          "meshNode": "arr_sideboard__tulip_vase_stems"
+        },
+        {
+          "id": "tulip_vase_leaves",
+          "meshNode": "arr_sideboard__tulip_vase_leaves"
+        },
+        {
+          "id": "tulip_vase_flowers",
+          "meshNode": "arr_sideboard__tulip_vase_flowers"
+        },
+        {
+          "id": "book_stack_body",
+          "meshNode": "arr_sideboard__book_stack_body"
+        },
+        {
+          "id": "book_stack_accent",
+          "meshNode": "arr_sideboard__book_stack_accent"
+        },
+        {
+          "id": "book_stack_paper",
+          "meshNode": "arr_sideboard__book_stack_paper"
+        },
+        {
+          "id": "picture_frame_body",
+          "meshNode": "arr_sideboard__picture_frame_body"
+        },
+        {
+          "id": "picture_frame_mat",
+          "meshNode": "arr_sideboard__picture_frame_mat"
+        },
+        {
+          "id": "picture_frame_accent",
+          "meshNode": "arr_sideboard__picture_frame_accent"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.tulip_vase",
+          "offset": [
+            -0.24,
+            0,
+            0
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.book_stack",
+          "offset": [
+            0.02,
+            0,
+            0.045
+          ],
+          "yaw": -0.05
+        },
+        {
+          "id": "living.picture_frame",
+          "offset": [
+            0.23,
+            0,
+            -0.08
+          ],
+          "yaw": -0.13
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_autumn",
+      "glb": "media/assets/living/arr_autumn.glb",
+      "sha256": "b69f652d3ce3f67fb6cc71f7b32f03db66dfb4fcb0ed350f6ae2d409c5f00e89",
+      "dimensions": [
+        0.6071,
+        0.446,
+        0.46839
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "pumpkin_body",
+          "meshNode": "arr_autumn__pumpkin_body"
+        },
+        {
+          "id": "pumpkin_stem",
+          "meshNode": "arr_autumn__pumpkin_stem"
+        },
+        {
+          "id": "candle_holder_body",
+          "meshNode": "arr_autumn__candle_holder_body"
+        },
+        {
+          "id": "candle_holder_wax",
+          "meshNode": "arr_autumn__candle_holder_wax"
+        },
+        {
+          "id": "candle_holder_wick",
+          "meshNode": "arr_autumn__candle_holder_wick"
+        },
+        {
+          "id": "dried_bouquet_body",
+          "meshNode": "arr_autumn__dried_bouquet_body"
+        },
+        {
+          "id": "dried_bouquet_stems",
+          "meshNode": "arr_autumn__dried_bouquet_stems"
+        },
+        {
+          "id": "dried_bouquet_flowers",
+          "meshNode": "arr_autumn__dried_bouquet_flowers"
+        },
+        {
+          "id": "dried_bouquet_leaves",
+          "meshNode": "arr_autumn__dried_bouquet_leaves"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.pumpkin",
+          "offset": [
+            -0.2,
+            0,
+            0.025
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.candle_holder",
+          "offset": [
+            0.16,
+            0,
+            -0.02
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.dried_bouquet",
+          "offset": [
+            -0.025,
+            0,
+            -0.2
+          ],
+          "yaw": 0
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_bathroom",
+      "glb": "media/assets/living/arr_bathroom.glb",
+      "sha256": "fd91c24198d0e54a6fdcce7b804c400ddb81b77160f4693f168e0dd004140e76",
+      "dimensions": [
+        0.516,
+        0.21071,
+        0.325
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "towel_stack_body",
+          "meshNode": "arr_bathroom__towel_stack_body"
+        },
+        {
+          "id": "towel_stack_accent",
+          "meshNode": "arr_bathroom__towel_stack_accent"
+        },
+        {
+          "id": "soap_pump_body",
+          "meshNode": "arr_bathroom__soap_pump_body"
+        },
+        {
+          "id": "soap_pump_accent",
+          "meshNode": "arr_bathroom__soap_pump_accent"
+        },
+        {
+          "id": "soap_dish_body",
+          "meshNode": "arr_bathroom__soap_dish_body"
+        },
+        {
+          "id": "soap_dish_accent",
+          "meshNode": "arr_bathroom__soap_dish_accent"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.towel_stack",
+          "offset": [
+            -0.13,
+            0,
+            0
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.soap_pump",
+          "offset": [
+            0.1,
+            0,
+            -0.025
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.soap_dish",
+          "offset": [
+            0.13,
+            0,
+            0.14
+          ],
+          "yaw": 0
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_bedside",
+      "glb": "media/assets/living/arr_bedside.glb",
+      "sha256": "626649d555ab88cc17b477355cbecf1ca60c624fc56c2bbb92ccbabe3b78321f",
+      "dimensions": [
+        0.54276,
+        0.383,
+        0.39157
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "bedside_lamp_body",
+          "meshNode": "arr_bedside__bedside_lamp_body"
+        },
+        {
+          "id": "bedside_lamp_accent",
+          "meshNode": "arr_bedside__bedside_lamp_accent"
+        },
+        {
+          "id": "bedside_lamp_metal",
+          "meshNode": "arr_bedside__bedside_lamp_metal"
+        },
+        {
+          "id": "alarm_clock_body",
+          "meshNode": "arr_bedside__alarm_clock_body"
+        },
+        {
+          "id": "alarm_clock_accent",
+          "meshNode": "arr_bedside__alarm_clock_accent"
+        },
+        {
+          "id": "alarm_clock_face",
+          "meshNode": "arr_bedside__alarm_clock_face"
+        },
+        {
+          "id": "alarm_clock_hands",
+          "meshNode": "arr_bedside__alarm_clock_hands"
+        },
+        {
+          "id": "book_stack_body",
+          "meshNode": "arr_bedside__book_stack_body"
+        },
+        {
+          "id": "book_stack_accent",
+          "meshNode": "arr_bedside__book_stack_accent"
+        },
+        {
+          "id": "book_stack_paper",
+          "meshNode": "arr_bedside__book_stack_paper"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.bedside_lamp",
+          "offset": [
+            -0.18,
+            0,
+            -0.035
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.alarm_clock",
+          "offset": [
+            0.08,
+            0,
+            -0.06
+          ],
+          "yaw": -0.1
+        },
+        {
+          "id": "living.book_stack",
+          "offset": [
+            0.11,
+            0,
+            0.13
+          ],
+          "yaw": 0.12
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "living.arr_hearth",
+      "glb": "media/assets/living/arr_hearth.glb",
+      "sha256": "59eb73922529773f7673929191d165e8f137ef19ffb4ec982beda6d9fb768a21",
+      "dimensions": [
+        0.62699,
+        0.68,
+        0.31656
+      ],
+      "origin": "complete-geometry-bounding-box-center",
+      "scale": "instanceDimensions / catalogDimensions per axis",
+      "materialSlots": [
+        {
+          "id": "log_basket_body",
+          "meshNode": "arr_hearth__log_basket_body"
+        },
+        {
+          "id": "log_basket_accent",
+          "meshNode": "arr_hearth__log_basket_accent"
+        },
+        {
+          "id": "log_basket_logs",
+          "meshNode": "arr_hearth__log_basket_logs"
+        },
+        {
+          "id": "log_basket_endgrain",
+          "meshNode": "arr_hearth__log_basket_endgrain"
+        },
+        {
+          "id": "fireplace_tools_body",
+          "meshNode": "arr_hearth__fireplace_tools_body"
+        },
+        {
+          "id": "fireplace_tools_accent",
+          "meshNode": "arr_hearth__fireplace_tools_accent"
+        },
+        {
+          "id": "fireplace_tools_bristles",
+          "meshNode": "arr_hearth__fireplace_tools_bristles"
+        }
+      ],
+      "components": [
+        {
+          "id": "living.log_basket",
+          "offset": [
+            -0.19,
+            0,
+            0.02
+          ],
+          "yaw": 0
+        },
+        {
+          "id": "living.fireplace_tools",
+          "offset": [
+            0.18,
+            0,
+            -0.025
+          ],
+          "yaw": 0
+        }
+      ],
+      "support": {
+        "native": "catalogued",
+        "nativeReview": "pending",
+        "web": "unsupported",
+        "approval": "pending-manual-review"
+      }
+    }
+  ],
+  "references": [
+    {
+      "catalogId": "sofa_basic",
+      "catalogSelector": "makeBasicDefinitions / sofa_basic",
+      "variants": [
+        "2_seater",
+        "3_seater",
+        "corner_left",
+        "corner_right",
+        "u_shaped",
+        "ottoman"
+      ],
+      "referenceVariant": "3_seater",
+      "dimensions": [
+        2.25,
+        0.82,
+        0.86
+      ],
+      "components": [
+        "seat",
+        "back",
+        "arm",
+        "pillow_a",
+        "pillow_b"
+      ],
+      "catalogSlots": [
+        "body",
+        "cushions",
+        "legs"
+      ],
+      "surfaces": [
+        "Sitzfläche",
+        "Rückenlehne",
+        "Armlehnen",
+        "Beine"
+      ],
+      "parameters": [
+        "width",
+        "height",
+        "depth",
+        "cornerSide",
+        "extensionLength",
+        "leftExtensionLength",
+        "rightExtensionLength"
+      ],
+      "recipeSelectors": [
+        "TwinSofaGeometryProfile",
+        "makeFurniture",
+        "upholstery"
+      ],
+      "recipeMode": "canonical primitives plus GLB upholstery components; legs remain procedural",
+      "gaps": [
+        "native recipe execution",
+        "catalog-slot to semantic-surface resolution",
+        "seeded pillow placement",
+        "metric UV/tangents"
+      ],
+      "recipeVersion": "sha256:4572a53d0365b853bbe6d02df1abc61d2a5168e05744184fab9a07780fc56931",
+      "recipeAuthority": {
+        "versions": {
+          "media/scripts/extract_geometry.py": "f4c017e09649ee0d4c177960911fdc485882e0e490bd6255d9f8fe57c09ea5b4"
+        }
+      },
+      "componentGlb": "media/assets/interior/signature_components.glb",
+      "support": {
+        "native": "recipe-present",
+        "web": "definition-only",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "kitchenBase",
+      "catalogSelector": "generatedIndoorDefinition(.kitchenBase)",
+      "variants": [
+        "default"
+      ],
+      "referenceVariant": "default",
+      "dimensions": [
+        1.2,
+        0.9,
+        0.65
+      ],
+      "components": [],
+      "catalogSlots": [
+        "Korpus",
+        "Front",
+        "Arbeitsplatte",
+        "Griffe"
+      ],
+      "surfaces": [
+        "Korpus",
+        "Front",
+        "Arbeitsplatte",
+        "Griffe"
+      ],
+      "parameters": [
+        "width",
+        "height",
+        "depth"
+      ],
+      "recipeSelectors": [
+        "makeFurniture / kitchenBase",
+        "casework"
+      ],
+      "recipeMode": "procedural casework only; no kitchen GLB exists; preserve plinth, front subdivisions, handle and countertop recipes",
+      "gaps": [
+        "native recipe execution",
+        "rounded procedural geometry",
+        "lacquer profile and material zones",
+        "metric UV/tangents"
+      ],
+      "recipeVersion": "sha256:4572a53d0365b853bbe6d02df1abc61d2a5168e05744184fab9a07780fc56931",
+      "recipeAuthority": {
+        "versions": {
+          "media/scripts/extract_geometry.py": "f4c017e09649ee0d4c177960911fdc485882e0e490bd6255d9f8fe57c09ea5b4"
+        }
+      },
+      "componentGlb": null,
+      "support": {
+        "native": "recipe-present",
+        "web": "definition-only",
+        "approval": "pending-manual-review"
+      }
+    },
+    {
+      "catalogId": "floorLamp",
+      "catalogSelector": "generatedIndoorDefinition(.floorLamp)",
+      "variants": [
+        "default"
+      ],
+      "referenceVariant": "default",
+      "dimensions": [
+        0.45,
+        1.65,
+        0.45
+      ],
+      "components": [
+        "shade",
+        "base"
+      ],
+      "catalogSlots": [
+        "Fuß",
+        "Gestell",
+        "Schirm",
+        "Diffusor"
+      ],
+      "surfaces": [
+        "Fuß",
+        "Gestell",
+        "Schirm",
+        "Diffusor"
+      ],
+      "parameters": [
+        "width",
+        "height",
+        "depth"
+      ],
+      "recipeSelectors": [
+        "TwinLampShadeProfile.floorLamp",
+        "makeLight / floorLamp",
+        "adapt"
+      ],
+      "recipeMode": "GLB shade/base over canonical primitives; stem/diffuser remain procedural; bake local bounds center through primitive basis",
+      "gaps": [
+        "native recipe execution",
+        "component bounds-center transform",
+        "metric UV/tangents",
+        "fixture appearance only; lighting parity outside WEB 2A"
+      ],
+      "recipeVersion": "sha256:4572a53d0365b853bbe6d02df1abc61d2a5168e05744184fab9a07780fc56931",
+      "recipeAuthority": {
+        "versions": {
+          "media/scripts/extract_geometry.py": "f4c017e09649ee0d4c177960911fdc485882e0e490bd6255d9f8fe57c09ea5b4"
+        }
+      },
+      "componentGlb": "media/assets/interior/signature_components.glb",
+      "support": {
+        "native": "recipe-present",
+        "web": "definition-only",
+        "approval": "pending-manual-review"
+      }
+    }
+  ],
+  "source": {
+    "revision": "1c760d45ae71f5a1c2146cb5ad3b8fb28ac64056960dd2d9515424ed6f497e21",
+    "state": "committed"
+  },
+  "files": {
+    "media/assets/interior/signature_components.glb": {
+      "bytes": 579196,
+      "sha256": "b5a128aab440f4ed1709e70d8a893a7509444a1fa6210bf3878c0763f262108e",
+      "packaged": true
+    },
+    "media/assets/living/advent_wreath.glb": {
+      "bytes": 234984,
+      "sha256": "895aadfb3928867b7391deb2b256cf25e15890aa1ff9a91cea5efa148e6f23d4",
+      "packaged": true
+    },
+    "media/assets/living/airfryer.glb": {
+      "bytes": 52432,
+      "sha256": "380d6767f2040e5154eda2ff25b6239172c33aea3479aed1a7fa4177f64796ed",
+      "packaged": true
+    },
+    "media/assets/living/alarm_clock.glb": {
+      "bytes": 173140,
+      "sha256": "296c91eaa70a5135eb3bb06f7b65233205c0f2c89c761e4abafb5c4e52e6ba4f",
+      "packaged": true
+    },
+    "media/assets/living/arr_autumn.glb": {
+      "bytes": 477512,
+      "sha256": "b69f652d3ce3f67fb6cc71f7b32f03db66dfb4fcb0ed350f6ae2d409c5f00e89",
+      "packaged": true
+    },
+    "media/assets/living/arr_bathroom.glb": {
+      "bytes": 166628,
+      "sha256": "fd91c24198d0e54a6fdcce7b804c400ddb81b77160f4693f168e0dd004140e76",
+      "packaged": true
+    },
+    "media/assets/living/arr_bedside.glb": {
+      "bytes": 336456,
+      "sha256": "626649d555ab88cc17b477355cbecf1ca60c624fc56c2bbb92ccbabe3b78321f",
+      "packaged": true
+    },
+    "media/assets/living/arr_coffee.glb": {
+      "bytes": 293668,
+      "sha256": "88c170f42738170cbe0e296c369de45c90d6395186ef73e2c71a87ca78dc98fc",
+      "packaged": true
+    },
+    "media/assets/living/arr_coffee_table.glb": {
+      "bytes": 168456,
+      "sha256": "cb1973ee8ff232dbc13fe79e9659baed82b1ff4b95da84b22847706611675598",
+      "packaged": true
+    },
+    "media/assets/living/arr_counter.glb": {
+      "bytes": 188308,
+      "sha256": "929b592cf2e56c91f08f2faf072a23689043112582472dbd22750bff9d9600d1",
+      "packaged": true
+    },
+    "media/assets/living/arr_hearth.glb": {
+      "bytes": 554464,
+      "sha256": "59eb73922529773f7673929191d165e8f137ef19ffb4ec982beda6d9fb768a21",
+      "packaged": true
+    },
+    "media/assets/living/arr_sideboard.glb": {
+      "bytes": 455360,
+      "sha256": "1040c6eeb0482fa21df67e5c9fc54776a3e7d1511a23b6a115b43c2fc57450ef",
+      "packaged": true
+    },
+    "media/assets/living/ash_bucket.glb": {
+      "bytes": 52300,
+      "sha256": "e34d0345da1c5bd5942c8ac29ca6368eda6aa67c3d13b594170d3e3aed83c7de",
+      "packaged": true
+    },
+    "media/assets/living/autumn_wreath.glb": {
+      "bytes": 357752,
+      "sha256": "74ca08d111657b02b141fa93d6880d101547e49be1058ac422d03f320c034e5f",
+      "packaged": true
+    },
+    "media/assets/living/basil.glb": {
+      "bytes": 272068,
+      "sha256": "fb0cd66e8ab32d975082cd71434973e5df90026c64197405f42755219f6bd6c3",
+      "packaged": true
+    },
+    "media/assets/living/bath_basket.glb": {
+      "bytes": 139260,
+      "sha256": "44d4f970e96641b0ce1569bdf51db64f9178ca67bcd232c60ab13cdd9d09c3b9",
+      "packaged": true
+    },
+    "media/assets/living/bath_plant.glb": {
+      "bytes": 106912,
+      "sha256": "5708d4a5be5e40d6b4cc82efc9353df1b9f3bb2bffd3f9dec26efb5ba05bdb6d",
+      "packaged": true
+    },
+    "media/assets/living/bedside_lamp.glb": {
+      "bytes": 72720,
+      "sha256": "1bdbe0b78c7a24169bdfe7e6a27119ab915ecf66bac4d0280dea5b2d50c5aefd",
+      "packaged": true
+    },
+    "media/assets/living/blender.glb": {
+      "bytes": 50224,
+      "sha256": "ce2e2a6f245ff7a86874c762bc905eed0b152de4dd8528da4a4ae9729b796e91",
+      "packaged": true
+    },
+    "media/assets/living/bolster.glb": {
+      "bytes": 38720,
+      "sha256": "57475a2b91bd03559d7bd945fe880e84f8a65ef38448f3d669091923a987be96",
+      "packaged": true
+    },
+    "media/assets/living/book_stack.glb": {
+      "bytes": 90732,
+      "sha256": "0c41855a32301222ef71ca875c0ccbe6fa721c228d424c6366852f805b74da37",
+      "packaged": true
+    },
+    "media/assets/living/bread_basket.glb": {
+      "bytes": 118940,
+      "sha256": "540160a819a58e7000d2bac74a0db3caf3b20c3aa63072b4c8153b5d55e8cc44",
+      "packaged": true
+    },
+    "media/assets/living/cactus.glb": {
+      "bytes": 248652,
+      "sha256": "cb73cc65fd18ec0ff70cf82fe94e0208a47e08cb18dbae089a23311a133b9747",
+      "packaged": true
+    },
+    "media/assets/living/candle_holder.glb": {
+      "bytes": 55408,
+      "sha256": "fdf944e5e638f1d929dc3b495f1a5e9bd25e97a2848b2ef87e4a67a0cdbec5b1",
+      "packaged": true
+    },
+    "media/assets/living/candle_tray.glb": {
+      "bytes": 55836,
+      "sha256": "16840efc840a18935114c375332a43cdbc5a69bc54635913ee6ce63aa49c0204",
+      "packaged": true
+    },
+    "media/assets/living/capsule_machine.glb": {
+      "bytes": 59504,
+      "sha256": "e945f33461882930ca7d1d8bb1d91fc3f55396d33dab0a17c29a75067d8056c0",
+      "packaged": true
+    },
+    "media/assets/living/ceramic_vase.glb": {
+      "bytes": 39948,
+      "sha256": "b908d8595606d18f0d0139a6fa38efbb1f77e8924196d4a1a7a8770c1aef25b6",
+      "packaged": true
+    },
+    "media/assets/living/coffee_automatic.glb": {
+      "bytes": 227596,
+      "sha256": "b490d1c0b8935be3afea4dda91e3fbd9b07879bdb0cfba098ddb1188444c5c64",
+      "packaged": true
+    },
+    "media/assets/living/coffee_filter.glb": {
+      "bytes": 58844,
+      "sha256": "164e9bfa82580025c4eed38f0492ef5f1fc1e2885f8bce0d5d2e358dec3811a5",
+      "packaged": true
+    },
+    "media/assets/living/coffee_tin.glb": {
+      "bytes": 27272,
+      "sha256": "5ec08a90d008930377613329d8c887973ddc30f1832a879b81fc8efe7d31b696",
+      "packaged": true
+    },
+    "media/assets/living/cosmetic_bottles.glb": {
+      "bytes": 60264,
+      "sha256": "ff5b6dfdd201189234fb0315c229231f3151e198d7f64bb5dd533426a6fe68ed",
+      "packaged": true
+    },
+    "media/assets/living/cutlery.glb": {
+      "bytes": 44852,
+      "sha256": "b6c8e2760833af5a14df81f660a960c60d27140ad3ae72d88270dbbf00639bc6",
+      "packaged": true
+    },
+    "media/assets/living/cutting_boards.glb": {
+      "bytes": 41276,
+      "sha256": "75609754ca179107c6b8696a01ad55aedd7561ed76b60e89feef16fcc018c2af",
+      "packaged": true
+    },
+    "media/assets/living/daffodils.glb": {
+      "bytes": 254812,
+      "sha256": "7dfe2745c648284f5f7c551a6997e0afd331633f96a1fb087939016e26a88351",
+      "packaged": true
+    },
+    "media/assets/living/decor_bowl.glb": {
+      "bytes": 32128,
+      "sha256": "aad0a28d76985454a8cda382c284c8a4890282072ec6ad7cf5294296245e57cb",
+      "packaged": true
+    },
+    "media/assets/living/dinnerware.glb": {
+      "bytes": 64288,
+      "sha256": "f27d492d3e182d08e2635493a154c67198722a162ff7fef58c44ebd5b3640674",
+      "packaged": true
+    },
+    "media/assets/living/dried_bouquet.glb": {
+      "bytes": 326476,
+      "sha256": "e698de7e95f50e88a91593499eca8c4c8a2175ab1585f05a970282e97f47e8fe",
+      "packaged": true
+    },
+    "media/assets/living/drinking_glasses.glb": {
+      "bytes": 25012,
+      "sha256": "543542d8b25ab2c3d52e1ae5069fe52967f1651d78fec020e29e8e68d1266044",
+      "packaged": true
+    },
+    "media/assets/living/espresso_machine.glb": {
+      "bytes": 149888,
+      "sha256": "49b9450eabeeac83f409e2b193835f9ae5a8944a4ab01c09c2b20011539cca37",
+      "packaged": true
+    },
+    "media/assets/living/fern.glb": {
+      "bytes": 414940,
+      "sha256": "3d277a275a2f237fa516e19aa621a6c287b7467bf8eff8f8217785a9c55eb91c",
+      "packaged": true
+    },
+    "media/assets/living/ficus.glb": {
+      "bytes": 148776,
+      "sha256": "f13f62a108f88dfbc8b9765357428b2beaa0af623e8c6f603a790ffaf773609d",
+      "packaged": true
+    },
+    "media/assets/living/fireplace_tools.glb": {
+      "bytes": 88224,
+      "sha256": "7eb5e31c8d7ec60570883e3e521804d2b98110c1e8ec42be099fb51a61ca8450",
+      "packaged": true
+    },
+    "media/assets/living/floor_amphora.glb": {
+      "bytes": 50012,
+      "sha256": "b463587a3f08efaa6c4770ab18fd4e0657fa03d43390e233d775db09d6d92274",
+      "packaged": true
+    },
+    "media/assets/living/folded_duvet.glb": {
+      "bytes": 180928,
+      "sha256": "a2a761e616d7565dca0b91210f2a733b2bdfe4605a7ad1d244cbcd2e3f83f6a3",
+      "packaged": true
+    },
+    "media/assets/living/fruit_bowl.glb": {
+      "bytes": 119228,
+      "sha256": "1f85a373e202103a008b5f87cb2f2a94c63b4a8b0a84f0e533ff4142785ce278",
+      "packaged": true
+    },
+    "media/assets/living/glass_vase.glb": {
+      "bytes": 30184,
+      "sha256": "6ae8a3951c2b25ec9bf4d2af5bf56639a249106cc23c38f75ec6754fe7a2cc2d",
+      "packaged": true
+    },
+    "media/assets/living/gourd.glb": {
+      "bytes": 27852,
+      "sha256": "4b62042645757392933f7e355c846d12c2716265afb5efa249d982121232a45b",
+      "packaged": true
+    },
+    "media/assets/living/hourglass.glb": {
+      "bytes": 50028,
+      "sha256": "2110fc7bccd5eb0b9bf00350fcd42ef02d021a277e93bc3ca3786e2fbcddea74",
+      "packaged": true
+    },
+    "media/assets/living/ivy.glb": {
+      "bytes": 321436,
+      "sha256": "95f3e4afb73fc6884eea65bd2ce27c6b0ac05a79c6d5425ca2411bf1917dbaf6",
+      "packaged": true
+    },
+    "media/assets/living/jewelry_dish.glb": {
+      "bytes": 47104,
+      "sha256": "b8f0ab8c1340f8e8ea7a8d5067910d704dbeea84596508c03823735ac4172066",
+      "packaged": true
+    },
+    "media/assets/living/keepsake_box.glb": {
+      "bytes": 26600,
+      "sha256": "fd6f693b413639fc085449b956e4967344365523749a1fe6da000227bb43bcd3",
+      "packaged": true
+    },
+    "media/assets/living/kettle.glb": {
+      "bytes": 49896,
+      "sha256": "1d95229929ad5c74805623615c424fb660d4e12f83cd8219a707a4c4f2ea426e",
+      "packaged": true
+    },
+    "media/assets/living/knife_block.glb": {
+      "bytes": 110952,
+      "sha256": "22304854f88c00a3f689328c7cf20ab52ebfea983d0c95ec198bc33f5d87f41b",
+      "packaged": true
+    },
+    "media/assets/living/lantern.glb": {
+      "bytes": 56112,
+      "sha256": "c2246081ccf6dabdfbed1b531dda8f1591a29509dd93906cca9764073fccf490",
+      "packaged": true
+    },
+    "media/assets/living/log_basket.glb": {
+      "bytes": 466220,
+      "sha256": "503d20978fcd1215c4f3f440591135c6ba3750b94e1e21e8c32848fae2fae3fa",
+      "packaged": true
+    },
+    "media/assets/living/log_stack.glb": {
+      "bytes": 18200,
+      "sha256": "f52d663f621a9734bb2c3f4c5060ff5b14616a15f791732016ed5e12cee8e19b",
+      "packaged": true
+    },
+    "media/assets/living/low_planter.glb": {
+      "bytes": 29508,
+      "sha256": "2f8db3efd6a5b641187b8292bdadc46d04d5ec9d4901e8499fc24fe19b87740b",
+      "packaged": true
+    },
+    "media/assets/living/magazine.glb": {
+      "bytes": 80656,
+      "sha256": "66806cfbe21831a83642b4fe6c89227dead8037419a35786d16313dce05add97",
+      "packaged": true
+    },
+    "media/assets/living/monstera.glb": {
+      "bytes": 390040,
+      "sha256": "58f4e25fdfbef94f1a0f6fd8b44634063d11373b86a72d9ea4b1552d9256d6be",
+      "packaged": true
+    },
+    "media/assets/living/mugs.glb": {
+      "bytes": 38944,
+      "sha256": "d19df5bf8078a0aa45ffd2e34e17f31e253d4698e54308bfa15af25b8a333339",
+      "packaged": true
+    },
+    "media/assets/living/olive.glb": {
+      "bytes": 275924,
+      "sha256": "d656e2e6464691039c2e48f59d4e4aae44023a1897c875b4d44aeea9c22341a6",
+      "packaged": true
+    },
+    "media/assets/living/orchid.glb": {
+      "bytes": 376832,
+      "sha256": "773c2af5a86973eac37f8f22aeae8086254f434e8ac19690e2f07a5fff46137e",
+      "packaged": true
+    },
+    "media/assets/living/pampas.glb": {
+      "bytes": 530540,
+      "sha256": "d6911929e10b614f0db92a09692a4b9d66abf627f0c9860a6d496e724f3fc7ac",
+      "packaged": true
+    },
+    "media/assets/living/paper_holder.glb": {
+      "bytes": 21048,
+      "sha256": "33c559970475313ca31872e19c9aade87feb3a92d152ebf1706eac09be69aab1",
+      "packaged": true
+    },
+    "media/assets/living/paper_towel.glb": {
+      "bytes": 20176,
+      "sha256": "ff212bef725e1f033804bcd271ce5f996622b41c541e68669970568d8964aa7a",
+      "packaged": true
+    },
+    "media/assets/living/picture_frame.glb": {
+      "bytes": 43552,
+      "sha256": "fb381ade123eb72f9d30a1cc103f4c50190bbb800995bf2f2147a592151098c8",
+      "packaged": true
+    },
+    "media/assets/living/pumpkin.glb": {
+      "bytes": 95740,
+      "sha256": "448b76a41962da898d488eb0bc04f7d260f37ce0eaef8f2baf1076d1d0667ae4",
+      "packaged": true
+    },
+    "media/assets/living/reed_diffuser.glb": {
+      "bytes": 32188,
+      "sha256": "9c521477dfa66a19791978c85de8c6716b0f1016e9116acfba8b2490270980ff",
+      "packaged": true
+    },
+    "media/assets/living/rolled_towels.glb": {
+      "bytes": 71980,
+      "sha256": "a511281691d17a132e62ba5ae0cba04d81d1187992580f28b91a6a0cb15111f0",
+      "packaged": true
+    },
+    "media/assets/living/round_cushion.glb": {
+      "bytes": 62384,
+      "sha256": "86d9f66cb6ced7c10dfa780d5ebcb2cb0efa653a10ec12ea1871e195c3d83d2c",
+      "packaged": true
+    },
+    "media/assets/living/serving_tray.glb": {
+      "bytes": 29316,
+      "sha256": "c90916c3c75212e7a0a6e7035eb52904162a15f62d32dc9c9c00cbb7560d75f8",
+      "packaged": true
+    },
+    "media/assets/living/skillet.glb": {
+      "bytes": 29736,
+      "sha256": "7be30742fcbe5e349b5cd95c4f7e0c1ff5c8580d6028688f34f526f3a5858b77",
+      "packaged": true
+    },
+    "media/assets/living/snakeplant.glb": {
+      "bytes": 75404,
+      "sha256": "050b8664b49c4391035817c1001d0e127d5b53a427589a10a976d6c36123d00c",
+      "packaged": true
+    },
+    "media/assets/living/soap_dish.glb": {
+      "bytes": 38748,
+      "sha256": "2f3bd552f3e00f3eca2842062f15bb1d637524a6562e422be74baebdc1b8fef2",
+      "packaged": true
+    },
+    "media/assets/living/soap_pump.glb": {
+      "bytes": 24928,
+      "sha256": "9e38a7e45e584fca23cd2f4552142c386fc198fab7844797ba350476bf4cf489",
+      "packaged": true
+    },
+    "media/assets/living/spice_rack.glb": {
+      "bytes": 141348,
+      "sha256": "f4084cf4240d1134fd3e4f20dd7fb745a2a1344983940a387da0b51679835261",
+      "packaged": true
+    },
+    "media/assets/living/square_cushion.glb": {
+      "bytes": 87708,
+      "sha256": "938a74d4927103842307b7fa20cbc731359c72a2272e5df8887b8627a7e1a73e",
+      "packaged": true
+    },
+    "media/assets/living/stand_mixer.glb": {
+      "bytes": 49200,
+      "sha256": "a3d9d1e450b92756a3daf96481df44e6b353f451d1582e6776a7230aa87d7ee3",
+      "packaged": true
+    },
+    "media/assets/living/stockpot.glb": {
+      "bytes": 42776,
+      "sha256": "b5e0f5e1e3b745e4fc111603af2e1a47ece16019b3a8fb8db301c965bd54b93a",
+      "packaged": true
+    },
+    "media/assets/living/stone_sculpture.glb": {
+      "bytes": 77880,
+      "sha256": "273379d0cde69a30d2f45ccf0827ff0290cc73f84ef47a3f6406b05c38ac3ee4",
+      "packaged": true
+    },
+    "media/assets/living/storage_jars.glb": {
+      "bytes": 62200,
+      "sha256": "ed5f649585ab0e7c2d20e15488b9eaaffb43c94d03446a6ec3f8da70fe965139",
+      "packaged": true
+    },
+    "media/assets/living/succulent.glb": {
+      "bytes": 178976,
+      "sha256": "13f6c57a57fb9ecb3e6aa57db6d75bf66b3c0b9f5ac377621286272859748f13",
+      "packaged": true
+    },
+    "media/assets/living/tall_planter.glb": {
+      "bytes": 53552,
+      "sha256": "681333e1accc9b7b4f316be8599c73a33e0a443d980723acaf923aca2852d77e",
+      "packaged": true
+    },
+    "media/assets/living/throw_blanket.glb": {
+      "bytes": 195876,
+      "sha256": "03413d1b885e890e3fac7983fed2ee150f7a729f1e1c4fd4843dfcdfdadf8d51",
+      "packaged": true
+    },
+    "media/assets/living/toaster.glb": {
+      "bytes": 66232,
+      "sha256": "3ca2a1363d77db68c80cd965aca456c7d867937f3ff2a14357bdf3ca904209fc",
+      "packaged": true
+    },
+    "media/assets/living/toothbrush_holder.glb": {
+      "bytes": 82312,
+      "sha256": "944d85fd9a6912ba35180d9e33610bf29c1a66a995d5958ec801dd7174d3aca5",
+      "packaged": true
+    },
+    "media/assets/living/towel_stack.glb": {
+      "bytes": 103180,
+      "sha256": "eceec4fcafca6f2ad41b24cc5585548a6ef26d97e6e02231e7f236ebffef8025",
+      "packaged": true
+    },
+    "media/assets/living/tulip_vase.glb": {
+      "bytes": 321340,
+      "sha256": "63856676d65e28bf45e8a9ba4691df23786f662d127086bf0f21f8190a84180c",
+      "packaged": true
+    },
+    "media/assets/living/utensil_crock.glb": {
+      "bytes": 81072,
+      "sha256": "96f729b08db9702c88ba1ee4d45acbe952f6382cd77681c3ae4535175e7c3160",
+      "packaged": true
+    },
+    "media/assets/living/willow_basket.glb": {
+      "bytes": 457860,
+      "sha256": "df1890fe62898dd854fadb10cb5c1ac89d93cef4107ebc71e2fb79e97c99d8e6",
+      "packaged": true
+    },
+    "media/assets/living/winter_centerpiece.glb": {
+      "bytes": 810452,
+      "sha256": "9c80cf70af0b80d45adfdba744c930a26c861161305088098907920fe2bf882d",
+      "packaged": true
+    },
+    "media/assets/living/wooden_stars.glb": {
+      "bytes": 17160,
+      "sha256": "b6090ed0cb5151f2bf6ac339d40ee391a550477e1c878dfd99d70a869dea1073",
+      "packaged": true
+    },
+    "media/assets/signature/fabric_albedo.png": {
+      "bytes": 1123489,
+      "sha256": "9bd56ee29b094ac8b8fd39d9e578180b329cd80cfb5a590c1fcd20d44e4ef9b9",
+      "packaged": true
+    },
+    "media/assets/signature/fabric_normal.png": {
+      "bytes": 2815245,
+      "sha256": "1516743081e126e680f83929c6ab6b4ae8d9b07058b0cc6c8ab83367e16b7de7",
+      "packaged": true
+    },
+    "media/assets/signature/fabric_orm.png": {
+      "bytes": 1543137,
+      "sha256": "a9f86784226d90ec08230989aecf9e47c15653b6632aa76801530109f9ac3d1d",
+      "packaged": true
+    },
+    "media/assets/signature/metal_albedo.png": {
+      "bytes": 4597,
+      "sha256": "cf52cdd3485f87adbd5406981fd0fd8599b9e9c3e523a7f631b042b745fd8605",
+      "packaged": true
+    },
+    "media/assets/signature/metal_normal.png": {
+      "bytes": 922240,
+      "sha256": "54c4c3880c1d9b08c0c9171cb8b7a57ecf52761fc46f9f4beb8e139c530b9aeb",
+      "packaged": true
+    },
+    "media/assets/signature/metal_orm.png": {
+      "bytes": 210609,
+      "sha256": "ec104f3e487554588a539bf8ec5ae3d8e8bf5fab330ca2bda9980f963be9209a",
+      "packaged": true
+    },
+    "media/assets/signature/oak_albedo.png": {
+      "bytes": 1462744,
+      "sha256": "700f1eb9665904f0887162cdd238b74bef9b796efaca0d4c01043a712441e257",
+      "packaged": true
+    },
+    "media/assets/signature/oak_normal.png": {
+      "bytes": 986535,
+      "sha256": "a0dce140e4726ce588f3dc398b63bbdffc5726abb9d30250dc91bbeed3a922ca",
+      "packaged": true
+    },
+    "media/assets/signature/oak_orm.png": {
+      "bytes": 262932,
+      "sha256": "982f357c2faa8aa73b1b9d509df57ac41b0439597467d13dbd42fcd72f27cd75",
+      "packaged": true
+    },
+    "media/assets/signature/plaster_albedo.png": {
+      "bytes": 130596,
+      "sha256": "5ed30ea67b8b25c2381402f6a5bac668bd055eaeb79a30b694ea427f48ed1f5a",
+      "packaged": true
+    },
+    "media/assets/signature/plaster_normal.png": {
+      "bytes": 2273572,
+      "sha256": "0ad042fb3dc5670da04e4c34e9922c55a246c285dc73bcbe1f6113d1f74a4c7e",
+      "packaged": true
+    },
+    "media/assets/signature/plaster_orm.png": {
+      "bytes": 155092,
+      "sha256": "4a1187a986f8f149c0c4ac669a708e52c56bcf600baff6035b95dfb237a053d6",
+      "packaged": true
+    },
+    "media/assets/signature/stone_albedo.png": {
+      "bytes": 648878,
+      "sha256": "6d81125e4a954397a697ac13ca809030e076376e5e453d38b99f513d570cdb3d",
+      "packaged": true
+    },
+    "media/assets/signature/stone_normal.png": {
+      "bytes": 656751,
+      "sha256": "d0eefb208c76db419edbc30d088427919ebb3c02fdd1e8d004bf54fb9e637d88",
+      "packaged": true
+    },
+    "media/assets/signature/stone_orm.png": {
+      "bytes": 273742,
+      "sha256": "f09c3f2eb363527527fd222fab1abceea6675f29d72264c6e34df14cdd1337ef",
+      "packaged": true
+    },
+    "media/assets/signature/tile_albedo.png": {
+      "bytes": 438340,
+      "sha256": "b808c816be789144a201b707ec05646971990451369fa9c14e0960c23f623ffe",
+      "packaged": true
+    },
+    "media/assets/signature/tile_normal.png": {
+      "bytes": 1232082,
+      "sha256": "85d05556646ee3d47c65e4518531a9432d3a32ea0d7a0141b193c86384be23f6",
+      "packaged": true
+    },
+    "media/assets/signature/tile_orm.png": {
+      "bytes": 318694,
+      "sha256": "d13d9f3989f4ec221cca1244f0c718a5984a9c7befca016ff2a94d4d77c0b648",
+      "packaged": true
+    },
+    "media/assets/signature/wood_albedo.png": {
+      "bytes": 504553,
+      "sha256": "19ce40834968ad82a5bc1fe60a1b158fb8538f2109e939b8f2113d6bafcc7617",
+      "packaged": true
+    },
+    "media/assets/signature/wood_normal.png": {
+      "bytes": 1577129,
+      "sha256": "a8b21d519962411af3b59b57b7d3b3ff0c06ee6e546692c7ae5c335dc04edeba",
+      "packaged": true
+    },
+    "media/assets/signature/wood_orm.png": {
+      "bytes": 367855,
+      "sha256": "a61c9352cead536cf890dd749355b78c7e4118424b407c714ecb958f6cf33626",
+      "packaged": true
+    },
+    "media/assets/living/christmas_tree.glb": {
+      "bytes": 831808,
+      "sha256": "61994f31c69374229a72506afd57b2033f68b612e6e6fa5d6fa81ab1ad58cf46",
+      "packaged": true
+    },
+    "media/assets/living/window_star.glb": {
+      "bytes": 4904,
+      "sha256": "5746e2e1951c81ecd535939f409a89b328fa7b89525e6c6027b14d1f959c2d60",
+      "packaged": true
+    },
+    "media/assets/living/window_arch.glb": {
+      "bytes": 44412,
+      "sha256": "d87dcbc288b8806fb3a2121fe95b6f2e1e3918926f01e4c4d4358ce06e917115",
+      "packaged": true
+    }
+  }
+}

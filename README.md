@@ -1,6 +1,6 @@
 # Mikonus Dashboard for Home Assistant
 
-**Beta — version 0.10.3.**
+**Version 0.11.0**
 
 Mikonus publishes your home as an interactive multi-floor 3D dashboard in Home
 Assistant. The integration stores the published scenes and connects them to live
@@ -21,8 +21,7 @@ Build or import your home in Mikonus → connect Home Assistant → assign HA de
 ## Quick install
 
 1. In HACS, add `https://github.com/mikonus-app/mikonus-home-assistant` as a
-   custom **Integration** repository and download **Mikonus Dashboard**. Enable
-   beta versions and select **v0.10.3** if necessary.
+   custom **Integration** repository and download **Mikonus Dashboard**.
 2. Restart Home Assistant, then add **Mikonus Dashboard** under
    **Settings → Devices & services → Add integration**.
 3. In Mikonus, open **Settings → Import/Export → Dashboards → Home Assistant**
@@ -90,8 +89,8 @@ Assistant integration and card; it does not install or update the Mikonus app.
 ### Compatibility and entity handling
 
 Available controls depend on each entity's capabilities and services. Unsupported
-capabilities are unavailable. This beta accepts Dashboard Scene schema 2 and
-publish contract 1. Custom asset uploads and arbitrary external asset URLs are
+capabilities are unavailable. The integration accepts Dashboard Scene schema 2 and publish contract 1,
+including Living Island V1 and V2 publications. Custom asset uploads and arbitrary external asset URLs are
 not supported. Declared minimum: Home Assistant Core **2026.1.0**. Earlier 2026
 releases are allowed for beta testing but have not been locally validated.
 Tested with Home Assistant Core **2026.9.0** and a WebGL-capable
@@ -109,9 +108,7 @@ entities without a Home Assistant device association remain individually visible
 2. Open HACS, then its menu → **Custom repositories**.
 3. Enter `https://github.com/mikonus-app/mikonus-home-assistant` and select
    **Integration** as the type. Add the repository.
-4. Find **Mikonus Dashboard** and download it. For the beta release, enable
-   **Show beta versions** in its download/redownload dialog if necessary and
-   select **v0.10.3**.
+4. Find **Mikonus Dashboard** and download **v0.11.0**.
 5. Restart Home Assistant.
 6. Open **Settings → Devices & services → Add integration → Mikonus Dashboard**
    and submit the setup form. No additional account is required by the integration.
@@ -164,14 +161,14 @@ without a separate fade.
 
 ### Updating an existing installation
 
-Update to **v0.10.3** in HACS and restart Home Assistant. Existing Config Entries,
+Update to **v0.11.0** in HACS and restart Home Assistant. Existing Config Entries,
 published scenes, bindings and unrelated Lovelace card settings are retained.
 Hard-refresh the dashboard once so it loads the new frontend bundle. When an
 administrator deletes the Scene selected by the currently edited card, the
 editor clears obsolete selections and immediately offers the remaining Scenes.
 The new presentation settings are optional and preserve existing card behavior
-unless changed. Existing scenes require no migration or card recreation.
-No Scene republish, Config Entry migration or card recreation is required. The
+unless changed. Existing scenes require no migration or card recreation. To add the garden
+to an existing scene, publish it again from Mikonus. The
 dynamic wall cutaway is disabled by default, so existing cards keep their prior
 appearance until it is enabled explicitly.
 

@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.11.0
+
+- Add support for Living Island publications from Mikonus, including terrain, terraces, beds, paths and plants.
+- Store the indoor scene and its outdoor data as one revision.
+- Add a compact map menu with indoor and outdoor views, 2D and 3D, floor selection and zoom.
+- Let each card hide the surroundings in the indoor view. The outdoor view shows the full property.
+- Add outdoor vegetation shadows through the shared Mikonus renderer.
+- Include the Living Island V2 plant models in the public asset pack.
+
+Update to **v0.11.0** in HACS and restart Home Assistant. Existing scenes, card
+settings and device bindings are retained. To add the garden to an existing
+Home Assistant scene, publish it again from Mikonus after the update.
+
 ## 0.10.3 Beta
 
 - Rebuild the Home Assistant card with `@mikonus/dashboard-renderer` 0.8.2.
