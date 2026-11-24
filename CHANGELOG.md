@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.11.4
+
+- Close gaps between scanned exterior walls and storeys.
+
 ## 0.11.3
 
 - Fix installation in Home Assistant Marketplace by reducing the size of the outdoor asset package.

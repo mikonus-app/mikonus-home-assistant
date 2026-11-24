@@ -2,7 +2,7 @@
 
 DOMAIN = "mikonus_dashboard"
 NAME = "Mikonus Dashboard"
-VERSION = "0.11.3"
+VERSION = "0.11.4"
 CONTRACT_VERSION = 1
 SCHEMA_VERSION = 2
 STORAGE_VERSION = 1
