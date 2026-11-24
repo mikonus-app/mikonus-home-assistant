@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.11.2
+
+- Living Island V5 shows published roofs and continuous exterior façades.
+- Adds placed garden furniture, seasonal decorations, light strings and other outdoor objects, along with fences, walls and hedges.
+- Preserves existing scenes, card settings and device bindings. The integration still accepts earlier Living Island publications.
+
+Update to **v0.11.2** in HACS, restart Home Assistant, then publish your project again from Mikonus to include the roof and outdoor objects.
+
+The third-party Beagle model is excluded from the HACS asset pack pending attribution.
+
 ## 0.11.0
 
 - Add support for Living Island publications from Mikonus, including terrain, terraces, beds, paths and plants.
