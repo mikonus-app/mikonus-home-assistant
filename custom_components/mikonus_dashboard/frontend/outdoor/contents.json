@@ -35,18 +35,6 @@
     "bytes": 45104,
     "sha256": "8fc79f52a3fbc71e8a1447496b92936f2e148105b64f6477ec9579cb8010237f"
   },
-  "media/assets/incoming/signature_collection/beagle_resting_master.glb": {
-    "bytes": 385404,
-    "sha256": "449a9cec58fbc5e6d7da0251124db4ddbe86425d8a8fce742a2e01311b9adf7e"
-  },
-  "media/materials/signature_collection/shared/678799ff01db9046e81c.png": {
-    "bytes": 973394,
-    "sha256": "a0d1531e686f81423d97175a19be97d478ba75bd7b396f38a6d1120859401933"
-  },
-  "media/assets/incoming/signature_collection/beagle_resting_master_lod1.glb": {
-    "bytes": 245012,
-    "sha256": "4cbb9ca674d27d49f62a7c4386a67af00f006a0e1520a480f750d2a38930a19b"
-  },
   "media/assets/incoming/signature_collection/bike_rack_master.glb": {
     "bytes": 57184,
     "sha256": "32619a90ce5b1bc97b29fde03cd59e14e4972ab3c4e85a62c2bdafdd634b62ad"
@@ -106,30 +94,6 @@
   "media/assets/incoming/signature_collection/carport_master_lod1.glb": {
     "bytes": 196436,
     "sha256": "9ecbecdf41dde942f561b5554960ff6042c4543a70fd07f439eeea35384717fa"
-  },
-  "media/assets/incoming/signature_collection/cat_resting_master.glb": {
-    "bytes": 719964,
-    "sha256": "b6840dc06e5caa2ef07d9569b8b6f024affac05cb398579e1c267181fa6209ff"
-  },
-  "media/materials/signature_collection/animals/refined/cat_new_neutral.png": {
-    "bytes": 282176,
-    "sha256": "6dd5312f4350c8a117632b5ee029cd840aef7fd0513c457e96609b5909868f9b"
-  },
-  "media/materials/signature_collection/shared/63bbbc5b714819444105.png": {
-    "bytes": 369716,
-    "sha256": "63bbbc5b714819444105c2d2343cb28a29afa9fb35790dc862112312597f06a1"
-  },
-  "media/materials/signature_collection/shared/c5c1967e34524dd40229.png": {
-    "bytes": 436200,
-    "sha256": "c5c1967e34524dd40229ef58894c33564e3a0632fc2349118d5609dcce5ead44"
-  },
-  "media/materials/signature_collection/shared/e94e9936e7799cfdb2fe.png": {
-    "bytes": 15961,
-    "sha256": "e94e9936e7799cfdb2fe08d6857f0447939ea0a392511775266dfea6bba73ff9"
-  },
-  "media/assets/incoming/signature_collection/cat_resting_master_lod1.glb": {
-    "bytes": 507540,
-    "sha256": "529ef0af626a2b0311f11d6fd25c8fe7ecd9e271852dacfca7ec7c56faafc98d"
   },
   "media/assets/incoming/signature_collection/composter_master.glb": {
     "bytes": 215168,
@@ -194,30 +158,6 @@
   "media/assets/incoming/signature_collection/dining_table_lod1.glb": {
     "bytes": 60000,
     "sha256": "12653251fe3da25e55699108d3b012d9e104fa895d7356df1ab20ab553190be0"
-  },
-  "media/assets/incoming/signature_collection/dog_lying_historical.glb": {
-    "bytes": 879436,
-    "sha256": "ed11071af36c52e7bab81ce6010f6af7b6b8d1c52039d2bb24bf04c51e524ff3"
-  },
-  "media/materials/signature_collection/animals/refined/historical_dog_neutral.png": {
-    "bytes": 328475,
-    "sha256": "bbb3e2015f781e5ce5d4b41b5179ffeb7143c7b0d8b074246dc2e57438195ad3"
-  },
-  "media/materials/signature_collection/shared/03545f21cd435bd30ae6.png": {
-    "bytes": 275277,
-    "sha256": "6e8e504163745defa44122e8009dc212ab32ff84d2eb8c1e5b5505c7750b84aa"
-  },
-  "media/materials/signature_collection/shared/20793da7050dff4a5b66.png": {
-    "bytes": 4546,
-    "sha256": "71124276e950840b10b5a805194b6bcaab5d5a0c73b863830acaa5cac322a5d1"
-  },
-  "media/materials/signature_collection/shared/b223d04c0377a35e4956.png": {
-    "bytes": 567417,
-    "sha256": "473714e98cbc3d4f9ecdd68bbaf08160c4394c29ac97928594e26fdee643249c"
-  },
-  "media/assets/incoming/signature_collection/dog_lying_historical_lod1.glb": {
-    "bytes": 609832,
-    "sha256": "314c1e2346cc190f478a750b31723def1307e9231905af0f362319a696c2fd27"
   },
   "media/assets/incoming/signature_collection/electric_crossover_master.glb": {
     "bytes": 333280,
@@ -522,38 +462,6 @@
   "media/assets/incoming/signature_collection/hedge_natural_straight_600_lod1.glb": {
     "bytes": 299984,
     "sha256": "a6efef07e9708d08f49d22639f5f86d43f7dba82f3e87e89bb5c9d3ce6aa5a88"
-  },
-  "media/assets/incoming/signature_collection/hedgehog_master.glb": {
-    "bytes": 556244,
-    "sha256": "ee6e312f8c78f6282d3d60e47349e2536fe087b6513338d990f9c7dd4804967d"
-  },
-  "media/materials/signature_collection/animals/refined/hedgehog_neutral.png": {
-    "bytes": 175759,
-    "sha256": "940999d72b6994d3e19e97af7d44349fe2170618618ab45c04da660d40f45287"
-  },
-  "media/materials/signature_collection/shared/68e3fdbed17abf59b1e3.png": {
-    "bytes": 207795,
-    "sha256": "68e3fdbed17abf59b1e3badf4f7d742ecdeeb6218985dd0fbffea067aa189bb5"
-  },
-  "media/materials/signature_collection/shared/9df4e7bd9d9fad53bc20.png": {
-    "bytes": 175902,
-    "sha256": "9df4e7bd9d9fad53bc2036f73fefbf6568b99db7ea943b0c17dab48de1fbe56e"
-  },
-  "media/materials/signature_collection/shared/cb70dd1c2e6c6e2d95da.png": {
-    "bytes": 270801,
-    "sha256": "cb70dd1c2e6c6e2d95da5488e45e9a14e9163ddc8079c83af893c94995b4d7af"
-  },
-  "media/materials/signature_collection/shared/ec6a1d5c11ad7686f2e8.png": {
-    "bytes": 295266,
-    "sha256": "ec6a1d5c11ad7686f2e8ed8e841a314b167abc9af005993dee19a5727e3ec21c"
-  },
-  "media/materials/signature_collection/shared/efc7146113143c8da0c0.png": {
-    "bytes": 231352,
-    "sha256": "efc7146113143c8da0c0032d807a2c7d5a7d0bcfe07f1dafb75b661b46c603bb"
-  },
-  "media/assets/incoming/signature_collection/hedgehog_master_lod1.glb": {
-    "bytes": 374104,
-    "sha256": "280fda08f3e1ef0f85e4f747e67505dac369e0aba6e4b2b6f0a3e92e00107ae6"
   },
   "media/assets/incoming/signature_collection/hot_tub_master.glb": {
     "bytes": 365216,
@@ -895,26 +803,6 @@
     "bytes": 42220,
     "sha256": "0123845dc6a5b18746bc82984fcc362b8700e71e19596b565c041db6ac1df9ab"
   },
-  "media/assets/incoming/signature_collection/squirrel_master.glb": {
-    "bytes": 797100,
-    "sha256": "7be0c1e629a79b7430ae480b09a96d82b8675c5377c94c251cdfb86eff993cc0"
-  },
-  "media/materials/signature_collection/animals/refined/squirrel_neutral.png": {
-    "bytes": 201749,
-    "sha256": "a904d502e5245cef325b04f51474aca63ce55a9b63edb82f264d93cbc2f95a85"
-  },
-  "media/materials/signature_collection/shared/75922e864d9944370d37.png": {
-    "bytes": 326846,
-    "sha256": "75922e864d9944370d37662d8cd3dfaa9641b1bad0414aa7ae9694040840b9d5"
-  },
-  "media/materials/signature_collection/shared/be1cd15375f4b9d95a92.png": {
-    "bytes": 263847,
-    "sha256": "be1cd15375f4b9d95a924fd73c923e710b6a8f83d7cf42e3f3a91dd8b05c1454"
-  },
-  "media/assets/incoming/signature_collection/squirrel_master_lod1.glb": {
-    "bytes": 582012,
-    "sha256": "9442b0446867e1b0e24c12ea0be864f4e087b4a3fae0c56e62759bf455624ed9"
-  },
   "media/assets/incoming/signature_collection/sun_lounger.glb": {
     "bytes": 89668,
     "sha256": "da67600db415b482a86d7aea0b7a816350ba7730b7392817a1ffb70ce65c52a8"
@@ -1088,11 +976,11 @@
     "sha256": "d0eefb208c76db419edbc30d088427919ebb3c02fdd1e8d004bf54fb9e637d88"
   },
   "SignatureOutdoorDashboard.v1.json": {
-    "bytes": 1555664,
-    "sha256": "ca035e7cabee75b6e14c5999c9a2adf9b74b8520c0bbcaa2742725bd005eb961"
+    "bytes": 1457528,
+    "sha256": "d127113746e57866682499c8da9f968396a386b419a0cc49f7660a71253eb4b7"
   },
   "asset-index.json": {
-    "bytes": 239488,
-    "sha256": "add193e5e284cf383ca3ad272cbfde9c8713331142ea4d0942d049fa69fa01c3"
+    "bytes": 225989,
+    "sha256": "f4864710ba2531c8c3c0f5cae7e379c51c4a98cd313633424778e1c5ed4af679"
   }
 }

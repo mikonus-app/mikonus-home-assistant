@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.11.7
+
+- Reduce download size by keeping animal models exclusive to Mikonus. Published scenes containing animals continue to render in Home Assistant. Hedges remain available.
+
 ## 0.11.6
 
 - The exterior uses the saved wall dimensions so furniture stays behind the façade.
