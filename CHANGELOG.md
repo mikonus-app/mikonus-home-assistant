@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.11.8
+
+- Fix missing outdoor models after an update by giving changed asset catalogs new URLs.
+
 ## 0.11.7
 
 - Reduce download size by keeping animal models exclusive to Mikonus. Published scenes containing animals continue to render in Home Assistant. Hedges remain available.
