@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.9
+
+- Group overlapping quick controls into one button. Open it to control each device.
+- Move individual controls alongside the scene when space allows and connect each control to its device with a line.
+
 ## 0.11.8
 
 - Fix missing outdoor models after an update by giving changed asset catalogs new URLs.
